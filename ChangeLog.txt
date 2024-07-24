@@ -1,0 +1,16 @@
+==============
+= Change Log =
+==============
+
+v4.06.06.04 (2023-10-27)
+- added auto-loot pets
+- changed licenses icons
+
+v4.06.06.03 (2023-10-08)
+- added "Anathema" and "Benediction" legendary items for Priest loot table
+
+v4.06.06.02 (2023-09-25)
+- added "Eternal Recipes" loot table
+
+v4.06.06.01 (2023-09-25)
+- added NycterMoon menu
