@@ -22,11 +22,11 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 	};
 
 	Nycter_RaidLicencesTokens = {
-		{ 26026, "", "Raid License : T1R", "" },
-		{ 26027, "", "Raid License : T2R", "" },
-		{ 26028, "", "Raid License : T3R", "" },
-		{ 26029, "", "Raid License : T4R", "" },
-		{ 26030, "", "Raid License : T5R", "" },
+		{ 26026, "", "Raid License : T1R", "=q1=#m4#" },
+		{ 26027, "", "Raid License : T2R", "=q1=#m4#" },
+		{ 26028, "", "Raid License : T3R", "=q1=#m4#" },
+		{ 26029, "", "Raid License : T4R", "=q1=#m4#" },
+		{ 26030, "", "Raid License : T5R", "=q1=#m4#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
