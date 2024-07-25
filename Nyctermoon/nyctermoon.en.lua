@@ -103,7 +103,7 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26035, "", "Illusion: Pinwheel", "" },
 		{ 26036, "", "Illusion: Caliburn", "" },
 		{ 26037, "", "Illusion: Royal Dreadguard", "" },
-		{ 0, "", "", "" },
+		{ 26038, "", "Replica of Lucine", "" },
 		{ 0, "", "", "" },
 	};
 
