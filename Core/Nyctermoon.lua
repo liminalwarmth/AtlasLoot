@@ -19,41 +19,47 @@ function AtlasLoot_NyctermoonMenu()
 	--Shirts
 	AtlasLootMenuItem_2_Name:SetText(AL["Shirts"]);
 	AtlasLootMenuItem_2_Extra:SetText("");
+	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Shirt_White_01");
 	AtlasLootMenuItem_2.lootpage="Nycter_Shirts";
 	AtlasLootMenuItem_2:Show();
 	--Raid Licences
 	AtlasLootMenuItem_3_Name:SetText(AL["Raid Licences"]);
 	AtlasLootMenuItem_3_Extra:SetText("");
+	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T5R");
 	AtlasLootMenuItem_3.lootpage="Nycter_RaidLicencesTokens";
 	AtlasLootMenuItem_3:Show();
 	--Dungeon Licences
 	AtlasLootMenuItem_4_Name:SetText(AL["Dungeon Licences"]);
 	AtlasLootMenuItem_4_Extra:SetText("");
+	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T1D");
 	AtlasLootMenuItem_4.lootpage="Nycter_DungeonLicencesTokens";
 	AtlasLootMenuItem_4:Show();
-	--Heroic Dungeon Items
-	AtlasLootMenuItem_5_Name:SetText(AL["Heroic Dungeon Items"]);
-	AtlasLootMenuItem_5_Extra:SetText("");
-	AtlasLootMenuItem_5.lootpage="Nycter_HeroicDungeonItems";
-	AtlasLootMenuItem_5:Show();
-	--Mythic Dungeon Items
-	AtlasLootMenuItem_6_Name:SetText(AL["Mythic Dungeon Items"]);
-	AtlasLootMenuItem_6_Extra:SetText("");
-	AtlasLootMenuItem_6.lootpage="Nycter_MythicDungeonItems";
-	AtlasLootMenuItem_6:Show();
+	-- --Heroic Dungeon Items
+	-- AtlasLootMenuItem_5_Name:SetText(AL["Heroic Dungeon Items"]);
+	-- AtlasLootMenuItem_5_Extra:SetText("");
+	-- AtlasLootMenuItem_5.lootpage="Nycter_HeroicDungeonItems";
+	-- AtlasLootMenuItem_5:Show();
+	-- --Mythic Dungeon Items
+	-- AtlasLootMenuItem_6_Name:SetText(AL["Mythic Dungeon Items"]);
+	-- AtlasLootMenuItem_6_Extra:SetText("");
+	-- AtlasLootMenuItem_6.lootpage="Nycter_MythicDungeonItems";
+	-- AtlasLootMenuItem_6:Show();
 	--Eternal Recipes
 	AtlasLootMenuItem_7_Name:SetText(AL["Eternal Recipes"]);
 	AtlasLootMenuItem_7_Extra:SetText("");
+	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\INV_Scroll_06");
 	AtlasLootMenuItem_7.lootpage="Nycter_EternalRecipes";
 	AtlasLootMenuItem_7:Show();
 	--Illusions
 	AtlasLootMenuItem_8_Name:SetText(AL["Illusions"]);
 	AtlasLootMenuItem_8_Extra:SetText("");
+	AtlasLootMenuItem_8_Icon:SetTexture("Interface\\Icons\\INV_Enchant_EssenceMysticalSmall");
 	AtlasLootMenuItem_8.lootpage="Nycter_Illusions";
 	AtlasLootMenuItem_8:Show();
 	--Miscellaneous
 	AtlasLootMenuItem_9_Name:SetText(AL["Miscellaneous"]);
 	AtlasLootMenuItem_9_Extra:SetText("");
+	AtlasLootMenuItem_9_Icon:SetTexture("Interface\\Icons\\INV_Misc_Ticket_Tarot_Maelstrom_01");
 	AtlasLootMenuItem_9.lootpage="Nycter_Miscellaneous";
 	AtlasLootMenuItem_9:Show();
 	for i = 1, 30, 1 do
