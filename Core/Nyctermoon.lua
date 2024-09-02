@@ -22,18 +22,18 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Shirt_White_01");
 	AtlasLootMenuItem_2.lootpage="Nycter_Shirts";
 	AtlasLootMenuItem_2:Show();
-	--Raid Licences
-	AtlasLootMenuItem_3_Name:SetText(AL["Raid Licences"]);
-	AtlasLootMenuItem_3_Extra:SetText("");
+	--Companion Licenses
+	AtlasLootMenuItem_3_Name:SetText("Companion Licenses");
+	AtlasLootMenuItem_3_Extra:SetText("|cffFF8400Quest Lines from Capital City Inns");
 	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T5R");
-	AtlasLootMenuItem_3.lootpage="Nycter_RaidLicencesTokens";
+	AtlasLootMenuItem_3.lootpage="Nycter_Licenses1";
 	AtlasLootMenuItem_3:Show();
 	--Dungeon Licences
-	AtlasLootMenuItem_4_Name:SetText(AL["Dungeon Licences"]);
-	AtlasLootMenuItem_4_Extra:SetText("");
-	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T1D");
-	AtlasLootMenuItem_4.lootpage="Nycter_DungeonLicencesTokens";
-	AtlasLootMenuItem_4:Show();
+	-- AtlasLootMenuItem_4_Name:SetText(AL["Dungeon Licences"]);
+	-- AtlasLootMenuItem_4_Extra:SetText("");
+	-- AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T1D");
+	-- AtlasLootMenuItem_4.lootpage="Nycter_DungeonLicencesTokens";
+	-- AtlasLootMenuItem_4:Show();
 	--Loot Pets
 	AtlasLootMenuItem_5_Name:SetText(AL["Loot Pets"]);
 	AtlasLootMenuItem_5_Extra:SetText("|cffFF8400Obtained from Player-Only Dungeons");
@@ -89,7 +89,7 @@ function AtlasLoot_Nyctermoon_ShirtsMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_RaidLicencesTokensMenu()
+function AtlasLoot_Nyctermoon_LicensesMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -104,26 +104,7 @@ function AtlasLoot_Nyctermoon_RaidLicencesTokensMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Raid Licences"]);
-	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
-end
-
-function AtlasLoot_Nyctermoon_DungeonLicencesTokensMenu()
-	for i = 1, 30, 1 do
-		getglobal("AtlasLootItem_"..i):Hide();
-	end
-	for i = 1, 30, 1 do
-		getglobal("AtlasLootMenuItem_"..i):Hide();
-		getglobal("AtlasLootMenuItem_"..i).isheader = false;
-	end
-	getglobal("AtlasLootItemsFrame_BACK"):Hide();
-	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
-	getglobal("AtlasLootItemsFrame_PREV"):Hide();
-	getglobal("AtlasLootServerQueryButton"):Hide();
-	for i = 1, 30, 1 do
-		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
-	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Dungeon Licences"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFFCompanion Licenses");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

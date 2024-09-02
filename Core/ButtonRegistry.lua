@@ -1894,13 +1894,8 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "CRAFTINGMENU";
 		Back_Title = AL["Crafting"];
 	};
-	["Nycter_RaidLicencesTokens"] = {
-		Title = AL["Raid Licences"];
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
-	};
-	["Nycter_DungeonLicencesTokens"] = {
-		Title = AL["Dungeon Licences"];
+	["Nycter_Licenses1"] = {
+		Title = "Companion Licenses";
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};

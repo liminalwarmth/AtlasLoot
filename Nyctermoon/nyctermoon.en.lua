@@ -21,18 +21,18 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26014, "INV_Shirt_Red_01", "=q5=Paragon Maestro", "=q1=#m4#" },
 	};
 
-	Nycter_RaidLicencesTokens = {
+	Nycter_Licenses1 = {
+		{ 26021, "INV_LICENSE_T1D", "=q1=Dungeon License : T1D", "=q1=#m4#" },
+		{ 26022, "INV_LICENSE_T2D", "=q2=Dungeon License : T2D", "=q1=#m4#" },
+		{ 26023, "INV_LICENSE_T3D", "=q3=Dungeon License : T3D", "=q1=#m4#" },
+		{ 26024, "INV_LICENSE_T4D", "=q4=Dungeon License : T4D", "=q1=#m4#" },
+		{ 26025, "INV_LICENSE_T5D", "=q5=Dungeon License : T5D", "=q1=#m4#" },
+		{ 0, "", "", "" },
 		{ 26026, "", "Raid License : T1R", "=q1=#m4#" },
 		{ 26027, "", "Raid License : T2R", "=q1=#m4#" },
 		{ 26028, "", "Raid License : T3R", "=q1=#m4#" },
 		{ 26029, "", "Raid License : T4R", "=q1=#m4#" },
 		{ 26030, "", "Raid License : T5R", "=q1=#m4#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -47,30 +47,8 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26576, "", "Essence of Blackwing Lair", "" },
 		{ 26577, "", "Essence of Ahn'Qiraj", "" },
 		{ 26578, "", "Essence of Naxxramas", "" },
-	};
-
-	Nycter_DungeonLicencesTokens = {
-		{ 26021, "INV_LICENSE_T1D", "=q1=Dungeon License : T1D", "=q1=#m4#" },
-		{ 26022, "INV_LICENSE_T2D", "=q2=Dungeon License : T2D", "=q1=#m4#" },
-		{ 26023, "INV_LICENSE_T3D", "=q3=Dungeon License : T3D", "=q1=#m4#" },
-		{ 26024, "INV_LICENSE_T4D", "=q4=Dungeon License : T4D", "=q1=#m4#" },
-		{ 26025, "INV_LICENSE_T5D", "=q5=Dungeon License : T5D", "=q1=#m4#" },
 		{ 0, "", "", "" },
 		{ 26039, "INV_Jewelry_Amulet_03", "=q3=Token of Mastery", "=q2=#m5#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-
-		{ 26044, "INV_Scroll_05", "=q1=Companions Recognition : T1D", "=q1=#m4#" },
-		{ 26045, "INV_Scroll_05", "=q2=Companions Recognition : T2D", "=q1=#m4#" },
-		{ 26046, "INV_Scroll_05", "=q3=Companions Recognition : T3D", "=q1=#m4#" },
-		{ 26047, "INV_Scroll_05", "=q4=Companions Recognition : T4D", "=q1=#m4#" },
-		{ 26048, "INV_Scroll_05", "=q5=Companions Recognition : T5D", "=q1=#m4#" },
 	};
 
 	Nycter_Illusions = {

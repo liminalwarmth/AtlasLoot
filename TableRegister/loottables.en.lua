@@ -822,8 +822,7 @@ AtlasLoot_TableNames = {
 ------------------
 
 	["Nycter_Shirts"] = { AL["Shirts"], "AtlasLootNyctermoon" },
-	["Nycter_RaidLicencesTokens"] = { AL["Raid Licences"], "AtlasLootNyctermoon" },
-	["Nycter_DungeonLicencesTokens"] = { AL["Dungeon Licences"], "AtlasLootNyctermoon" },
+	["Nycter_Licenses1"] = { "Companion Licenses", "AtlasLootNyctermoon" },
 	["Nycter_LootPets1"] = { AL["Loot Pets"], "AtlasLootNyctermoon" },
 	-- ["Nycter_LootPets2"] = { AL["Loot Pets"], "AtlasLootNyctermoon" },
 	-- ["Nycter_HeroicDungeonItems"] = { AL["Heroic Dungeon Items"], "AtlasLootNyctermoon" },
@@ -871,12 +870,9 @@ AtlasLoot_TableNames = {
 	["CRAFTINGMENU"] = { "dummy", "dummy" },
 	["NYCTERMOONMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_SHIRTSMENU"] = { "dummy", "dummy" },
-	["NYCTERMOON_RAIDLICENCESTOKENSMENU"] = { "dummy", "dummy" },
-	["NYCTERMOON_DUNGEONLICENCESTOKENSMENU"] = { "dummy", "dummy" },
+	["NYCTERMOON_LICENSESMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_LOOTPETSMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_ILLUSIONSMENU"] = { "dummy", "dummy" },
-	-- ["NYCTERMOON_HEROICDUNGEONITEMSMENU"] = { "dummy", "dummy" },
-	-- ["NYCTERMOON_MYTHICDUNGEONITEMSMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_MISCELLANEOUSMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_CLASSESMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_ETERNALRECIPESMENU"] = { "dummy", "dummy" },
@@ -1773,12 +1769,8 @@ AtlasLoot_TableNamesBoss = {
 
 	["Nyctermoon"] = {
 		["Nycter_Shirts"] = { AL["Shirts"], "AtlasLootNyctermoon" },
-		["Nycter_RaidLicencesTokens"] = { AL["Raid Licences"], "AtlasLootNyctermoon" },
-		["Nycter_DungeonLicencesTokens"] = { AL["Dungeon Licences"], "AtlasLootNyctermoon" },
+		["Nycter_Licenses1"] = { "Companion Licenses", "AtlasLootNyctermoon" },
 		["Nycter_LootPets1"] = { AL["Loot Pets"], "AtlasLootNyctermoon" },
-		-- ["Nycter_LootPets2"] = { AL["Loot Pets"], "AtlasLootNyctermoon" },
-		-- ["Nycter_HeroicDungeonItems"] = { AL["Heroic Dungeon Items"], "AtlasLootNyctermoon" },
-		-- ["Nycter_MythicDungeonItems"] = { AL["Mythic Dungeon Items"], "AtlasLootNyctermoon" },
 		["Nycter_EternalRecipes"] = { AL["Eternal Recipes"], "AtlasLootNyctermoon" },
 		["Nycter_Illusions"] = { "Transmog Gear: Illusions", "AtlasLootNyctermoon" },
 		["Nycter_Miscellaneous"] = { AL["Miscellaneous"], "AtlasLootNyctermoon" },

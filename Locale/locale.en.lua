@@ -1436,8 +1436,6 @@ AL:RegisterTranslations("enUS", function() return {
 	["The Behemoth"] = true,
 	["Nyctermoon"] = true,
 	["Shirts"] = true,
-	["Raid Licences"] = true,
-	["Dungeon Licences"] = true,
 	["Heroic Dungeon Items"] = true,
 	["Mythic Dungeon Items"] = true,
 	["Illusions"] = true,
