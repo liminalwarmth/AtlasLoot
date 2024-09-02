@@ -1447,5 +1447,6 @@ AL:RegisterTranslations("enUS", function() return {
 	["Eternal Recipes"] = true,
 	["Heroic"] = true,
 	["Mythic"] = true,
+	["Loot Pets"] = true,
 	} end)
 	

@@ -1914,13 +1914,8 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};
-	["Nycter_HeroicDungeonItems"] = {
-		Title = AL["Heroic Dungeon Items"];
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
-	};
-	["Nycter_MythicDungeonItems"] = {
-		Title = AL["Mythic Dungeon Items"];
+	["Nycter_LootPets1"] = {
+		Title = AL["Loot Pets"];
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};

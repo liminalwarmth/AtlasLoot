@@ -34,11 +34,12 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T1D");
 	AtlasLootMenuItem_4.lootpage="Nycter_DungeonLicencesTokens";
 	AtlasLootMenuItem_4:Show();
-	-- --Heroic Dungeon Items
-	-- AtlasLootMenuItem_5_Name:SetText(AL["Heroic Dungeon Items"]);
-	-- AtlasLootMenuItem_5_Extra:SetText("");
-	-- AtlasLootMenuItem_5.lootpage="Nycter_HeroicDungeonItems";
-	-- AtlasLootMenuItem_5:Show();
+	--Loot Pets
+	AtlasLootMenuItem_5_Name:SetText(AL["Loot Pets"]);
+	AtlasLootMenuItem_5_Extra:SetText("|cffFF8400Obtained from Player-Only Dungeons");
+	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\INV_Misc_Book_02");
+	AtlasLootMenuItem_5.lootpage="Nycter_LootPets1";
+	AtlasLootMenuItem_5:Show();
 	-- --Mythic Dungeon Items
 	-- AtlasLootMenuItem_6_Name:SetText(AL["Mythic Dungeon Items"]);
 	-- AtlasLootMenuItem_6_Extra:SetText("");
@@ -145,7 +146,7 @@ function AtlasLoot_Nyctermoon_IllusionsMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_HeroicDungeonItemsMenu()
+function AtlasLoot_Nyctermoon_LootPetsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -160,7 +161,7 @@ function AtlasLoot_Nyctermoon_HeroicDungeonItemsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Heroic Dungeon Items"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Loot Pets"]);
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

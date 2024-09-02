@@ -200,6 +200,7 @@ AtlasLoot_MenuList = {
 	"NYCTERMOON_RAIDLICENCESTOKENSMENU",
 	"NYCTERMOON_DUNGEONLICENCESTOKENSMENU",
 	"NYCTERMOON_ILLUSIONSMENU",
+	"NYCTERMOON_LOOTPETSMENU",
 	-- "NYCTERMOON_HEROICDUNGEONITEMSMENU",
 	-- "NYCTERMOON_MYTHICDUNGEONITEMSMENU",
 	"NYCTERMOON_MISCELLANEOUSMENU",
@@ -1176,16 +1177,16 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLoot_Nyctermoon_DungeonLicencesTokensMenu();
 	elseif(dataID=="NYCTERMOON_ILLUSIONSMENU") then
 		AtlasLoot_Nyctermoon_IllusionsMenu();
-	elseif(dataID=="NYCTERMOON_HEROICDUNGEONITEMSMENU") then
-		AtlasLoot_Nyctermoon_HeroicDungeonItemsMenu();
-	elseif(dataID=="NYCTERMOON_MYTHICDUNGEONITEMSMENU") then
-		AtlasLoot_Nyctermoon_MythicDungeonItemsMenu();
+	elseif(dataID=="NYCTERMOON_LOOTPETSMENU") then
+		AtlasLoot_Nyctermoon_LootPetsMenu();
+	-- elseif(dataID=="NYCTERMOON_MYTHICDUNGEONITEMSMENU") then
+	-- 	AtlasLoot_Nyctermoon_MythicDungeonItemsMenu();
 	elseif(dataID=="NYCTERMOON_MISCELLANEOUSMENU") then
 		AtlasLoot_Nyctermoon_MiscellaneousMenu();
 	elseif(dataID=="NYCTERMOON_ETERNALRECIPESMENU") then
 		AtlasLoot_Nyctermoon_EternalRecipesMenu();
-	elseif(dataID=="NYCTERMOON_CLASSESMENU") then
-		AtlasLoot_Nyctermoon_ClassesMenu();
+	-- elseif(dataID=="NYCTERMOON_CLASSESMENU") then
+	-- 	AtlasLoot_Nyctermoon_ClassesMenu();
 	elseif(dataID=="CRAFTSET") then
 		AtlasLootCraftedSetMenu();
 	elseif(dataID=="ALCHEMYMENU") then
@@ -2431,8 +2432,8 @@ AtlasLoot_DewDropDown = {
 			[2] = { { (AL["Shirts"]), "Nycter_Shirts", "Table" }, },
 			[3] = { { (AL["Raid Licences"]), "Nycter_RaidLicencesTokens", "Table" }, },
 			[4] = { { (AL["Dungeon Licences"]), "Nycter_DungeonLicencesTokens", "Table" }, },
-			[5] = { { (AL["Heroic Dungeon Items"]), "Nycter_HeroicDungeonItems", "Table" }, },
-			[6] = { { (AL["Mythic Dungeon Items"]), "Nycter_MythicDungeonItems", "Table" }, },
+			[5] = { { (AL["Loot Pets"]), "Nycter_LootPets1", "Table" }, },
+			-- [6] = { { (AL["Mythic Dungeon Items"]), "Nycter_MythicDungeonItems", "Table" }, },
 			[7] = { { (AL["Eternal Recipes"]), "Nycter_EternalRecipes", "Table" }, },
 			[8] = { { (AL["Illusions"]), "Nycter_Illusions", "Table" }, },
 			[9] = { { (AL["Miscellaneous"]), "Nycter_Miscellaneous", "Table" }, },
