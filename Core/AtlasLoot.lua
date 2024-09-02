@@ -196,10 +196,11 @@ AtlasLoot_MenuList = {
 	"TAILORINGMENU",
 	"CRAFTSET",
 	"COOKINGMENU",
-	"NYCTERMOON_SHIRTSMENU",
+	"NYCTERMOON_CUSTOMITEMSMENU",
 	"NYCTERMOON_LICENSESMENU",
 	"NYCTERMOON_ILLUSIONSMENU",
 	"NYCTERMOON_LOOTPETSMENU",
+	"NYCTERMOON_FACTIONREWARDSMENU",
 	"NYCTERMOON_MISCELLANEOUSMENU",
 	-- "NYCTERMOON_CLASSESMENU",
 	"NYCTERMOON_ETERNALRECIPESMENU",
@@ -1166,24 +1167,20 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLoot_CraftingMenu();
 	elseif(dataID=="NYCTERMOONMENU") then
 		AtlasLoot_NyctermoonMenu();
-	elseif(dataID=="NYCTERMOON_SHIRTSMENU") then
-		AtlasLoot_Nyctermoon_ShirtsMenu();
-	elseif(dataID=="NYCTERMOON_RAIDLICENCESTOKENSMENU") then
+	elseif(dataID=="NYCTERMOON_CUSTOMITEMSMENU") then
+		AtlasLoot_Nyctermoon_CustomItemsMenu();
+	elseif(dataID=="NYCTERMOON_LICENSESMENU") then
 		AtlasLoot_Nyctermoon_RaidLicencesTokensMenu();
-	elseif(dataID=="NYCTERMOON_DUNGEONLICENCESTOKENSMENU") then
-		AtlasLoot_Nyctermoon_DungeonLicencesTokensMenu();
 	elseif(dataID=="NYCTERMOON_ILLUSIONSMENU") then
 		AtlasLoot_Nyctermoon_IllusionsMenu();
 	elseif(dataID=="NYCTERMOON_LOOTPETSMENU") then
 		AtlasLoot_Nyctermoon_LootPetsMenu();
-	-- elseif(dataID=="NYCTERMOON_MYTHICDUNGEONITEMSMENU") then
-	-- 	AtlasLoot_Nyctermoon_MythicDungeonItemsMenu();
+	elseif(dataID=="NYCTERMOON_FACTIONREWARDSMENU") then
+		AtlasLoot_Nyctermoon_FactionRewardsMenu();
 	elseif(dataID=="NYCTERMOON_MISCELLANEOUSMENU") then
 		AtlasLoot_Nyctermoon_MiscellaneousMenu();
 	elseif(dataID=="NYCTERMOON_ETERNALRECIPESMENU") then
 		AtlasLoot_Nyctermoon_EternalRecipesMenu();
-	-- elseif(dataID=="NYCTERMOON_CLASSESMENU") then
-	-- 	AtlasLoot_Nyctermoon_ClassesMenu();
 	elseif(dataID=="CRAFTSET") then
 		AtlasLootCraftedSetMenu();
 	elseif(dataID=="ALCHEMYMENU") then
@@ -2426,12 +2423,12 @@ AtlasLoot_DewDropDown = {
 	[8] = {
 		[AL["Nyctermoon"]] = {
 			[1] = { { (AL["Classes"]), "Nycter_Classes", "Submenu" }, },
-			[2] = { { (AL["Shirts"]), "Nycter_Shirts", "Table" }, },
+			[2] = { { ("Nyctermoon Custom Items"), "Nycter_Custom1", "Table" }, },
 			[3] = { { ("Companion Licenses"), "Nycter_Licenses1", "Table" }, },
-			-- [4] = { { (AL["Dungeon Licences"]), "Nycter_DungeonLicencesTokens", "Table" }, },
+			[4] = { { ("Faction Rewards"), "Nycter_FactionRewards1", "Table" }, },
 			[5] = { { (AL["Loot Pets"]), "Nycter_LootPets1", "Table" }, },
 			-- [6] = { { (AL["Mythic Dungeon Items"]), "Nycter_MythicDungeonItems", "Table" }, },
-			[7] = { { (AL["Eternal Recipes"]), "Nycter_EternalRecipes", "Table" }, },
+			[7] = { { (AL["Eternal Recipes"]), "Nycter_EternalRecipes1", "Table" }, },
 			[8] = { { ("Transmog Gear: Illusions"), "Nycter_Illusions", "Table" }, },
 			[9] = { { (AL["Miscellaneous"]), "Nycter_Miscellaneous", "Table" }, },
 		},

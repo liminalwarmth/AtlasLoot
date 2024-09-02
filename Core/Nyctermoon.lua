@@ -16,11 +16,11 @@ function AtlasLoot_NyctermoonMenu()
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
-	--Shirts
-	AtlasLootMenuItem_2_Name:SetText(AL["Shirts"]);
-	AtlasLootMenuItem_2_Extra:SetText("");
+	--Nyctermoon Custom Items
+	AtlasLootMenuItem_2_Name:SetText("Nyctermoon Custom Items");
+	AtlasLootMenuItem_2_Extra:SetText("|cffFF8400Obtained from World Quests or Donation");
 	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Shirt_White_01");
-	AtlasLootMenuItem_2.lootpage="Nycter_Shirts";
+	AtlasLootMenuItem_2.lootpage="Nycter_Custom1";
 	AtlasLootMenuItem_2:Show();
 	--Companion Licenses
 	AtlasLootMenuItem_3_Name:SetText("Companion Licenses");
@@ -28,12 +28,12 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T5R");
 	AtlasLootMenuItem_3.lootpage="Nycter_Licenses1";
 	AtlasLootMenuItem_3:Show();
-	--Dungeon Licences
-	-- AtlasLootMenuItem_4_Name:SetText(AL["Dungeon Licences"]);
-	-- AtlasLootMenuItem_4_Extra:SetText("");
-	-- AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T1D");
-	-- AtlasLootMenuItem_4.lootpage="Nycter_DungeonLicencesTokens";
-	-- AtlasLootMenuItem_4:Show();
+	--Faction Rewards
+	AtlasLootMenuItem_4_Name:SetText("Faction Rewards");
+	AtlasLootMenuItem_4_Extra:SetText("|cffFF8400Recipes and Transporters from Exalted");
+	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T1D");
+	AtlasLootMenuItem_4.lootpage="Nycter_FactionRewards1";
+	AtlasLootMenuItem_4:Show();
 	--Loot Pets
 	AtlasLootMenuItem_5_Name:SetText(AL["Loot Pets"]);
 	AtlasLootMenuItem_5_Extra:SetText("|cffFF8400Obtained from Player-Only Dungeons");
@@ -47,9 +47,9 @@ function AtlasLoot_NyctermoonMenu()
 	-- AtlasLootMenuItem_6:Show();
 	--Eternal Recipes
 	AtlasLootMenuItem_7_Name:SetText(AL["Eternal Recipes"]);
-	AtlasLootMenuItem_7_Extra:SetText("");
+	AtlasLootMenuItem_7_Extra:SetText("|cffFF8400Obtained from Crafting Non-Eternal Recipes");
 	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\INV_Scroll_06");
-	AtlasLootMenuItem_7.lootpage="Nycter_EternalRecipes";
+	AtlasLootMenuItem_7.lootpage="Nycter_EternalRecipes1";
 	AtlasLootMenuItem_7:Show();
 	--Illusions
 	AtlasLootMenuItem_8_Name:SetText("Transmog Gear: Illusions");
@@ -70,7 +70,7 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_ShirtsMenu()
+function AtlasLoot_Nyctermoon_CustomItemsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -85,7 +85,7 @@ function AtlasLoot_Nyctermoon_ShirtsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Shirts"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFF".."Nyctermoon Custom Items");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
@@ -146,7 +146,7 @@ function AtlasLoot_Nyctermoon_LootPetsMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_MythicDungeonItemsMenu()
+function AtlasLoot_Nyctermoon_FactionRewardsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -161,7 +161,7 @@ function AtlasLoot_Nyctermoon_MythicDungeonItemsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Mythic Dungeon Items"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFF".."Faction Rewards");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

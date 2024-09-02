@@ -1904,13 +1904,18 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};
-	["Nycter_Shirts"] = {
-		Title = AL["Shirts"];
+	["Nycter_Custom1"] = {
+		Title = "Nyctermoon Custom Items";
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};
 	["Nycter_LootPets1"] = {
 		Title = AL["Loot Pets"];
+		Back_Page = "NYCTERMOONMENU";
+		Back_Title = AL["Nyctermoon"];
+	};
+	["Nycter_FactionRewards1"] = {
+		Title = "Faction Rewards";
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};
@@ -1996,7 +2001,7 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "Nycter_Classes_Paladin";
 		Prev_Title = AL["Paladin"];
 	};
-	["Nycter_EternalRecipes"] = {
+	["Nycter_EternalRecipes1"] = {
 		Title = AL["Eternal Recipes"];
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];

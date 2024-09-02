@@ -821,13 +821,11 @@ AtlasLoot_TableNames = {
 --- Nyctermoon ---
 ------------------
 
-	["Nycter_Shirts"] = { AL["Shirts"], "AtlasLootNyctermoon" },
+	["Nycter_Custom1"] = { "Nyctermoon Custom Items", "AtlasLootNyctermoon" },
 	["Nycter_Licenses1"] = { "Companion Licenses", "AtlasLootNyctermoon" },
 	["Nycter_LootPets1"] = { AL["Loot Pets"], "AtlasLootNyctermoon" },
-	-- ["Nycter_LootPets2"] = { AL["Loot Pets"], "AtlasLootNyctermoon" },
-	-- ["Nycter_HeroicDungeonItems"] = { AL["Heroic Dungeon Items"], "AtlasLootNyctermoon" },
-	-- ["Nycter_MythicDungeonItems"] = { AL["Mythic Dungeon Items"], "AtlasLootNyctermoon" },
-	["Nycter_EternalRecipes"] = { AL["Eternal Recipes"], "AtlasLootNyctermoon" },
+	["Nycter_FactionRewards1"] = { "Faction Rewards", "AtlasLootNyctermoon" },
+	["Nycter_EternalRecipes1"] = { AL["Eternal Recipes"], "AtlasLootNyctermoon" },
 	["Nycter_Illusions"] = { "Transmog Gear: Illusions", "AtlasLootNyctermoon" },
 	["Nycter_Miscellaneous"] = { AL["Miscellaneous"], "AtlasLootNyctermoon" },
 	["Nycter_Classes_Priest"] = { AL["Priest"], "AtlasLootNyctermoon" },
@@ -869,9 +867,10 @@ AtlasLoot_TableNames = {
 	["HONORMENU"] = { "dummy", "dummy" },
 	["CRAFTINGMENU"] = { "dummy", "dummy" },
 	["NYCTERMOONMENU"] = { "dummy", "dummy" },
-	["NYCTERMOON_SHIRTSMENU"] = { "dummy", "dummy" },
+	["NYCTERMOON_CUSTOMMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_LICENSESMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_LOOTPETSMENU"] = { "dummy", "dummy" },
+	["NYCTERMOON_FACTIONREWARDSMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_ILLUSIONSMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_MISCELLANEOUSMENU"] = { "dummy", "dummy" },
 	["NYCTERMOON_CLASSESMENU"] = { "dummy", "dummy" },
@@ -1768,10 +1767,11 @@ AtlasLoot_TableNamesBoss = {
 ------------------
 
 	["Nyctermoon"] = {
-		["Nycter_Shirts"] = { AL["Shirts"], "AtlasLootNyctermoon" },
+		["Nycter_Custom1"] = { "Nyctermoon Custom Items", "AtlasLootNyctermoon" },
 		["Nycter_Licenses1"] = { "Companion Licenses", "AtlasLootNyctermoon" },
 		["Nycter_LootPets1"] = { AL["Loot Pets"], "AtlasLootNyctermoon" },
-		["Nycter_EternalRecipes"] = { AL["Eternal Recipes"], "AtlasLootNyctermoon" },
+		["Nycter_FactionRewards1"] = { "Faction Rewards", "AtlasLootNyctermoon" },
+		["Nycter_EternalRecipes1"] = { AL["Eternal Recipes"], "AtlasLootNyctermoon" },
 		["Nycter_Illusions"] = { "Transmog Gear: Illusions", "AtlasLootNyctermoon" },
 		["Nycter_Miscellaneous"] = { AL["Miscellaneous"], "AtlasLootNyctermoon" },
 		["Nycter_Classes_Priest"] = { AL["Priest"], "AtlasLootNyctermoon" },
