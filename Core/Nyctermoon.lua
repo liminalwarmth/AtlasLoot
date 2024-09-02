@@ -52,8 +52,8 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_7.lootpage="Nycter_EternalRecipes";
 	AtlasLootMenuItem_7:Show();
 	--Illusions
-	AtlasLootMenuItem_8_Name:SetText(AL["Illusions"]);
-	AtlasLootMenuItem_8_Extra:SetText("");
+	AtlasLootMenuItem_8_Name:SetText("Transmog Gear: Illusions");
+	AtlasLootMenuItem_8_Extra:SetText("|cffFF8400Obtained from Griznak in Booty Bay");
 	AtlasLootMenuItem_8_Icon:SetTexture("Interface\\Icons\\INV_Enchant_EssenceMysticalSmall");
 	AtlasLootMenuItem_8.lootpage="Nycter_Illusions";
 	AtlasLootMenuItem_8:Show();
@@ -142,7 +142,7 @@ function AtlasLoot_Nyctermoon_IllusionsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Illusions"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFF".."Transmog Gear: Illusions");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

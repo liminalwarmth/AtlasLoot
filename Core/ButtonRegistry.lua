@@ -1905,7 +1905,7 @@ AtlasLoot_ButtonRegistry = {
 		Back_Title = AL["Nyctermoon"];
 	};
 	["Nycter_Illusions"] = {
-		Title = AL["Illusions"];
+		Title = "Transmog Gear: Illusions";
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};
