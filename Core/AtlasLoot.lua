@@ -2428,7 +2428,7 @@ AtlasLoot_DewDropDown = {
 			[4] = { { ("Faction Rewards"), "Nycter_FactionRewards1", "Table" }, },
 			[5] = { { (AL["Loot Pets"]), "Nycter_LootPets1", "Table" }, },
 			-- [6] = { { (AL["Mythic Dungeon Items"]), "Nycter_MythicDungeonItems", "Table" }, },
-			[7] = { { (AL["Eternal Recipes"]), "Nycter_EternalRecipes1", "Table" }, },
+			[7] = { { (AL["Eternal Recipes"]), "Nycter_EternalRecipes", "Submenu" }, },
 			[8] = { { ("Transmog Gear: Illusions"), "Nycter_Illusions", "Table" }, },
 			[9] = { { (AL["Miscellaneous"]), "Nycter_Miscellaneous", "Table" }, },
 		},

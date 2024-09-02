@@ -201,7 +201,6 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 	};
 
 	Nycter_EternalRecipes_Alchemy1 = {
-		
 		{ 26110, "", "Eternal Minor Healing Potion", "" },
 		{ 26111, "", "Eternal Elixir of Minor Defense", "" },
 		{ 26112, "", "Eternal Elixir of Lion's Strength", "" },
@@ -231,11 +230,11 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26135, "", "Eternal Elixir of Firepower", "" },
 		{ 26136, "", "Eternal Elixir of Ogre's Strength", "" },
 		{ 26137, "", "Eternal Free Action Potion", "" },
-		{ 26138, "", "Eternal Greater Healing Potion", "" },
-		{ 26139, "", "Eternal Mana Potion", "" },
 	};
 
 	Nycter_EternalRecipes_Alchemy2 = {
+		{ 26138, "", "Eternal Greater Healing Potion", "" },
+		{ 26139, "", "Eternal Mana Potion", "" },
 		{ 26140, "", "Eternal Lesser Invisibility Potion", "" },
 		{ 26141, "", "Eternal Shadow Oil", "" },
 		{ 26142, "", "Eternal Fire Protection Potion", "" },
@@ -248,10 +247,12 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26149, "", "Eternal Elixir of Frost Power", "" },
 		{ 26150, "", "Eternal Elixir of Detect Lesser Invisibility", "" },
 		{ 26151, "", "Eternal Elixir of Greater Defense", "" },
+	};	
+
+	Nycter_EternalRecipes_Alchemy3 = {
 		{ 26152, "", "Eternal Frost Oil", "" },
 		{ 26153, "", "Eternal Catseye Elixir", "" },
 		{ 26154, "", "Eternal Greater Mana Potion", "" },
-
 		{ 26155, "", "Eternal Oil of Immolation", "" },
 		{ 26156, "", "Eternal Magic Resistance Potion", "" },
 		{ 26157, "", "Eternal Restorative Potion", "" },
@@ -264,13 +265,14 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26164, "", "Eternal Arcane Elixir", "" },
 		{ 26165, "", "Eternal Invisibility Potion", "" },
 		{ 26166, "", "Eternal Elixir of Greater Intellect", "" },
+
 		{ 26167, "", "Eternal Gift of Arthas", "" },
 		{ 26168, "", "Eternal Elixir of Greater Agility", "" },
 		{ 26169, "", "Eternal Elixir of Dream Vision", "" },
+		{ 26170, "", "Eternal Elixir of Giants", "" },
 	};	
 
-	Nycter_EternalRecipes_Alchemy3 = {
-		{ 26170, "", "Eternal Elixir of Giants", "" },
+	Nycter_EternalRecipes_Alchemy4 = {
 		{ 26171, "", "Eternal Elixir of Shadow Power", "" },
 		{ 26172, "", "Eternal Elixir of Demonslaying", "" },
 		{ 26173, "", "Eternal Elixir of Detect Demon", "" },
@@ -285,8 +287,8 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26182, "", "Eternal Mageblood Potion", "" },
 		{ 26183, "", "Eternal Greater Dreamless Sleep Potion", "" },
 		{ 26184, "", "Eternal Greater Stoneshield Potion", "" },
-
 		{ 26185, "", "Eternal Elixir of the Mongoose", "" },
+
 		{ 26186, "", "Eternal Purification Potion", "" },
 		{ 26187, "", "Eternal Greater Arcane Elixir", "" },
 		{ 26188, "", "Eternal Living Action Potion", "" },
@@ -300,12 +302,24 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26196, "", "Eternal Major Rejuvenation Potion", "" },
 	};
 
-	Nycter_EternalRecipes_Alchemy4 = {
+	Nycter_EternalRecipes_Alchemy5 = {
 		{ 26197, "", "Eternal Flask of Petrification", "" },
 		{ 26198, "", "Eternal Flask of the Titans", "" },
 		{ 26199, "", "Eternal Flask of Distilled Wisdom", "" },
 		{ 26200, "", "Eternal Flask of Supreme Power", "" },
 		{ 26201, "", "Eternal Flask of Chromatic Resistance", "" },
+		{ 0, "", "", "" },
+		{ 26400, "", "Eternal R.O.I.D.S.", "" },
+		{ 26401, "", "Eternal Ground Scorpok Assay", "" },
+		{ 26402, "", "Eternal Lung Juice Cocktail", "" },
+		{ 26403, "", "Eternal Cerebral Cortex Compound", "" },
+		{ 26404, "", "Eternal Gizzard Gum", "" },
+		{ 0, "", "", "" },
+		{ 26418, "", "Eternal Spirit of Zanza", "" },
+		{ 26419, "", "Eternal Swiftness of Zanza", "" },
+		{ 26420, "", "Eternal Sheen of Zanza", "" },
+
+		{ 0, "", "", "" },
 	};
 
 	---------------

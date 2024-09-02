@@ -2001,9 +2001,45 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "Nycter_Classes_Paladin";
 		Prev_Title = AL["Paladin"];
 	};
-	["Nycter_EternalRecipes1"] = {
-		Title = AL["Eternal Recipes"];
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+	["Nycter_EternalRecipes_Alchemy1"] = {
+		Title = "Eternal Recipes: Alchemy (Copper & Silver)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Next_Page = "Nycter_EternalRecipes_Alchemy2";
+		Next_Title = "Eternal Recipes: Alchemy (Gold)";	
+	};
+	["Nycter_EternalRecipes_Alchemy2"] = {
+		Title = "Eternal Recipes: Alchemy (Gold)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Prev_Page = "Nycter_EternalRecipes_Alchemy1";
+		Prev_Title = "Eternal Recipes: Alchemy (Copper & Silver)";
+		Next_Page = "Nycter_EternalRecipes_Alchemy3";
+		Next_Title = "Eternal Recipes: Alchemy (Truesilver)";
+	};
+	["Nycter_EternalRecipes_Alchemy3"] = {
+		Title = "Eternal Recipes: Alchemy (Truesilver)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Prev_Page = "Nycter_EternalRecipes_Alchemy2";
+		Prev_Title = "Eternal Recipes: Alchemy (Gold)";
+		Next_Page = "Nycter_EternalRecipes_Alchemy4";
+		Next_Title = "Eternal Recipes: Alchemy (Arcanite)";
+	};	
+	["Nycter_EternalRecipes_Alchemy4"] = {
+		Title = "Eternal Recipes: Alchemy (Arcanite)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Prev_Page = "Nycter_EternalRecipes_Alchemy3";
+		Prev_Title = "Eternal Recipes: Alchemy (Truesilver)";
+		Next_Page = "Nycter_EternalRecipes_Alchemy5";
+		Next_Title = "Eternal Recipes: Alchemy (Arcanite)";
+	};
+	["Nycter_EternalRecipes_Alchemy5"] = {
+		Title = "Eternal Recipes: Alchemy (Arcanite)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Prev_Page = "Nycter_EternalRecipes_Alchemy4";
+		Prev_Title = "Eternal Recipes: Alchemy (Arcanite)";
 	};
 };
