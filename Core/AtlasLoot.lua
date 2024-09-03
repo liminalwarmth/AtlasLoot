@@ -198,11 +198,9 @@ AtlasLoot_MenuList = {
 	"COOKINGMENU",
 	"NYCTERMOON_CUSTOMITEMSMENU",
 	"NYCTERMOON_LICENSESMENU",
-	"NYCTERMOON_ILLUSIONSMENU",
 	"NYCTERMOON_LOOTPETSMENU",
 	"NYCTERMOON_FACTIONREWARDSMENU",
 	"NYCTERMOON_MISCELLANEOUSMENU",
-	-- "NYCTERMOON_CLASSESMENU",
 	"NYCTERMOON_ETERNALRECIPESMENU",
 };
 
@@ -1173,6 +1171,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLoot_Nyctermoon_RaidLicencesTokensMenu();
 	elseif(dataID=="NYCTERMOON_ILLUSIONSMENU") then
 		AtlasLoot_Nyctermoon_IllusionsMenu();
+	elseif(dataID=="NYCTERMOON_TOKENTRADINGMENU") then
+		AtlasLoot_Nyctermoon_TokenTradingMenu();
 	elseif(dataID=="NYCTERMOON_LOOTPETSMENU") then
 		AtlasLoot_Nyctermoon_LootPetsMenu();
 	elseif(dataID=="NYCTERMOON_FACTIONREWARDSMENU") then

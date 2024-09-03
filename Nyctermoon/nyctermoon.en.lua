@@ -64,6 +64,34 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26039, "INV_Jewelry_Amulet_03", "=q3=Token of Mastery", "=q2=#m5#" },
 	};
 
+	Nycter_TokenTrading = {
+		{ 0, "spell_nature_earthquake", "Raid Tokens", "One trade per raid cleared per character" },
+		{ 26040, "", "Token of Molten Core", "10 =q7=Tokens of Mastery" },
+		{ 26041, "", "Token of Blackwing Lair", "20 =q7=Tokens of Mastery" },
+		{ 26042, "", "Token of Ahn'Qiraj", "35 =q7=Tokens of Mastery" },
+		{ 26043, "", "Token of Naxxramas", "50 =q7=Tokens of Mastery" },
+		{ 0, "", "", "" },
+		{ 0, "inv_valentinesboxofchocolates02", "Consumables", "These affect all companions in party/raid" },
+		{ 21215, "", "Graccu's Mince Meat Fruitcake", "1 =q7=Token of Mastery" },
+		{ 22238, "", "Very Berry Cream", "2 =q7=Tokens of Mastery" },
+		{ 22236, "", "Buttermilk Delight", "2 =q7=Tokens of Mastery" },
+		{ 22237, "", "Dark Desire", "2 =q7=Tokens of Mastery" },
+		{ 22239, "", "Sweet Surprise", "2 =q7=Tokens of Mastery" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+
+		{ 0, "inv_brd_banner", "Reputation Gains", "Turn in essences for rep with any faction" },
+		{ 26575, "", "Essence of Molten Core", "=so3=+1650 Reputation" },
+		{ 26576, "", "Essence of Blackwing Lair", "=so3=+3350 Reputation" },
+		{ 26577, "", "Essence of Ahn'Qiraj", "=so3=+6650 Reputation" },
+		{ 26578, "", "Essence of Naxxramas", "=so3=+14350 Reputation" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+	};
+
 	Nycter_Illusions = {
 		{ 26092, "", "Illusion: Hammerguard Shield", "1 =q7=Token of Mastery" },
 		{ 26109, "", "Illusion: Exquisite Monocle of Fiscal Precision", "2 =q7=Tokens of Mastery" },

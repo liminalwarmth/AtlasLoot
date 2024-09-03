@@ -56,7 +56,7 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_8_Name:SetText("Griznak the Collector (Booty Bay)");
 	AtlasLootMenuItem_8_Extra:SetText("|cffFF8400Trades Rare Items for Tokens of Mastery");
 	AtlasLootMenuItem_8_Icon:SetTexture("Interface\\Icons\\inv_misc_coin_01");
-	AtlasLootMenuItem_8.lootpage="Nycter_Illusions";
+	AtlasLootMenuItem_8.lootpage="Nycter_TokenTrading";
 	AtlasLootMenuItem_8:Show();
 	--Miscellaneous
 	AtlasLootMenuItem_9_Name:SetText(AL["Miscellaneous"]);
@@ -106,6 +106,26 @@ function AtlasLoot_Nyctermoon_LicensesMenu()
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
 	AtlasLoot_BossName:SetText("|cffFFFFFFCompanion Licenses");
+	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
+end
+
+function AtlasLoot_Nyctermoon_TokenTradingMenu()
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootItem_"..i):Hide();
+	end
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootMenuItem_"..i):Hide();
+		getglobal("AtlasLootMenuItem_"..i).isheader = false;
+	end
+	getglobal("AtlasLootItemsFrame_BACK"):Show();
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "NYCTERMOONMENU";
+	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
+	getglobal("AtlasLootItemsFrame_PREV"):Hide();
+	getglobal("AtlasLootServerQueryButton"):Hide();
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
+	end	
+	AtlasLoot_BossName:SetText("|cffFFFFFFGriznak Token Trading");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

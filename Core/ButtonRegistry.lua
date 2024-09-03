@@ -1899,10 +1899,19 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};
-	["Nycter_Illusions"] = {
-		Title = "Transmog Gear: Illusions";
+	["Nycter_TokenTrading"] = {
+		Title = "Griznak Token Trading";
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
+		Next_Page = "Nycter_Illusions";
+		Next_Title = "Griznak's Transmog Illusions";
+	};	
+	["Nycter_Illusions"] = {
+		Title = "Griznak's Transmog Illusions";
+		Back_Page = "NYCTERMOONMENU";
+		Back_Title = AL["Nyctermoon"];
+		Prev_Page = "Nycter_TokenTrading";
+		Prev_Title = "Griznak Token Trading";
 	};
 	["Nycter_Custom1"] = {
 		Title = "Nyctermoon Custom Items";
