@@ -2004,14 +2004,14 @@ AtlasLoot_ButtonRegistry = {
 	["Nycter_EternalRecipes_Alchemy1"] = {
 		Title = "Eternal Crafting: Alchemy (Copper & Silver)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Next_Page = "Nycter_EternalRecipes_Alchemy2";
 		Next_Title = "Eternal Crafting: Alchemy (Gold)";	
 	};
 	["Nycter_EternalRecipes_Alchemy2"] = {
 		Title = "Eternal Crafting: Alchemy (Gold)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy1";
 		Prev_Title = "Eternal Crafting: Alchemy (Copper & Silver)";
 		Next_Page = "Nycter_EternalRecipes_Alchemy3";
@@ -2020,7 +2020,7 @@ AtlasLoot_ButtonRegistry = {
 	["Nycter_EternalRecipes_Alchemy3"] = {
 		Title = "Eternal Crafting: Alchemy (Truesilver)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy2";
 		Prev_Title = "Eternal Crafting: Alchemy (Gold)";
 		Next_Page = "Nycter_EternalRecipes_Alchemy4";
@@ -2029,7 +2029,7 @@ AtlasLoot_ButtonRegistry = {
 	["Nycter_EternalRecipes_Alchemy4"] = {
 		Title = "Eternal Crafting: Alchemy (Arcanite)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy3";
 		Prev_Title = "Eternal Crafting: Alchemy (Truesilver)";
 		Next_Page = "Nycter_EternalRecipes_Alchemy5";
@@ -2038,21 +2038,21 @@ AtlasLoot_ButtonRegistry = {
 	["Nycter_EternalRecipes_Alchemy5"] = {
 		Title = "Eternal Crafting: Alchemy (Arcanite)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy4";
 		Prev_Title = "Eternal Crafting: Alchemy (Arcanite)";
 	};
 	["Nycter_EternalRecipes_Engineering1"] = {
 		Title = "Eternal Crafting: Engineering (Copper & Silver)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Next_Page = "Nycter_EternalRecipes_Engineering2";
 		Next_Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
 	};
 	["Nycter_EternalRecipes_Engineering2"] = {
 		Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Engineering1";
 		Prev_Title = "Eternal Crafting: Engineering (Copper & Silver)";
 		Next_Page = "Nycter_EternalRecipes_Engineering3";
@@ -2061,8 +2061,51 @@ AtlasLoot_ButtonRegistry = {
 	["Nycter_EternalRecipes_Engineering3"] = {
 		Title = "Eternal Crafting: Engineering (Arcanite)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
-		Back_Title = AL["Eternal Recipes"];
+		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Engineering2";
 		Prev_Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
+	};
+	["Nycter_EternalRecipes_Enchanting1"] = {
+		Title = "Eternal Crafting: Enchanting";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = "Eternal Crafting";
+	};
+	["Nycter_EternalRecipes_Smithing1"] = {
+		Title = "Eternal Crafting: Smithing";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = "Eternal Crafting";
+	};
+	["Nycter_EternalRecipes_FirstAid1"] = {
+		Title = "Eternal Crafting: First Aid";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = "Eternal Crafting";
+	};
+	["Nycter_EternalRecipes_Poisons1"] = {
+		Title = "Eternal Crafting: Poisons";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = "Eternal Crafting";
+	};
+	["Nycter_EternalRecipes_Cooking1"] = {
+		Title = "Eternal Crafting: Cooking (Copper)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = "Eternal Crafting";
+		Next_Page = "Nycter_EternalRecipes_Cooking2";
+		Next_Title = "Eternal Crafting: Cooking (Silver & Gold)";
+	};
+	["Nycter_EternalRecipes_Cooking2"] = {
+		Title = "Eternal Crafting: Cooking (Silver & Gold)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = "Eternal Crafting";
+		Prev_Page = "Nycter_EternalRecipes_Cooking1";
+		Prev_Title = "Eternal Crafting: Cooking (Copper)";
+		Next_Page = "Nycter_EternalRecipes_Cooking3";
+		Next_Title = "Eternal Crafting: Cooking (Truesilver & Arcanite)";
+	};
+	["Nycter_EternalRecipes_Cooking3"] = {
+		Title = "Eternal Crafting: Cooking (Truesilver & Arcanite)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = "Eternal Crafting";
+		Prev_Page = "Nycter_EternalRecipes_Cooking2";
+		Prev_Title = "Eternal Crafting: Cooking (Silver & Gold)";
 	};
 };
