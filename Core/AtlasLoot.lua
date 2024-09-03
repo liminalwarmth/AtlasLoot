@@ -1181,6 +1181,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLoot_Nyctermoon_MiscellaneousMenu();
 	elseif(dataID=="NYCTERMOON_ETERNALRECIPESMENU") then
 		AtlasLoot_Nyctermoon_EternalRecipesMenu();
+	elseif(dataID=="NYCTERMOON_LEGENDARIESMENU") then
+		AtlasLoot_Nyctermoon_LegendariesMenu();
 	elseif(dataID=="CRAFTSET") then
 		AtlasLootCraftedSetMenu();
 	elseif(dataID=="ALCHEMYMENU") then

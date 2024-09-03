@@ -19,7 +19,7 @@ function AtlasLoot_NyctermoonMenu()
 	--Nyctermoon Custom Items
 	AtlasLootMenuItem_2_Name:SetText("Nyctermoon Custom Items");
 	AtlasLootMenuItem_2_Extra:SetText("|cffFF8400Obtained from World Quests or Donation");
-	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Shirt_White_01");
+	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\inv_misc_enggizmos_19");
 	AtlasLootMenuItem_2.lootpage="Nycter_Custom1";
 	AtlasLootMenuItem_2:Show();
 	--Companion Licenses
@@ -29,9 +29,9 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_3.lootpage="Nycter_Licenses1";
 	AtlasLootMenuItem_3:Show();
 	--Faction Rewards
-	AtlasLootMenuItem_4_Name:SetText("Faction Rewards");
-	AtlasLootMenuItem_4_Extra:SetText("|cffFF8400Recipes and Transporters from Exalted");
-	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_LICENSE_T1D");
+	AtlasLootMenuItem_4_Name:SetText("Reputation Rewards");
+	AtlasLootMenuItem_4_Extra:SetText("|cffFF8400Recipes and Items from Exalted Reputation");
+	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\inv_brd_banner");
 	AtlasLootMenuItem_4.lootpage="Nycter_FactionRewards1";
 	AtlasLootMenuItem_4:Show();
 	--Loot Pets
@@ -40,21 +40,22 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\INV_Misc_Book_02");
 	AtlasLootMenuItem_5.lootpage="Nycter_LootPets1";
 	AtlasLootMenuItem_5:Show();
-	-- --Mythic Dungeon Items
-	-- AtlasLootMenuItem_6_Name:SetText(AL["Mythic Dungeon Items"]);
-	-- AtlasLootMenuItem_6_Extra:SetText("");
-	-- AtlasLootMenuItem_6.lootpage="Nycter_MythicDungeonItems";
-	-- AtlasLootMenuItem_6:Show();
+	-- Legendary Items
+	AtlasLootMenuItem_6_Name:SetText("Nyctermoon Legendary Weapons");
+	AtlasLootMenuItem_6_Extra:SetText("|cffFF8400Upgraded from Moonglade Quests");
+	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\inv_qiraj_jewelblessed");
+	AtlasLootMenuItem_6.lootpage="Nycter_Legendaries1";
+	AtlasLootMenuItem_6:Show();
 	--Eternal Recipes
 	AtlasLootMenuItem_7_Name:SetText("Eternal Crafting");
 	AtlasLootMenuItem_7_Extra:SetText("|cffFF8400Obtained from Crafting and Reputations");
-	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\INV_Scroll_06");
+	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\inv_scroll_05");
 	AtlasLootMenuItem_7.lootpage="NYCTERMOON_ETERNALRECIPESMENU";
 	AtlasLootMenuItem_7:Show();
 	--Illusions
-	AtlasLootMenuItem_8_Name:SetText("Transmog Gear: Illusions");
-	AtlasLootMenuItem_8_Extra:SetText("|cffFF8400Obtained from Griznak in Booty Bay");
-	AtlasLootMenuItem_8_Icon:SetTexture("Interface\\Icons\\INV_Enchant_EssenceMysticalSmall");
+	AtlasLootMenuItem_8_Name:SetText("Griznak the Collector (Booty Bay)");
+	AtlasLootMenuItem_8_Extra:SetText("|cffFF8400Trades Rare Items for Tokens of Mastery");
+	AtlasLootMenuItem_8_Icon:SetTexture("Interface\\Icons\\inv_misc_coin_01");
 	AtlasLootMenuItem_8.lootpage="Nycter_Illusions";
 	AtlasLootMenuItem_8:Show();
 	--Miscellaneous
@@ -181,6 +182,23 @@ function AtlasLoot_Nyctermoon_MiscellaneousMenu()
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
 	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Miscellaneous"]);
+	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
+end
+
+function AtlasLoot_Nyctermoon_LegendariesMenu()
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootItem_"..i):Hide();
+	end
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootMenuItem_"..i):Hide();
+		getglobal("AtlasLootMenuItem_"..i).isheader = false;
+	end
+	getglobal("AtlasLootItemsFrame_BACK"):Show();
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "NYCTERMOONMENU";
+	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
+	getglobal("AtlasLootItemsFrame_PREV"):Hide();
+	getglobal("AtlasLootServerQueryButton"):Hide();
+	AtlasLoot_BossName:SetText("|cffFFFFFF".."Nyctermoon Legendary Weapons");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

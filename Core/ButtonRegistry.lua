@@ -1924,6 +1924,11 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "NYCTERMOONMENU";
 		Back_Title = AL["Nyctermoon"];
 	};
+	["Nycter_Legendaries1"] = {
+		Title = "Nyctermoon Legendary Weapons";
+		Back_Page = "NYCTERMOONMENU";
+		Back_Title = AL["Nyctermoon"];
+	};
 	["Nycter_Classes_Priest"] = {
 		Title = AL["Priest"];
 		Back_Page = "NYCTERMOON_CLASSESMENU";

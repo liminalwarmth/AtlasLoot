@@ -5,9 +5,9 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26004, "INV_Shirt_02", "=q3=Peasant's Garb", "=q7=Quest: Tailoring Trainer" },
 		{ 26003, "INV_Shirt_White_01", "=q4=New Beginnings", "=q7=Quest: Tailoring Trainer" },
 		{ 26011, "INV_Shirt_Black_01", "=q4=Silvertongue", "=q7=Quest: Mr. Deathicus at Azshara Tower" },
-		{ 26013, "INV_Shirt_Orange_01", "=q4=Savant", "=q7=Quest: Grimando at Booty Bay" },
+		{ 26013, "INV_Shirt_Orange_01", "=q4=Savant", "=q7=Quest: Grimando at Booty Bay (74B Prereq)" },
 		{ 26012, "INV_Shirt_Blue_01", "=q5=Paragon", "=q7=Quest: Kadi at Tanaris Island" },
-		{ 26014, "INV_Shirt_Red_01", "=q5=Paragon Maestro", "=q7=Quest: Kadi at Tanaris Island" },
+		{ 26014, "INV_Shirt_Red_01", "=q5=Paragon Maestro", "=q7=Quest: Kadi at Tanaris Island (Paragon Prereq)" },
 		{ 0, "", "", "" },
 		{ 0, "INV_Box_01", "Mining Picks", "=q7=Quest Line: Orgrimmar or Ironforge Only" },
 		{ 26471, "", "Apprentice Mining Pick", "=q1=#m4#" },
@@ -531,6 +531,40 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26411, "", "Eternal Buttermilk Delight", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
 		{ 26412, "", "Eternal Dark Desire", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
 		{ 26413, "", "Eternal Sweet Surprise", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
+	};
+
+	Nycter_Legendaries1 = {
+		{ 26424, "", "Benediction, Bringer of Light", "=q7=Keeper Remulos in Moonglade" },
+		{ 26425, "", "Anathema, Harbinger of Shadows", "=q1=Transformed from Benediction" },
+		{ 26426, "", "Benediction, Bringer of Light", "=q1=Upgrade Level 2" },
+		{ 26427, "", "Anathema, Harbinger of Shadows", "=q1=Upgrade Level 2" },
+		{ 26428, "", "Benediction, Bringer of Light", "=q1=Upgrade Level 3" },
+		{ 26429, "", "Anathema, Harbinger of Shadows", "=q1=Upgrade Level 3" },
+		{ 0, "", "", "" },
+		{ 26583, "", "Sulfura", "=q7=Lokhtos Darkbargainer in BRD" },
+    	{ 26584, "", "Sulfura", "=q1=Upgrade Level 2" },
+		{ 0, "", "", "" },
+		{ 26593, "", "Thunderfur", "=q7=Highlord Demitrian in Silithus" },
+		{ 26594, "", "Thunderfur", "=q1=Upgrade Level 2" },
+		{ 0, "", "", "" },
+		{ 26582, "", "Ashbringer the Redeemed", "=q7=Fairbanks in SM (after Corrupted)" },
+		{ 26598, "", "Atiesh, Greatstaff of the Guardian", "=q7=Standard Atiesh Quest (Shaman Version)" },
+
+		{ 26357, "", "Rhok'delar, Longbow of the Ancient Keepers", "=q7=Vartrus the Ancient in Felwood" },
+		{ 26358, "", "Rhok'delar, Longbow of the Ancient Keepers", "=q1=Upgrade Level 2" },
+		{ 26359, "", "Rhok'delar, Longbow of the Ancient Keepers", "=q1=Upgrade Level 3" },
+		{ 0, "", "", "" },
+		{ 26579, "", "Umbrathi", "=q7=Fahrad in Ravenholdt Manor (Exalted Rep)" },
+		{ 26580, "", "Umbrathi", "=q1=Upgrade Level 2" },
+		{ 26581, "", "Umbrathi", "=q1=Upgrade Level 3" },
+		{ 26582, "", "", "" },
+		{ 26590, "", "Dragonspin", "=q7=Thrall in Orgrimmar (Exalted Rep)" },
+		{ 26591, "", "Dragonspin", "=q1=Upgrade Level 2" },
+		{ 26592, "", "Dragonspin", "=q1=Upgrade Level 3" },	
+		{ 0, "", "", "" },
+		{ 26595, "", "Eldendrassi", "=q7=Tyrande Whisperwind or Hamuul Runetotem" },
+		{ 26596, "", "Eldendrassi", "=q1=Upgrade Level 2        =q7=(Exalted Rep)" },
+		{ 26597, "", "Eldendrassi", "=q1=Upgrade Level 3" }
 	};
 
 	---------------
