@@ -415,7 +415,7 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 26206, "", "Eternal Silver Skeleton Key", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Greater Magic Essence|r" },
 		{ 26207, "", "Eternal Heavy Sharpening Stone", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
 		{ 26208, "", "Eternal Heavy Weightstone", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
-		{ 26209, "", "Eternal Golden Skeleton Key", "=ds=|cff0070dd2x Greater Astral Essence|r |cff1eff00Runed Silver Rod|r" },
+		{ 26209, "", "Eternal Golden Skeleton Key", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
 		{ 26210, "", "Eternal Solid Sharpening Stone", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
 		{ 26211, "", "Eternal Solid Weightstone", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
 		{ 26212, "", "Eternal Truesilver Skeleton Key", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Greater Nether Essence|r" },

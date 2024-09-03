@@ -296,10 +296,10 @@ function AtlasLoot_Nyctermoon_EternalRecipesMenu()
 	AtlasLootMenuItem_5.lootpage="Nycter_EternalRecipes_Cooking1";
 	AtlasLootMenuItem_5:Show();
 	--Blacksmithing
-	AtlasLootMenuItem_6_Name:SetText("Eternal Crafting: Blacksmithing");
+	AtlasLootMenuItem_6_Name:SetText("Eternal Crafting: Smithing");
 	AtlasLootMenuItem_6_Extra:SetText("");
 	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
-	AtlasLootMenuItem_6.lootpage = "Nycter_EternalRecipes_Blacksmithing1";
+	AtlasLootMenuItem_6.lootpage = "Nycter_EternalRecipes_Smithing1";
 	AtlasLootMenuItem_6:Show();
 	--First Aid
 	AtlasLootMenuItem_7_Name:SetText("Eternal Crafting: First Aid");
