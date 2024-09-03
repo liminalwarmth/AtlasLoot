@@ -2002,44 +2002,67 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Title = AL["Paladin"];
 	};
 	["Nycter_EternalRecipes_Alchemy1"] = {
-		Title = "Eternal Recipes: Alchemy (Copper & Silver)";
+		Title = "Eternal Crafting: Alchemy (Copper & Silver)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
 		Back_Title = AL["Eternal Recipes"];
 		Next_Page = "Nycter_EternalRecipes_Alchemy2";
-		Next_Title = "Eternal Recipes: Alchemy (Gold)";	
+		Next_Title = "Eternal Crafting: Alchemy (Gold)";	
 	};
 	["Nycter_EternalRecipes_Alchemy2"] = {
-		Title = "Eternal Recipes: Alchemy (Gold)";
+		Title = "Eternal Crafting: Alchemy (Gold)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
 		Back_Title = AL["Eternal Recipes"];
 		Prev_Page = "Nycter_EternalRecipes_Alchemy1";
-		Prev_Title = "Eternal Recipes: Alchemy (Copper & Silver)";
+		Prev_Title = "Eternal Crafting: Alchemy (Copper & Silver)";
 		Next_Page = "Nycter_EternalRecipes_Alchemy3";
-		Next_Title = "Eternal Recipes: Alchemy (Truesilver)";
+		Next_Title = "Eternal Crafting: Alchemy (Truesilver)";
 	};
 	["Nycter_EternalRecipes_Alchemy3"] = {
-		Title = "Eternal Recipes: Alchemy (Truesilver)";
+		Title = "Eternal Crafting: Alchemy (Truesilver)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
 		Back_Title = AL["Eternal Recipes"];
 		Prev_Page = "Nycter_EternalRecipes_Alchemy2";
-		Prev_Title = "Eternal Recipes: Alchemy (Gold)";
+		Prev_Title = "Eternal Crafting: Alchemy (Gold)";
 		Next_Page = "Nycter_EternalRecipes_Alchemy4";
-		Next_Title = "Eternal Recipes: Alchemy (Arcanite)";
+		Next_Title = "Eternal Crafting: Alchemy (Arcanite)";
 	};	
 	["Nycter_EternalRecipes_Alchemy4"] = {
-		Title = "Eternal Recipes: Alchemy (Arcanite)";
+		Title = "Eternal Crafting: Alchemy (Arcanite)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
 		Back_Title = AL["Eternal Recipes"];
 		Prev_Page = "Nycter_EternalRecipes_Alchemy3";
-		Prev_Title = "Eternal Recipes: Alchemy (Truesilver)";
+		Prev_Title = "Eternal Crafting: Alchemy (Truesilver)";
 		Next_Page = "Nycter_EternalRecipes_Alchemy5";
-		Next_Title = "Eternal Recipes: Alchemy (Arcanite)";
+		Next_Title = "Eternal Crafting: Alchemy (Arcanite)";
 	};
 	["Nycter_EternalRecipes_Alchemy5"] = {
-		Title = "Eternal Recipes: Alchemy (Arcanite)";
+		Title = "Eternal Crafting: Alchemy (Arcanite)";
 		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
 		Back_Title = AL["Eternal Recipes"];
 		Prev_Page = "Nycter_EternalRecipes_Alchemy4";
-		Prev_Title = "Eternal Recipes: Alchemy (Arcanite)";
+		Prev_Title = "Eternal Crafting: Alchemy (Arcanite)";
+	};
+	["Nycter_EternalRecipes_Engineering1"] = {
+		Title = "Eternal Crafting: Engineering (Copper & Silver)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Next_Page = "Nycter_EternalRecipes_Engineering2";
+		Next_Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
+	};
+	["Nycter_EternalRecipes_Engineering2"] = {
+		Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Prev_Page = "Nycter_EternalRecipes_Engineering1";
+		Prev_Title = "Eternal Crafting: Engineering (Copper & Silver)";
+		Next_Page = "Nycter_EternalRecipes_Engineering3";
+		Next_Title = "Eternal Crafting: Engineering (Arcanite)";
+	};
+	["Nycter_EternalRecipes_Engineering3"] = {
+		Title = "Eternal Crafting: Engineering (Arcanite)";
+		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Title = AL["Eternal Recipes"];
+		Prev_Page = "Nycter_EternalRecipes_Engineering2";
+		Prev_Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
 	};
 };

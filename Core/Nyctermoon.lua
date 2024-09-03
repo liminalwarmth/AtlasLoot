@@ -46,7 +46,7 @@ function AtlasLoot_NyctermoonMenu()
 	-- AtlasLootMenuItem_6.lootpage="Nycter_MythicDungeonItems";
 	-- AtlasLootMenuItem_6:Show();
 	--Eternal Recipes
-	AtlasLootMenuItem_7_Name:SetText(AL["Eternal Recipes"]);
+	AtlasLootMenuItem_7_Name:SetText("Eternal Crafting");
 	AtlasLootMenuItem_7_Extra:SetText("|cffFF8400Obtained from Crafting and Reputations");
 	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\INV_Scroll_06");
 	AtlasLootMenuItem_7.lootpage="NYCTERMOON_ETERNALRECIPESMENU";
@@ -59,7 +59,7 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_8:Show();
 	--Miscellaneous
 	AtlasLootMenuItem_9_Name:SetText(AL["Miscellaneous"]);
-	AtlasLootMenuItem_9_Extra:SetText("");
+	AtlasLootMenuItem_9_Extra:SetText("|cffFF8400Other Special Nyctermoon Items");
 	AtlasLootMenuItem_9_Icon:SetTexture("Interface\\Icons\\INV_Misc_Ticket_Tarot_Maelstrom_01");
 	AtlasLootMenuItem_9.lootpage="Nycter_Miscellaneous";
 	AtlasLootMenuItem_9:Show();
@@ -272,44 +272,50 @@ function AtlasLoot_Nyctermoon_EternalRecipesMenu()
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
 	--Alchemy
-	AtlasLootMenuItem_2_Name:SetText(AL["Alchemy"]);
+	AtlasLootMenuItem_2_Name:SetText("Eternal Crafting: Alchemy");
 	AtlasLootMenuItem_2_Extra:SetText("");
 	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\Trade_Alchemy");
 	AtlasLootMenuItem_2.lootpage = "Nycter_EternalRecipes_Alchemy1";
 	AtlasLootMenuItem_2:Show();
+	--Enchanting
+	AtlasLootMenuItem_3_Name:SetText("Eternal Crafting: Enchanting");
+	AtlasLootMenuItem_3_Extra:SetText("");
+	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\Trade_Engraving");
+	AtlasLootMenuItem_3.lootpage="Nycter_EternalRecipes_Enchanting1";
+	AtlasLootMenuItem_3:Show();
+	--Engineering
+	AtlasLootMenuItem_4_Name:SetText("Eternal Crafting: Engineering");
+	AtlasLootMenuItem_4_Extra:SetText("");
+	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\Trade_Engineering");
+	AtlasLootMenuItem_4.lootpage="Nycter_EternalRecipes_Engineering1";
+	AtlasLootMenuItem_4:Show();
+	--Cooking
+	AtlasLootMenuItem_5_Name:SetText("Eternal Crafting: Cooking");
+	AtlasLootMenuItem_5_Extra:SetText("");
+	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\INV_Misc_Food_15");
+	AtlasLootMenuItem_5.lootpage="Nycter_EternalRecipes_Cooking1";
+	AtlasLootMenuItem_5:Show();
 	--Blacksmithing
-	-- AtlasLootMenuItem_3_Name:SetText(AL["Blacksmithing"]);
-	-- AtlasLootMenuItem_3_Extra:SetText("");
-	-- AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
-	-- AtlasLootMenuItem_3.lootpage = "Nycter_EternalRecipes_Blacksmithing1";
-	-- AtlasLootMenuItem_3:Show();
-	-- --Enchanting
-	-- AtlasLootMenuItem_4_Name:SetText(AL["Enchanting"]);
-	-- AtlasLootMenuItem_4_Extra:SetText("");
-	-- AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\Trade_Engraving");
-	-- AtlasLootMenuItem_4.lootpage="Nycter_EternalRecipes_Enchanting1";
-	-- AtlasLootMenuItem_4:Show();
-	-- --Engineering
-	-- AtlasLootMenuItem_5_Name:SetText(AL["Engineering"]);
-	-- AtlasLootMenuItem_5_Extra:SetText("");
-	-- AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\Trade_Engineering");
-	-- AtlasLootMenuItem_5.lootpage="Nycter_EternalRecipes_Engineering1";
-	-- AtlasLootMenuItem_5:Show();
-	-- --Leatherworking
-	-- AtlasLootMenuItem_6_Name:SetText(AL["Leatherworking"]);
-	-- AtlasLootMenuItem_6_Extra:SetText("");
-	-- AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\INV_Misc_ArmorKit_17");
-	-- AtlasLootMenuItem_6.lootpage="Nycter_EternalRecipes_Leatherworking1";
-	-- AtlasLootMenuItem_6:Show();
-	-- --Tailoring
-	-- AtlasLootMenuItem_7_Name:SetText(AL["Tailoring"]);
-	-- AtlasLootMenuItem_7_Extra:SetText("");
-	-- AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\Trade_Tailoring");
-	-- AtlasLootMenuItem_7.lootpage="Nycter_EternalRecipes_Tailoring1";
-	-- AtlasLootMenuItem_7:Show();
+	AtlasLootMenuItem_6_Name:SetText("Eternal Crafting: Blacksmithing");
+	AtlasLootMenuItem_6_Extra:SetText("");
+	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
+	AtlasLootMenuItem_6.lootpage = "Nycter_EternalRecipes_Blacksmithing1";
+	AtlasLootMenuItem_6:Show();
+	--First Aid
+	AtlasLootMenuItem_7_Name:SetText("Eternal Crafting: First Aid");
+	AtlasLootMenuItem_7_Extra:SetText("");
+	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\Spell_Holy_SealOfSacrifice");
+	AtlasLootMenuItem_7.lootpage="Nycter_EternalRecipes_FirstAid1";
+	AtlasLootMenuItem_7:Show();
+	--Poisons
+	AtlasLootMenuItem_8_Name:SetText("Eternal Crafting: Poisons");
+	AtlasLootMenuItem_8_Extra:SetText("");
+	AtlasLootMenuItem_8_Icon:SetTexture("Interface\\Icons\\Trade_BrewPoison");
+	AtlasLootMenuItem_8.lootpage="Nycter_EternalRecipes_Poisons1";
+	AtlasLootMenuItem_8:Show();
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Eternal Recipes"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFFEternal Crafting");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end

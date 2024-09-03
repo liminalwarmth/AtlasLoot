@@ -322,6 +322,74 @@ AtlasLoot_Data["AtlasLootNyctermoon"] = {
 		{ 0, "", "", "" },
 	};
 
+	Nycter_EternalRecipes_Engineering1 = {
+		{ 26224, "", "Eternal Rough Dynamite", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
+		{ 26225, "", "Eternal Crafted Light Shot", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
+		{ 26226, "", "Eternal Rough Copper Bomb", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
+		{ 26227, "", "Eternal Crafted Heavy Shot", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Lesser Magic Essence|r" },
+		{ 26228, "", "Eternal Coarse Dynamite", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Lesser Magic Essence|r" },
+		{ 26229, "", "Eternal Target Dummy", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Lesser Magic Essence|r" },
+		{ 26230, "", "Eternal Ez-Thro Dynamite", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Greater Magic Essence|r" },
+		{ 26231, "", "Eternal Small Seaforium Charge", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Greater Magic Essence|r" },
+		{ 26232, "", "Eternal Large Copper Bomb", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Greater Magic Essence|r" },
+		{ 26233, "", "Eternal Small Bronze Bomb", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd1x Lesser Astral Essence|r" },
+		{ 26234, "", "Eternal Crafted Solid Shot", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
+		{ 26235, "", "Eternal Heavy Dynamite", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
+		{ 26236, "", "Eternal Small Blue Rocket", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
+		{ 26237, "", "Eternal Small Green Rocket", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
+		{ 26238, "", "Eternal Small Red Rocket", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
+		{ 26239, "", "Eternal Flame Deflector", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Lesser Astral Essence|r" },
+		{ 26240, "", "Eternal Big Bronze Bomb", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd1x Greater Astral Essence|r" },
+		{ 26241, "", "Eternal Aquadynamic Fish Attractor", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
+		{ 26242, "", "Eternal Blue Firework", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
+		{ 26243, "", "Eternal Green Firework", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
+		{ 26244, "", "Eternal Red Firework", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
+		{ 26245, "", "Eternal Explosive Sheep", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
+	};
+
+	Nycter_EternalRecipes_Engineering2 = {
+		{ 26246, "", "Eternal Ice Deflector", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Lesser Mystic Essence|r" },
+		{ 26247, "", "Eternal Discombobulator Ray", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Lesser Mystic Essence|r" },
+		{ 26248, "", "Eternal Portable Bronze Mortar", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
+		{ 26249, "", "Eternal Solid Dynamite", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
+		{ 26250, "", "Eternal Large Blue Rocket", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
+		{ 26251, "", "Eternal Large Green Rocket", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
+		{ 26252, "", "Eternal Large Red Rocket", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
+		{ 26253, "", "Eternal Compact Harvest Reaper Kit", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
+		{ 26254, "", "Eternal Iron Grenade", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
+		{ 26255, "", "Eternal Advanced Target Dummy", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Greater Mystic Essence|r" },
+		{ 26256, "", "Eternal Flash Bomb", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Greater Mystic Essence|r" },
+		{ 26257, "", "Eternal Big Iron Bomb", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Greater Mystic Essence|r" },
+		{ 26258, "", "Eternal Goblin Land Mine", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Greater Mystic Essence|r" },
+		{ 26259, "", "Eternal Ez-Thro Dynamite II", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
+		{ 26260, "", "Eternal Large Seaforium Charge", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
+		{ 26261, "", "Eternal Mechanical Repair Kit", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
+		{ 26262, "", "Eternal Goblin Sapper Charge", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
+		{ 26263, "", "Eternal Hi-Impact Mithril Slugs", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Lesser Nether Essence|r" },
+		{ 26264, "", "Eternal Mithril Frag Bomb", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Lesser Nether Essence|r" },
+		{ 26266, "", "Eternal Blue Rocket Cluster", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Lesser Nether Essence|r" },
+		{ 26267, "", "Eternal Green Rocket Cluster", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Lesser Nether Essence|r" },
+		{ 26268, "", "Eternal Red Rocket Cluster", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Lesser Nether Essence|r" },
+		{ 26269, "", "Eternal Hi-Explosive Bomb", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Greater Nether Essence|r" },
+		{ 26270, "", "Eternal The Big One", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Greater Nether Essence|r" },
+		{ 26271, "", "Eternal Mithril Gyro-Shot", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Greater Nether Essence|r" },
+	};
+
+	Nycter_EternalRecipes_Engineering3 = {
+		{ 26272, "", "Eternal Dense Dynamite", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Lesser Eternal Essence|r" },
+		{ 26273, "", "Eternal Snake Burst Firework", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Lesser Eternal Essence|r" },
+		{ 26274, "", "Eternal Thorium Grenade", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd2x Lesser Eternal Essence|r" },
+		{ 26275, "", "Eternal Alarm-O-Bot", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd2x Lesser Eternal Essence|r" },
+		{ 26276, "", "Eternal Large Blue Rocket Cluster", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
+		{ 26277, "", "Eternal Large Green Rocket Cluster", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
+		{ 26278, "", "Eternal Large Red Rocket Cluster", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
+		{ 26279, "", "Eternal Powerful Seaforium Charge", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
+		{ 26280, "", "Eternal Masterwork Target Dummy", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
+		{ 26281, "", "Eternal Dark Iron Bomb", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd3x Greater Eternal Essence|r" },
+		{ 26282, "", "Eternal Thorium Shells", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd3x Greater Eternal Essence|r" },
+		{ 26283, "", "Eternal Arcane Bomb", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd5x Greater Eternal Essence|r" },
+	};
+
 	---------------
 	--- Classes ---
 	---------------
