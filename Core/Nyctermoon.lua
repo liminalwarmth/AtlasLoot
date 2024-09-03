@@ -42,7 +42,7 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_5:Show();
 	-- Legendary Items
 	AtlasLootMenuItem_6_Name:SetText("Nyctermoon Legendary Weapons");
-	AtlasLootMenuItem_6_Extra:SetText("|cffFF8400Upgraded from Moonglade Quests");
+	AtlasLootMenuItem_6_Extra:SetText("|cffFF8400Obtained from Custom World Quests");
 	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\inv_qiraj_jewelblessed");
 	AtlasLootMenuItem_6.lootpage="Nycter_Legendaries1";
 	AtlasLootMenuItem_6:Show();
