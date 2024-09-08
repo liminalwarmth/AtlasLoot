@@ -13,13 +13,13 @@
             [1] = {3818},
         },
     },
-    [8681] = {
-        ["name"] = "Poisons: Instant Poison",
+    [40354] = {
+        ["name"] = "Eternal Instant Poison",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 19 to 25 Nature damage. 40 charges.",
-        ["craftItem"] = 6947,
+        ["craftItem"] = 26366,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -27,13 +27,13 @@
             [2] = {3371},
         },
     },
-    [8687] = {
-        ["name"] = "Poisons: Instant Poison II",
+    [40355] = {
+        ["name"] = "Eternal Instant Poison II",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 30 to 38 Nature damage. 55 charges.",
-        ["craftItem"] = 6949,
+        ["craftItem"] = 26367,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -41,13 +41,13 @@
             [2] = {3372},
         },
     },
-    [8691] = {
-        ["name"] = "Poisons: Instant Poison III",
+    [40356] = {
+        ["name"] = "Eternal Instant Poison III",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 44 to 56 Nature damage. 70 charges.",
-        ["craftItem"] = 6950,
+        ["craftItem"] = 26368,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -55,13 +55,13 @@
             [2] = {3372},
         },
     },
-    [11341] = {
-        ["name"] = "Poisons: Instant Poison IV",
+    [40357] = {
+        ["name"] = "Eternal Instant Poison IV",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 67 to 85 Nature damage. 85 charges.",
-        ["craftItem"] = 8926,
+        ["craftItem"] = 26369,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -69,13 +69,13 @@
             [2] = {8925},
         },
     },
-    [11342] = {
-        ["name"] = "Poisons: Instant Poison V",
+    [40358] = {
+        ["name"] = "Eternal Instant Poison V",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 92 to 118 Nature damage. 100 charges.",
-        ["craftItem"] = 8927,
+        ["craftItem"] = 26370,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -83,13 +83,13 @@
             [2] = {8925},
         },
     },
-    [11343] = {
-        ["name"] = "Poisons: Instant Poison VI",
+    [40359] = {
+        ["name"] = "Eternal Instant Poison VI",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 112 to 148 Nature damage. 115 charges.",
-        ["craftItem"] = 8928,
+        ["craftItem"] = 26371,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -97,13 +97,13 @@
             [2] = {8925},
         },
     },
-    [3420] = {
-        ["name"] = "Poisons: Crippling Poison",
+    [40372] = {
+        ["name"] = "Eternal Crippling Poison",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, slowing their movement speed by 50% for 12 sec.",
-        ["craftItem"] = 3775,
+        ["craftItem"] = 26384,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -111,13 +111,13 @@
             [2] = {3371},
         },
     },
-    [3421] = {
-        ["name"] = "Poisons: Crippling Poison II",
+    [40373] = {
+        ["name"] = "Eternal Crippling Poison II",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, slowing their movement speed by 70% for 12 sec.",
-        ["craftItem"] = 3776,
+        ["craftItem"] = 26385,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -125,13 +125,13 @@
             [2] = {8925},
         },
     },
-    [5763] = {
-        ["name"] = "Poisons: Mind-numbing Poison",
+    [40369] = {
+        ["name"] = "Eternal Mind-numbing Poison",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy, increasing their casting time by 40% for 10 sec. 50 charges.",
-        ["craftItem"] = 5237,
+        ["craftItem"] = 26381,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -140,13 +140,13 @@
             [3] = {3371},
         },
     },
-    [8694] = {
-        ["name"] = "Poisons: Mind-numbing Poison II",
+    [40370] = {
+        ["name"] = "Eternal Mind-numbing Poison II",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy, increasing their casting time by 50% for 12 sec. 75 charges.",
-        ["craftItem"] = 6951,
+        ["craftItem"] = 26382,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -155,13 +155,13 @@
             [3] = {3372},
         },
     },
-    [11400] = {
-        ["name"] = "Poisons: Mind-numbing Poison III",
+    [40371] = {
+        ["name"] = "Eternal Mind-numbing Poison III",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy, increasing their casting time by 60% for 14 sec. 100 charges.",
-        ["craftItem"] = 9186,
+        ["craftItem"] = 26383,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -170,13 +170,13 @@
             [3] = {8925},
         },
     },
-    [2835] = {
-        ["name"] = "Poisons: Deadly Poison",
+    [40360] = {
+        ["name"] = "Eternal Deadly Poison",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 36 Nature damage over 12 sec. Stacks up to 5 times on a single target. 60 charges.",
-        ["craftItem"] = 2892,
+        ["craftItem"] = 26372,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -184,13 +184,13 @@
             [2] = {3372},
         },
     },
-    [2837] = {
-        ["name"] = "Poisons: Deadly Poison II",
+    [40361] = {
+        ["name"] = "Eternal Deadly Poison II",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 52 Nature damage over 12 sec. Stacks up to 5 times on a single target. 75 charges.",
-        ["craftItem"] = 2893,
+        ["craftItem"] = 26373,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -198,13 +198,13 @@
             [2] = {3372},
         },
     },
-    [11357] = {
-        ["name"] = "Poisons: Deadly Poison III",
+    [40362] = {
+        ["name"] = "Eternal Deadly Poison III",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 80 Nature damage over 12 sec. Stacks up to 5 times on a single target. 90 charges.",
-        ["craftItem"] = 8984,
+        ["craftItem"] = 26374,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -212,13 +212,13 @@
             [2] = {8925},
         },
     },
-    [11358] = {
-        ["name"] = "Poisons: Deadly Poison IV",
+    [40363] = {
+        ["name"] = "Eternal Deadly Poison IV",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 108 Nature damage over 12 sec. Stacks up to 5 times on a single target. 105 charges.",
-        ["craftItem"] = 8985,
+        ["craftItem"] = 26375,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -226,13 +226,13 @@
             [2] = {8925},
         },
     },
-    [25347] = {
-        ["name"] = "Poisons: Deadly Poison V",
+    [40364] = {
+        ["name"] = "Eternal Deadly Poison V",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 136 Nature damage over 12 sec. Stacks up to 5 times on a single target. 120 charges.",
-        ["craftItem"] = 20844,
+        ["craftItem"] = 26376,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -240,13 +240,13 @@
             [2] = {8925},
         },
     },
-    [13220] = {
-        ["name"] = "Poisons: Wound Poison",
+    [40365] = {
+        ["name"] = "Eternal Wound Poison",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 55 for 15 sec. Stacks up to 5 times on a single target. 60 charges.",
-        ["craftItem"] = 10918,
+        ["craftItem"] = 26377,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -255,13 +255,13 @@
             [2] = {3372},
         },
     },
-    [13228] = {
-        ["name"] = "Poisons: Wound Poison II",
+    [40366] = {
+        ["name"] = "Eternal Wound Poison II",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 75 for 15 sec. Stacks up to 5 times on a single target. 75 charges.",
-        ["craftItem"] = 10920,
+        ["craftItem"] = 26378,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -270,13 +270,13 @@
             [2] = {3372},
         },
     },
-    [13229] = {
-        ["name"] = "Poisons: Wound Poison III",
+    [40367] = {
+        ["name"] = "Eternal Wound Poison III",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 105 for 15 sec. Stacks up to 5 times on a single target. 90 charges.",
-        ["craftItem"] = 10921,
+        ["craftItem"] = 26379,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -285,13 +285,13 @@
             [3] = {8925},
         },
     },
-    [13230] = {
-        ["name"] = "Poisons: Wound Poison IV",
+    [40368] = {
+        ["name"] = "Eternal Wound Poison IV",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 135 for 15 sec. Stacks up to 5 times on a single target. 105 charges.",
-        ["craftItem"] = 10922,
+        ["craftItem"] = 26380,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -300,169 +300,169 @@
             [3] = {8925},
         },
     },
-    [3275] = {
-        ["name"] = "First Aid: Linen Bandage",
+    [40277] = {
+        ["name"] = "Eternal Linen Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 1251,
+        ["craftItem"] = 26284,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2589},
         },
     },
-    [3276] = {
-        ["name"] = "First Aid: Heavy Linen Bandage",
+    [40278] = {
+        ["name"] = "Eternal Heavy Linen Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2581,
+        ["craftItem"] = 26285,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2589, 2},
         },
     },
-    [7934] = {
-        ["name"] = "First Aid: Anti-Venom",
+    [40279] = {
+        ["name"] = "Eternal Anti-Venom",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Creates 3 Vials of Anti-Venom.",
-        ["craftItem"] = 6452,
+        ["craftItem"] = 26286,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {1475},
         },
     },
-    [3277] = {
-        ["name"] = "First Aid: Wool Bandage",
+    [40280] = {
+        ["name"] = "Eternal Wool Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3530,
+        ["craftItem"] = 26287,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2592},
         },
     },
-    [3278] = {
-        ["name"] = "First Aid: Heavy Wool Bandage",
+    [40281] = {
+        ["name"] = "Eternal Heavy Wool Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3531,
+        ["craftItem"] = 26288,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2592, 2},
         },
     },
-    [7935] = {
-        ["name"] = "First Aid: Strong Anti-Venom",
+    [40282] = {
+        ["name"] = "Eternal Strong Anti-Venom",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Creates 3 Vials of Strong Anti-Venom.",
-        ["craftItem"] = 6453,
+        ["craftItem"] = 26289,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {1288},
         },
     },
-    [7928] = {
-        ["name"] = "First Aid: Silk Bandage",
+    [40283] = {
+        ["name"] = "Eternal Silk Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6450,
+        ["craftItem"] = 26290,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {4306},
         },
     },
-    [7929] = {
-        ["name"] = "First Aid: Heavy Silk Bandage",
+    [40284] = {
+        ["name"] = "Eternal Heavy Silk Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6451,
+        ["craftItem"] = 26291,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {4306, 2},
         },
     },
-    [10840] = {
-        ["name"] = "First Aid: Mageweave Bandage",
+    [40285] = {
+        ["name"] = "Eternal Mageweave Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 8544,
+        ["craftItem"] = 26292,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {4338},
         },
     },
-    [10841] = {
-        ["name"] = "First Aid: Heavy Mageweave Bandage",
+    [40286] = {
+        ["name"] = "Eternal Heavy Mageweave Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 8545,
+        ["craftItem"] = 26293,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {4338, 2},
         },
     },
-    [18629] = {
-        ["name"] = "First Aid: Runecloth Bandage",
+    [40287] = {
+        ["name"] = "Eternal Runecloth Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 14529,
+        ["craftItem"] = 26294,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {14047},
         },
     },
-    [18630] = {
-        ["name"] = "First Aid: Heavy Runecloth Bandage",
+    [40288] = {
+        ["name"] = "Eternal Heavy Runecloth Bandage",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 14530,
+        ["craftItem"] = 26295,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {14047, 2},
         },
     },
-    [23787] = {
-        ["name"] = "First Aid: Powerful Anti-Venom",
+    [40289] = {
+        ["name"] = "Eternal Powerful Anti-Venom",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "Creates a Vial of Powerful Anti-Venom.",
-        ["craftItem"] = 19440,
+        ["craftItem"] = 26296,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -521,13 +521,13 @@
             [1] = {6291},
         },
     },
-    [15935] = {
-        ["name"] = "Cooking: Crispy Bat Wing",
+    [40290] = {
+        ["name"] = "Eternal Crispy Bat Wing",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12224,
+        ["craftItem"] = 26297,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -535,13 +535,13 @@
             [2] = {2678},
         },
     },
-    [21143] = {
-        ["name"] = "Cooking: Gingerbread Cookie",
+    [40291] = {
+        ["name"] = "Eternal Gingerbread Cookie",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 17197,
+        ["craftItem"] = 26298,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -549,13 +549,13 @@
             [2] = {17194},
         },
     },
-    [8604] = {
-        ["name"] = "Cooking: Herb Baked Egg",
+    [40292] = {
+        ["name"] = "Eternal Herb Baked Egg",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6888,
+        ["craftItem"] = 26299,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -576,26 +576,26 @@
             [1] = {769},
         },
     },
-    [6412] = {
-        ["name"] = "Cooking: Kaldorei Spider Kabob",
+    [40293] = {
+        ["name"] = "Eternal Kaldorei Spider Kabob",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5472,
+        ["craftItem"] = 26300,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {5465},
         },
     },
-    [2539] = {
-        ["name"] = "Cooking: Spiced Wolf Meat",
+    [40294] = {
+        ["name"] = "Eternal Spiced Wolf Meat",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2680,
+        ["craftItem"] = 26301,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -616,13 +616,13 @@
             [1] = {5466},
         },
     },
-    [2795] = {
-        ["name"] = "Cooking: Beer Basted Boar Ribs",
+    [40295] = {
+        ["name"] = "Eternal Beer Basted Boar Ribs",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2888,
+        ["craftItem"] = 26302,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -630,13 +630,13 @@
             [2] = {2894},
         },
     },
-    [21144] = {
-        ["name"] = "Cooking: Egg Nog",
+    [40296] = {
+        ["name"] = "Eternal Egg Nog",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 17198,
+        ["craftItem"] = 26303,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -646,13 +646,13 @@
             [4] = {17194},
         },
     },
-    [6414] = {
-        ["name"] = "Cooking: Roasted Kodo Meat",
+    [40297] = {
+        ["name"] = "Eternal Roasted Kodo Meat",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5474,
+        ["craftItem"] = 26304,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -673,13 +673,13 @@
             [1] = {3173},
         },
     },
-    [6499] = {
-        ["name"] = "Cooking: Boiled Clams",
+    [40298] = {
+        ["name"] = "Eternal Boiled Clams",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5525,
+        ["craftItem"] = 26305,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -687,26 +687,26 @@
             [2] = {159},
         },
     },
-    [2541] = {
-        ["name"] = "Cooking: Coyote Steak",
+    [40299] = {
+        ["name"] = "Eternal Coyote Steak",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2684,
+        ["craftItem"] = 26306,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2673},
         },
     },
-    [6415] = {
-        ["name"] = "Cooking: Fillet of Frenzy",
+    [40300] = {
+        ["name"] = "Eternal Fillet of Frenzy",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5476,
+        ["craftItem"] = 26307,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -714,13 +714,13 @@
             [2] = {2678},
         },
     },
-    [2542] = {
-        ["name"] = "Cooking: Goretusk Liver Pie",
+    [40301] = {
+        ["name"] = "Eternal Goretusk Liver Pie",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 724,
+        ["craftItem"] = 26308,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -768,13 +768,13 @@
             [1] = {6361},
         },
     },
-    [6416] = {
-        ["name"] = "Cooking: Strider Stew",
+    [40302] = {
+        ["name"] = "Eternal Strider Stew",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5477,
+        ["craftItem"] = 26309,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -782,13 +782,13 @@
             [2] = {4536},
         },
     },
-    [3371] = {
-        ["name"] = "Cooking: Blood Sausage",
+    [40303] = {
+        ["name"] = "Eternal Blood Sausage",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3220,
+        ["craftItem"] = 26310,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -797,13 +797,13 @@
             [3] = {3174},
         },
     },
-    [9513] = {
-        ["name"] = "Cooking: Thistle Tea",
+    [40304] = {
+        ["name"] = "Eternal Thistle Tea",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 7676,
+        ["craftItem"] = 26311,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -811,13 +811,13 @@
             [2] = {159},
         },
     },
-    [2544] = {
-        ["name"] = "Cooking: Crab Cake",
+    [40305] = {
+        ["name"] = "Eternal Crab Cake",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2683,
+        ["craftItem"] = 26312,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -840,13 +840,13 @@
             [3] = {731},
         },
     },
-    [3370] = {
-        ["name"] = "Cooking: Crocolisk Steak",
+    [40306] = {
+        ["name"] = "Eternal Crocolisk Steak",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3662,
+        ["craftItem"] = 26313,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -854,13 +854,13 @@
             [2] = {2678},
         },
     },
-    [2546] = {
-        ["name"] = "Cooking: Dry Pork Ribs",
+    [40307] = {
+        ["name"] = "Eternal Dry Pork Ribs",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2687,
+        ["craftItem"] = 26314,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -868,13 +868,13 @@
             [2] = {2678},
         },
     },
-    [25704] = {
-        ["name"] = "Cooking: Smoked Sagefish",
+    [40308] = {
+        ["name"] = "Eternal Smoked Sagefish",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 21072,
+        ["craftItem"] = 26315,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -896,13 +896,13 @@
             [2] = {2678},
         },
     },
-    [8238] = {
-        ["name"] = "Cooking: Savory Deviate Delight",
+    [40309] = {
+        ["name"] = "Eternal Savory Deviate Delight",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6657,
+        ["craftItem"] = 26316,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -938,13 +938,13 @@
             [1] = {5051},
         },
     },
-    [3372] = {
-        ["name"] = "Cooking: Murloc Fin Soup",
+    [40310] = {
+        ["name"] = "Eternal Murloc Fin Soup",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3663,
+        ["craftItem"] = 26317,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -952,13 +952,13 @@
             [2] = {2692},
         },
     },
-    [2547] = {
-        ["name"] = "Cooking: Redridge Goulash",
+    [40311] = {
+        ["name"] = "Eternal Redridge Goulash",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 1082,
+        ["craftItem"] = 26318,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -979,13 +979,13 @@
             [1] = {6308},
         },
     },
-    [6418] = {
-        ["name"] = "Cooking: Crispy Lizard Tail",
+    [40312] = {
+        ["name"] = "Eternal Crispy Lizard Tail",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5479,
+        ["craftItem"] = 26319,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -993,13 +993,13 @@
             [2] = {2692},
         },
     },
-    [2549] = {
-        ["name"] = "Cooking: Seasoned Wolf Kabob",
+    [40313] = {
+        ["name"] = "Eternal Seasoned Wolf Kabob",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 1017,
+        ["craftItem"] = 26320,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1021,13 +1021,13 @@
             [2] = {2692},
         },
     },
-    [3397] = {
-        ["name"] = "Cooking: Big Bear Steak",
+    [40314] = {
+        ["name"] = "Eternal Big Bear Steak",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3726,
+        ["craftItem"] = 26321,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1035,13 +1035,13 @@
             [2] = {2692},
         },
     },
-    [3377] = {
-        ["name"] = "Cooking: Gooey Spider Cake",
+    [40315] = {
+        ["name"] = "Eternal Gooey Spider Cake",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3666,
+        ["craftItem"] = 26322,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1049,13 +1049,13 @@
             [2] = {2692},
         },
     },
-    [6419] = {
-        ["name"] = "Cooking: Lean Venison",
+    [40316] = {
+        ["name"] = "Eternal Lean Venison",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5480,
+        ["craftItem"] = 26323,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1063,13 +1063,13 @@
             [2] = {2678, 4},
         },
     },
-    [3373] = {
-        ["name"] = "Cooking: Crocolisk Gumbo",
+    [40317] = {
+        ["name"] = "Eternal Crocolisk Gumbo",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3664,
+        ["craftItem"] = 26324,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1077,13 +1077,13 @@
             [2] = {2692},
         },
     },
-    [6500] = {
-        ["name"] = "Cooking: Goblin Deviled Clams",
+    [40318] = {
+        ["name"] = "Eternal Goblin Deviled Clams",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5527,
+        ["craftItem"] = 26325,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1091,13 +1091,13 @@
             [2] = {2692},
         },
     },
-    [15853] = {
-        ["name"] = "Cooking: Lean Wolf Steak",
+    [40319] = {
+        ["name"] = "Eternal Lean Wolf Steak",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12209,
+        ["craftItem"] = 26326,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1105,13 +1105,13 @@
             [2] = {2678},
         },
     },
-    [3398] = {
-        ["name"] = "Cooking: Hot Lion Chops",
+    [40320] = {
+        ["name"] = "Eternal Hot Lion Chops",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3727,
+        ["craftItem"] = 26327,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1119,13 +1119,13 @@
             [2] = {2692},
         },
     },
-    [3376] = {
-        ["name"] = "Cooking: Curiously Tasty Omelet",
+    [40321] = {
+        ["name"] = "Eternal Curiously Tasty Omelet",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3665,
+        ["craftItem"] = 26328,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1133,13 +1133,13 @@
             [2] = {2692},
         },
     },
-    [24418] = {
-        ["name"] = "Cooking: Heavy Crocolisk Stew",
+    [40322] = {
+        ["name"] = "Eternal Heavy Crocolisk Stew",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 20074,
+        ["craftItem"] = 26329,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1147,13 +1147,13 @@
             [2] = {3713},
         },
     },
-    [3399] = {
-        ["name"] = "Cooking: Tasty Lion Steak",
+    [40323] = {
+        ["name"] = "Eternal Tasty Lion Steak",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3728,
+        ["craftItem"] = 26330,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1207,13 +1207,13 @@
             [1] = {6362},
         },
     },
-    [4094] = {
-        ["name"] = "Cooking: Barbecued Buzzard Wing",
+    [40324] = {
+        ["name"] = "Eternal Barbecued Buzzard Wing",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 4457,
+        ["craftItem"] = 26331,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1221,13 +1221,13 @@
             [2] = {2692},
         },
     },
-    [15863] = {
-        ["name"] = "Cooking: Carrion Surprise",
+    [40325] = {
+        ["name"] = "Eternal Carrion Surprise",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12213,
+        ["craftItem"] = 26332,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1235,13 +1235,13 @@
             [2] = {2692},
         },
     },
-    [7213] = {
-        ["name"] = "Cooking: Giant Clam Scorcho",
+    [40326] = {
+        ["name"] = "Eternal Giant Clam Scorcho",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6038,
+        ["craftItem"] = 26333,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1249,13 +1249,13 @@
             [2] = {2692},
         },
     },
-    [15856] = {
-        ["name"] = "Cooking: Hot Wolf Ribs",
+    [40327] = {
+        ["name"] = "Eternal Hot Wolf Ribs",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13851,
+        ["craftItem"] = 26334,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1263,13 +1263,13 @@
             [2] = {2692},
         },
     },
-    [15861] = {
-        ["name"] = "Cooking: Jungle Stew",
+    [40328] = {
+        ["name"] = "Eternal Jungle Stew",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12212,
+        ["craftItem"] = 26335,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1291,13 +1291,13 @@
             [1] = {8365},
         },
     },
-    [15865] = {
-        ["name"] = "Cooking: Mystery Stew",
+    [40329] = {
+        ["name"] = "Eternal Mystery Stew",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12214,
+        ["craftItem"] = 26336,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1305,13 +1305,13 @@
             [2] = {2596},
         },
     },
-    [15855] = {
-        ["name"] = "Cooking: Roast Raptor",
+    [40330] = {
+        ["name"] = "Eternal Roast Raptor",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12210,
+        ["craftItem"] = 26337,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1319,13 +1319,13 @@
             [2] = {2692},
         },
     },
-    [25954] = {
-        ["name"] = "Cooking: Sagefish Delight",
+    [40554] = {
+        ["name"] = "Eternal Sagefish Delight",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 21217,
+        ["craftItem"] = 0,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1333,13 +1333,13 @@
             [2] = {2692},
         },
     },
-    [3400] = {
-        ["name"] = "Cooking: Soothing Turtle Bisque",
+    [40331] = {
+        ["name"] = "Eternal Soothing Turtle Bisque",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3729,
+        ["craftItem"] = 26338,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1347,13 +1347,13 @@
             [2] = {3713},
         },
     },
-    [15906] = {
-        ["name"] = "Cooking: Dragonbreath Chili",
+    [40332] = {
+        ["name"] = "Eternal Dragonbreath Chili",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12217,
+        ["craftItem"] = 26339,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1362,13 +1362,13 @@
             [3] = {2692},
         },
     },
-    [15910] = {
-        ["name"] = "Cooking: Heavy Kodo Stew",
+    [40333] = {
+        ["name"] = "Eternal Heavy Kodo Stew",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12215,
+        ["craftItem"] = 26340,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1377,26 +1377,26 @@
             [3] = {159},
         },
     },
-    [21175] = {
-        ["name"] = "Cooking: Spider Sausage",
+    [40334] = {
+        ["name"] = "Eternal Spider Sausage",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 17222,
+        ["craftItem"] = 26341,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {12205, 2},
         },
     },
-    [18239] = {
-        ["name"] = "Cooking: Cooked Glossy Mightfish",
+    [40335] = {
+        ["name"] = "Eternal Cooked Glossy Mightfish",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13927,
+        ["craftItem"] = 26342,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1417,13 +1417,13 @@
             [1] = {13758},
         },
     },
-    [15933] = {
-        ["name"] = "Cooking: Monster Omelet",
+    [40336] = {
+        ["name"] = "Eternal Monster Omelet",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12218,
+        ["craftItem"] = 26343,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1431,13 +1431,13 @@
             [2] = {3713, 2},
         },
     },
-    [15915] = {
-        ["name"] = "Cooking: Spiced Chili Crab",
+    [40337] = {
+        ["name"] = "Eternal Spiced Chili Crab",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12216,
+        ["craftItem"] = 26344,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1458,13 +1458,13 @@
             [1] = {4603},
         },
     },
-    [22480] = {
-        ["name"] = "Cooking: Tender Wolf Steak",
+    [40338] = {
+        ["name"] = "Eternal Tender Wolf Steak",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 18045,
+        ["craftItem"] = 26345,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1487,13 +1487,13 @@
             [3] = {1179},
         },
     },
-    [18240] = {
-        ["name"] = "Cooking: Grilled Squid",
+    [40339] = {
+        ["name"] = "Eternal Grilled Squid",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13928,
+        ["craftItem"] = 26346,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1501,13 +1501,13 @@
             [2] = {3713},
         },
     },
-    [18242] = {
-        ["name"] = "Cooking: Hot Smoked Bass",
+    [40558] = {
+        ["name"] = "Eternal Hot Smoked Bass",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13929,
+        ["craftItem"] = 0,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1515,13 +1515,13 @@
             [2] = {2692, 2},
         },
     },
-    [18243] = {
-        ["name"] = "Cooking: Nightfin Soup",
+    [40340] = {
+        ["name"] = "Eternal Nightfin Soup",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13931,
+        ["craftItem"] = 26347,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1529,13 +1529,13 @@
             [2] = {159},
         },
     },
-    [18244] = {
-        ["name"] = "Cooking: Poached Sunscale Salmon",
+    [40341] = {
+        ["name"] = "Eternal Poached Sunscale Salmon",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13932,
+        ["craftItem"] = 26348,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1570,13 +1570,13 @@
             [2] = {159},
         },
     },
-    [18246] = {
-        ["name"] = "Cooking: Mightfish Steak",
+    [40342] = {
+        ["name"] = "Eternal Mightfish Steak",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13934,
+        ["craftItem"] = 26349,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1585,13 +1585,13 @@
             [3] = {3713},
         },
     },
-    [22761] = {
-        ["name"] = "Cooking: Runn Tum Tuber Surprise",
+    [40343] = {
+        ["name"] = "Eternal Runn Tum Tuber Surprise",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 18254,
+        ["craftItem"] = 26350,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1599,13 +1599,13 @@
             [2] = {3713},
         },
     },
-    [24801] = {
-        ["name"] = "Cooking: Smoked Desert Dumplings",
+    [40344] = {
+        ["name"] = "Eternal Smoked Desert Dumplings",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 20452,
+        ["craftItem"] = 26351,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1613,13 +1613,13 @@
             [2] = {3713},
         },
     },
-    [25659] = {
-        ["name"] = "Cooking: Dirge's Kickin' Chimaerok Chops",
+    [40345] = {
+        ["name"] = "Eternal Dirge's Kickin' Chimaerok Chops",
         ["requires"] = AL["Cooking Fire"],
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 21023,
+        ["craftItem"] = 26352,
         ["craftQuantityMin"] = 5,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1629,13 +1629,13 @@
             [4] = {21024},
         },
     },
-    [2329] = {
-        ["name"] = "Alchemy: Elixir of Lion's Strength",
+    [40025] = {
+        ["name"] = "Eternal Elixir of Lion's Strength",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2454,
+        ["craftItem"] = 26112,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1644,13 +1644,13 @@
             [3] = {3371},
         },
     },
-    [7183] = {
-        ["name"] = "Alchemy: Elixir of Minor Defense",
+    [40024] = {
+        ["name"] = "Eternal Elixir of Minor Defense",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5997,
+        ["craftItem"] = 26111,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1658,13 +1658,13 @@
             [2] = {3371},
         },
     },
-    [2330] = {
-        ["name"] = "Alchemy: Minor Healing Potion",
+    [40023] = {
+        ["name"] = "Eternal Minor Healing Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 118,
+        ["craftItem"] = 26110,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1673,13 +1673,13 @@
             [3] = {3371},
         },
     },
-    [3170] = {
-        ["name"] = "Alchemy: Weak Troll's Blood Potion",
+    [40026] = {
+        ["name"] = "Eternal Weak Troll's Blood Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3382,
+        ["craftItem"] = 26113,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1688,13 +1688,13 @@
             [3] = {3371},
         },
     },
-    [2331] = {
-        ["name"] = "Alchemy: Minor Mana Potion",
+    [40027] = {
+        ["name"] = "Eternal Minor Mana Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2455,
+        ["craftItem"] = 26114,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1703,13 +1703,13 @@
             [3] = {3371},
         },
     },
-    [2332] = {
-        ["name"] = "Alchemy: Minor Rejuvenation Potion",
+    [40028] = {
+        ["name"] = "Eternal Minor Rejuvenation Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2456,
+        ["craftItem"] = 26115,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1718,13 +1718,13 @@
             [3] = {3371},
         },
     },
-    [4508] = {
-        ["name"] = "Alchemy: Discolored Healing Potion",
+    [40031] = {
+        ["name"] = "Eternal Discolored Healing Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 4596,
+        ["craftItem"] = 26118,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1733,13 +1733,13 @@
             [3] = {3371},
         },
     },
-    [3230] = {
-        ["name"] = "Alchemy: Elixir of Minor Agility",
+    [40030] = {
+        ["name"] = "Eternal Elixir of Minor Agility",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2457,
+        ["craftItem"] = 26117,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1748,13 +1748,13 @@
             [3] = {3371},
         },
     },
-    [2334] = {
-        ["name"] = "Alchemy: Elixir of Minor Fortitude",
+    [40029] = {
+        ["name"] = "Eternal Elixir of Minor Fortitude",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2458,
+        ["craftItem"] = 26116,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1763,13 +1763,13 @@
             [3] = {3371},
         },
     },
-    [2337] = {
-        ["name"] = "Alchemy: Lesser Healing Potion",
+    [40032] = {
+        ["name"] = "Eternal Lesser Healing Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 858,
+        ["craftItem"] = 26119,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1777,13 +1777,13 @@
             [2] = {2450},
         },
     },
-    [6617] = {
-        ["name"] = "Alchemy: Rage Potion",
+    [40034] = {
+        ["name"] = "Eternal Rage Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5631,
+        ["craftItem"] = 26121,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1792,13 +1792,13 @@
             [3] = {3371},
         },
     },
-    [2335] = {
-        ["name"] = "Alchemy: Swiftness Potion",
+    [40033] = {
+        ["name"] = "Eternal Swiftness Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 2459,
+        ["craftItem"] = 26120,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1821,13 +1821,13 @@
             [2] = {3371},
         },
     },
-    [8240] = {
-        ["name"] = "Alchemy: Elixir of Giant Growth",
+    [40037] = {
+        ["name"] = "Eternal Elixir of Giant Growth",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6662,
+        ["craftItem"] = 26124,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1836,13 +1836,13 @@
             [3] = {3371},
         },
     },
-    [7179] = {
-        ["name"] = "Alchemy: Elixir of Water Breathing",
+    [40036] = {
+        ["name"] = "Eternal Elixir of Water Breathing",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5996,
+        ["craftItem"] = 26123,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1851,13 +1851,13 @@
             [3] = {3371},
         },
     },
-    [3171] = {
-        ["name"] = "Alchemy: Elixir of Wisdom",
+    [40035] = {
+        ["name"] = "Eternal Elixir of Wisdom",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3383,
+        ["craftItem"] = 26122,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1866,13 +1866,13 @@
             [3] = {3371},
         },
     },
-    [7255] = {
-        ["name"] = "Alchemy: Holy Protection Potion",
+    [40038] = {
+        ["name"] = "Eternal Holy Protection Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6051,
+        ["craftItem"] = 26125,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1881,13 +1881,13 @@
             [3] = {3371},
         },
     },
-    [7841] = {
-        ["name"] = "Alchemy: Swim Speed Potion",
+    [40039] = {
+        ["name"] = "Eternal Swim Speed Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6372,
+        ["craftItem"] = 26126,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1896,13 +1896,13 @@
             [3] = {3371},
         },
     },
-    [3447] = {
-        ["name"] = "Alchemy: Healing Potion",
+    [40041] = {
+        ["name"] = "Eternal Healing Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 929,
+        ["craftItem"] = 26128,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1911,13 +1911,13 @@
             [3] = {3372},
         },
     },
-    [3172] = {
-        ["name"] = "Alchemy: Minor Magic Resistance Potion",
+    [40040] = {
+        ["name"] = "Eternal Minor Magic Resistance Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3384,
+        ["craftItem"] = 26127,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1926,13 +1926,13 @@
             [3] = {3371},
         },
     },
-    [3173] = {
-        ["name"] = "Alchemy: Lesser Mana Potion",
+    [40042] = {
+        ["name"] = "Eternal Lesser Mana Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3385,
+        ["craftItem"] = 26129,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1941,13 +1941,13 @@
             [3] = {3371},
         },
     },
-    [3174] = {
-        ["name"] = "Alchemy: Elixir of Poison Resistance",
+    [40043] = {
+        ["name"] = "Eternal Elixir of Poison Resistance",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3386,
+        ["craftItem"] = 26130,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1956,13 +1956,13 @@
             [3] = {3372},
         },
     },
-    [3176] = {
-        ["name"] = "Alchemy: Strong Troll's Blood Potion",
+    [40044] = {
+        ["name"] = "Eternal Strong Troll's Blood Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3388,
+        ["craftItem"] = 26131,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -1985,13 +1985,13 @@
             [2] = {3371},
         },
     },
-    [3177] = {
-        ["name"] = "Alchemy: Elixir of Defense",
+    [40045] = {
+        ["name"] = "Eternal Elixir of Defense",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3389,
+        ["craftItem"] = 26132,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2000,13 +2000,13 @@
             [3] = {3372},
         },
     },
-    [7256] = {
-        ["name"] = "Alchemy: Shadow Protection Potion",
+    [40046] = {
+        ["name"] = "Eternal Shadow Protection Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6048,
+        ["craftItem"] = 26133,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2015,13 +2015,13 @@
             [3] = {3372},
         },
     },
-    [7845] = {
-        ["name"] = "Alchemy: Elixir of Firepower",
+    [40048] = {
+        ["name"] = "Eternal Elixir of Firepower",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6373,
+        ["craftItem"] = 26135,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2030,13 +2030,13 @@
             [3] = {3372},
         },
     },
-    [2333] = {
-        ["name"] = "Alchemy: Elixir of Lesser Agility",
+    [40047] = {
+        ["name"] = "Eternal Elixir of Lesser Agility",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3390,
+        ["craftItem"] = 26134,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2045,13 +2045,13 @@
             [3] = {3372},
         },
     },
-    [3188] = {
-        ["name"] = "Alchemy: Elixir of Ogre's Strength",
+    [40049] = {
+        ["name"] = "Eternal Elixir of Ogre's Strength",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3391,
+        ["craftItem"] = 26136,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2060,13 +2060,13 @@
             [3] = {3372},
         },
     },
-    [6624] = {
-        ["name"] = "Alchemy: Free Action Potion",
+    [40050] = {
+        ["name"] = "Eternal Free Action Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5634,
+        ["craftItem"] = 26137,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2075,13 +2075,13 @@
             [3] = {3372},
         },
     },
-    [7181] = {
-        ["name"] = "Alchemy: Greater Healing Potion",
+    [40051] = {
+        ["name"] = "Eternal Greater Healing Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 1710,
+        ["craftItem"] = 26138,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2090,13 +2090,13 @@
             [3] = {3372},
         },
     },
-    [3452] = {
-        ["name"] = "Alchemy: Mana Potion",
+    [40052] = {
+        ["name"] = "Eternal Mana Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3827,
+        ["craftItem"] = 26139,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2105,13 +2105,13 @@
             [3] = {3372},
         },
     },
-    [3448] = {
-        ["name"] = "Alchemy: Lesser Invisibility Potion",
+    [40053] = {
+        ["name"] = "Eternal Lesser Invisibility Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3823,
+        ["craftItem"] = 26140,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2120,13 +2120,13 @@
             [3] = {3372},
         },
     },
-    [3449] = {
-        ["name"] = "Alchemy: Shadow Oil",
+    [40054] = {
+        ["name"] = "Eternal Shadow Oil",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3824,
+        ["craftItem"] = 26141,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2135,13 +2135,13 @@
             [3] = {3372},
         },
     },
-    [7257] = {
-        ["name"] = "Alchemy: Fire Protection Potion",
+    [40055] = {
+        ["name"] = "Eternal Fire Protection Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6049,
+        ["craftItem"] = 26142,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2150,13 +2150,13 @@
             [3] = {3372},
         },
     },
-    [3450] = {
-        ["name"] = "Alchemy: Elixir of Fortitude",
+    [40056] = {
+        ["name"] = "Eternal Elixir of Fortitude",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5,
         ["text"] = "",
-        ["craftItem"] = 3825,
+        ["craftItem"] = 26143,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2165,13 +2165,13 @@
             [3] = {3372},
         },
     },
-    [6618] = {
-        ["name"] = "Alchemy: Great Rage Potion",
+    [40057] = {
+        ["name"] = "Eternal Great Rage Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 5633,
+        ["craftItem"] = 26144,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2180,13 +2180,13 @@
             [3] = {3372},
         },
     },
-    [3451] = {
-        ["name"] = "Alchemy: Mighty Troll's Blood Potion",
+    [40058] = {
+        ["name"] = "Eternal Mighty Troll's Blood Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3826,
+        ["craftItem"] = 26145,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2195,13 +2195,13 @@
             [3] = {3372},
         },
     },
-    [11449] = {
-        ["name"] = "Alchemy: Elixir of Agility",
+    [40059] = {
+        ["name"] = "Eternal Elixir of Agility",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 8949,
+        ["craftItem"] = 26146,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2210,13 +2210,13 @@
             [3] = {3372},
         },
     },
-    [7258] = {
-        ["name"] = "Alchemy: Frost Protection Potion",
+    [40060] = {
+        ["name"] = "Eternal Frost Protection Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6050,
+        ["craftItem"] = 26147,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2225,13 +2225,13 @@
             [3] = {3372},
         },
     },
-    [21923] = {
-        ["name"] = "Alchemy: Elixir of Frost Power",
+    [40062] = {
+        ["name"] = "Eternal Elixir of Frost Power",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 17708,
+        ["craftItem"] = 26149,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2240,13 +2240,13 @@
             [3] = {3372},
         },
     },
-    [7259] = {
-        ["name"] = "Alchemy: Nature Protection Potion",
+    [40061] = {
+        ["name"] = "Eternal Nature Protection Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6052,
+        ["craftItem"] = 26148,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2255,13 +2255,13 @@
             [3] = {3372},
         },
     },
-    [3453] = {
-        ["name"] = "Alchemy: Elixir of Detect Lesser Invisibility",
+    [40063] = {
+        ["name"] = "Eternal Elixir of Detect Lesser Invisibility",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3828,
+        ["craftItem"] = 26150,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2270,13 +2270,13 @@
             [3] = {3372},
         },
     },
-    [11450] = {
-        ["name"] = "Alchemy: Elixir of Greater Defense",
+    [40064] = {
+        ["name"] = "Eternal Elixir of Greater Defense",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 8951,
+        ["craftItem"] = 26151,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2285,13 +2285,13 @@
             [3] = {3372},
         },
     },
-    [12609] = {
-        ["name"] = "Alchemy: Catseye Elixir",
+    [40066] = {
+        ["name"] = "Eternal Catseye Elixir",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 10592,
+        ["craftItem"] = 26153,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2300,13 +2300,13 @@
             [3] = {3372},
         },
     },
-    [3454] = {
-        ["name"] = "Alchemy: Frost Oil",
+    [40065] = {
+        ["name"] = "Eternal Frost Oil",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5,
         ["text"] = "",
-        ["craftItem"] = 3829,
+        ["craftItem"] = 26152,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2331,13 +2331,13 @@
             [4] = {4625, 4},
         },
     },
-    [11448] = {
-        ["name"] = "Alchemy: Greater Mana Potion",
+    [40067] = {
+        ["name"] = "Eternal Greater Mana Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 6149,
+        ["craftItem"] = 26154,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2346,13 +2346,13 @@
             [3] = {3372},
         },
     },
-    [11451] = {
-        ["name"] = "Alchemy: Oil of Immolation",
+    [40068] = {
+        ["name"] = "Eternal Oil of Immolation",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 8956,
+        ["craftItem"] = 26155,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2376,13 +2376,13 @@
             [3] = {3372},
         },
     },
-    [11453] = {
-        ["name"] = "Alchemy: Magic Resistance Potion",
+    [40069] = {
+        ["name"] = "Eternal Magic Resistance Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9036,
+        ["craftItem"] = 26156,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2391,13 +2391,13 @@
             [3] = {8925},
         },
     },
-    [11452] = {
-        ["name"] = "Alchemy: Restorative Potion",
+    [40070] = {
+        ["name"] = "Eternal Restorative Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9030,
+        ["craftItem"] = 26156,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2421,13 +2421,13 @@
             [3] = {8925},
         },
     },
-    [4942] = {
-        ["name"] = "Alchemy: Lesser Stoneshield Potion",
+    [40071] = {
+        ["name"] = "Eternal Lesser Stoneshield Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 4623,
+        ["craftItem"] = 26157,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2436,13 +2436,13 @@
             [3] = {3372},
         },
     },
-    [11457] = {
-        ["name"] = "Alchemy: Superior Healing Potion",
+    [40072] = {
+        ["name"] = "Eternal Superior Healing Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3928,
+        ["craftItem"] = 26159,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2477,13 +2477,13 @@
             [1] = {3860},
         },
     },
-    [11458] = {
-        ["name"] = "Alchemy: Wildvine Potion",
+    [40074] = {
+        ["name"] = "Eternal Wildvine Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9144,
+        ["craftItem"] = 26161,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2492,13 +2492,13 @@
             [3] = {8925},
         },
     },
-    [15833] = {
-        ["name"] = "Alchemy: Dreamless Sleep Potion",
+    [40076] = {
+        ["name"] = "Eternal Dreamless Sleep Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 12190,
+        ["craftItem"] = 26163,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2506,13 +2506,13 @@
             [2] = {8925},
         },
     },
-    [11460] = {
-        ["name"] = "Alchemy: Elixir of Detect Undead",
+    [40075] = {
+        ["name"] = "Eternal Elixir of Detect Undead",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9154,
+        ["craftItem"] = 26162,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2520,13 +2520,13 @@
             [2] = {8925},
         },
     },
-    [11461] = {
-        ["name"] = "Alchemy: Arcane Elixir",
+    [40077] = {
+        ["name"] = "Eternal Arcane Elixir",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9155,
+        ["craftItem"] = 26164,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2535,13 +2535,13 @@
             [3] = {8925},
         },
     },
-    [11465] = {
-        ["name"] = "Alchemy: Elixir of Greater Intellect",
+    [40079] = {
+        ["name"] = "Eternal Elixir of Greater Intellect",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9179,
+        ["craftItem"] = 26166,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2550,13 +2550,13 @@
             [3] = {8925},
         },
     },
-    [11464] = {
-        ["name"] = "Alchemy: Invisibility Potion",
+    [40078] = {
+        ["name"] = "Eternal Invisibility Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9172,
+        ["craftItem"] = 26165,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2565,13 +2565,13 @@
             [3] = {8925},
         },
     },
-    [11468] = {
-        ["name"] = "Alchemy: Elixir of Dream Vision",
+    [40082] = {
+        ["name"] = "Eternal Elixir of Dream Vision",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9197,
+        ["craftItem"] = 26169,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2579,13 +2579,13 @@
             [2] = {8925},
         },
     },
-    [11467] = {
-        ["name"] = "Alchemy: Elixir of Greater Agility",
+    [40081] = {
+        ["name"] = "Eternal Elixir of Greater Agility",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9187,
+        ["craftItem"] = 26168,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2594,13 +2594,13 @@
             [3] = {8925},
         },
     },
-    [11466] = {
-        ["name"] = "Alchemy: Gift of Arthas",
+    [40080] = {
+        ["name"] = "Eternal Gift of Arthas",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9088,
+        ["craftItem"] = 26167,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2624,13 +2624,13 @@
             [3] = {8925},
         },
     },
-    [11472] = {
-        ["name"] = "Alchemy: Elixir of Giants",
+    [40083] = {
+        ["name"] = "Eternal Elixir of Giants",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9206,
+        ["craftItem"] = 26170,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2639,13 +2639,13 @@
             [3] = {8925},
         },
     },
-    [11477] = {
-        ["name"] = "Alchemy: Elixir of Demonslaying",
+    [40085] = {
+        ["name"] = "Eternal Elixir of Demonslaying",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9224,
+        ["craftItem"] = 26172,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2654,13 +2654,13 @@
             [3] = {8925},
         },
     },
-    [11478] = {
-        ["name"] = "Alchemy: Elixir of Detect Demon",
+    [40086] = {
+        ["name"] = "Eternal Elixir of Detect Demon",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9233,
+        ["craftItem"] = 26173,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2668,13 +2668,13 @@
             [2] = {8925},
         },
     },
-    [26277] = {
-        ["name"] = "Alchemy: Elixir of Greater Firepower",
+    [40087] = {
+        ["name"] = "Eternal Elixir of Greater Firepower",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 21546,
+        ["craftItem"] = 26174,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2683,13 +2683,13 @@
             [3] = {8925},
         },
     },
-    [11476] = {
-        ["name"] = "Alchemy: Elixir of Shadow Power",
+    [40084] = {
+        ["name"] = "Eternal Elixir of Shadow Power",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 9264,
+        ["craftItem"] = 26171,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2711,13 +2711,13 @@
             [2] = {3372},
         },
     },
-    [3175] = {
-        ["name"] = "Alchemy: Limited Invulnerability Potion",
+    [40088] = {
+        ["name"] = "Eternal Limited Invulnerability Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 3387,
+        ["craftItem"] = 26175,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2918,13 +2918,13 @@
             [3] = {8925},
         },
     },
-    [24366] = {
-        ["name"] = "Alchemy: Greater Dreamless Sleep Potion",
+    [40096] = {
+        ["name"] = "Eternal Greater Dreamless Sleep Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 20002,
+        ["craftItem"] = 26183,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -2933,13 +2933,13 @@
             [3] = {8925},
         },
     },
-    [24365] = {
-        ["name"] = "Alchemy: Mageblood Potion",
+    [40095] = {
+        ["name"] = "Eternal Mageblood Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 20007,
+        ["craftItem"] = 26182,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3008,13 +3008,13 @@
             [3] = {8925},
         },
     },
-    [24367] = {
-        ["name"] = "Alchemy: Living Action Potion",
+    [40101] = {
+        ["name"] = "Eternal Living Action Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 20008,
+        ["craftItem"] = 26188,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3114,13 +3114,13 @@
             [3] = {8925},
         },
     },
-    [24368] = {
-        ["name"] = "Alchemy: Major Troll's Blood Potion",
+    [40107] = {
+        ["name"] = "Eternal Major Troll's Blood Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 20004,
+        ["craftItem"] = 26194,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3129,13 +3129,13 @@
             [3] = {8925},
         },
     },
-    [17580] = {
-        ["name"] = "Alchemy: Major Mana Potion",
+    [40108] = {
+        ["name"] = "Eternal Major Mana Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 13444,
+        ["craftItem"] = 26195,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3157,13 +3157,13 @@
             [1] = {7077},
         },
     },
-    [22732] = {
-        ["name"] = "Alchemy: Major Rejuvenation Potion",
+    [40109] = {
+        ["name"] = "Eternal Major Rejuvenation Potion",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 3,
         ["text"] = "",
-        ["craftItem"] = 18253,
+        ["craftItem"] = 26196,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3189,13 +3189,13 @@
             [4] = {13468},
         },
     },
-    [17638] = {
-        ["name"] = "Alchemy: Flask of Chromatic Resistance",
+    [40114] = {
+        ["name"] = "Eternal Flask of Chromatic Resistance",
         ["requires"] = AL["Alchemy Lab"],
         ["tools"] = "",
         ["castTime"] = 25,
         ["text"] = "",
-        ["craftItem"] = 13513,
+        ["craftItem"] = 26201,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3205,13 +3205,13 @@
             [4] = {8925},
         },
     },
-    [17636] = {
-        ["name"] = "Alchemy: Flask of Distilled Wisdom",
+    [40112] = {
+        ["name"] = "Eternal Flask of Distilled Wisdom",
         ["requires"] = AL["Alchemy Lab"],
         ["tools"] = "",
         ["castTime"] = 25,
         ["text"] = "",
-        ["craftItem"] = 13511,
+        ["craftItem"] = 26199,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3221,8 +3221,8 @@
             [4] = {8925},
         },
     },
-    [17634] = {
-        ["name"] = "Alchemy: Flask of Petrification",
+    [40110] = {
+        ["name"] = "Eternal Flask of Petrification",
         ["requires"] = AL["Alchemy Lab"],
         ["tools"] = {9149},
         ["castTime"] = 25,
@@ -3237,13 +3237,13 @@
             [4] = {8925},
         },
     },
-    [17637] = {
-        ["name"] = "Alchemy: Flask of Supreme Power",
+    [40113] = {
+        ["name"] = "Eternal Flask of Supreme Power",
         ["requires"] = AL["Alchemy Lab"],
         ["tools"] = "",
         ["castTime"] = 25,
         ["text"] = "",
-        ["craftItem"] = 13512,
+        ["craftItem"] = 26200,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3253,13 +3253,13 @@
             [4] = {8925},
         },
     },
-    [17635] = {
-        ["name"] = "Alchemy: Flask of the Titans",
+    [40111] = {
+        ["name"] = "Eternal Flask of the Titans",
         ["requires"] = AL["Alchemy Lab"],
         ["tools"] = "",
         ["castTime"] = 25,
         ["text"] = "",
-        ["craftItem"] = 13510,
+        ["craftItem"] = 26198,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3732,13 +3732,13 @@
             [2] = {2840},
         },
     },
-    [3919] = {
-        ["name"] = "Engineering: Rough Dynamite",
+    [40214] = {
+        ["name"] = "Eternal Rough Dynamite",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 4358,
+        ["craftItem"] = 26224,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -3759,8 +3759,8 @@
             [1] = {2840},
         },
     },
-    [3923] = {
-        ["name"] = "Engineering: Rough Copper Bomb",
+    [40216] = {
+        ["name"] = "Eternal Rough Copper Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 5.125,
@@ -3874,13 +3874,13 @@
             [2] = {2840},
         },
     },
-    [3931] = {
-        ["name"] = "Engineering: Coarse Dynamite",
+    [40218] = {
+        ["name"] = "Eternal Coarse Dynamite",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 4365,
+        ["craftItem"] = 26228,
         ["craftQuantityMin"] = 1,
         ["craftQuantityMax"] = 3,
         ["reagents"] = {
@@ -3904,8 +3904,8 @@
             [4] = {774, 2},
         },
     },
-    [3932] = {
-        ["name"] = "Engineering: Target Dummy",
+    [40219] = {
+        ["name"] = "Eternal Target Dummy",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 8,
@@ -3933,13 +3933,13 @@
             [1] = {2842},
         },
     },
-    [8339] = {
-        ["name"] = "Engineering: Ez-Thro Dynamite",
+    [40220] = {
+        ["name"] = "Eternal EZ-Thro Dynamite",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 6714,
+        ["craftItem"] = 26230,
         ["craftQuantityMin"] = 1,
         ["craftQuantityMax"] = 3,
         ["reagents"] = {
@@ -3962,13 +3962,13 @@
             [3] = {2880},
         },
     },
-    [3933] = {
-        ["name"] = "Engineering: Small Seaforium Charge",
+    [40221] = {
+        ["name"] = "Eternal Small Seaforium Charge",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 4367,
+        ["craftItem"] = 26231,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4006,8 +4006,8 @@
             [2] = {2880},
         },
     },
-    [3937] = {
-        ["name"] = "Engineering: Large Copper Bomb",
+    [40222] = {
+        ["name"] = "Eternal Large Copper Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -4051,8 +4051,8 @@
             [2] = {1206},
         },
     },
-    [3941] = {
-        ["name"] = "Engineering: Small Bronze Bomb",
+    [40223] = {
+        ["name"] = "Eternal Small Bronze Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -4124,13 +4124,13 @@
             [1] = {2838},
         },
     },
-    [3946] = {
-        ["name"] = "Engineering: Heavy Dynamite",
+    [40225] = {
+        ["name"] = "Eternal Heavy Dynamite",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 4378,
+        ["craftItem"] = 26235,
         ["craftQuantityMin"] = 1,
         ["craftQuantityMax"] = 5,
         ["reagents"] = {
@@ -4138,13 +4138,13 @@
             [2] = {2592},
         },
     },
-    [26416] = {
-        ["name"] = "Engineering: Small Blue Rocket",
+    [40226] = {
+        ["name"] = "Eternal Small Blue Rocket",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21558,
+        ["craftItem"] = 26236,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4152,13 +4152,13 @@
             [2] = {2319},
         },
     },
-    [26417] = {
-        ["name"] = "Engineering: Small Green Rocket",
+    [40227] = {
+        ["name"] = "Eternal Small Green Rocket",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21559,
+        ["craftItem"] = 26237,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4166,13 +4166,13 @@
             [2] = {2319},
         },
     },
-    [26418] = {
-        ["name"] = "Engineering: Small Red Rocket",
+    [40228] = {
+        ["name"] = "Eternal Small Red Rocket",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21557,
+        ["craftItem"] = 26238,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4180,8 +4180,8 @@
             [2] = {2319},
         },
     },
-    [3944] = {
-        ["name"] = "Engineering: Flame Deflector",
+    [40229] = {
+        ["name"] = "Eternal Flame Deflector",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -4258,8 +4258,8 @@
             [4] = {1206},
         },
     },
-    [3950] = {
-        ["name"] = "Engineering: Big Bronze Bomb",
+    [40230] = {
+        ["name"] = "Eternal Big Bronze Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 8,
@@ -4321,13 +4321,13 @@
             [4] = {1705, 2},
         },
     },
-    [9271] = {
-        ["name"] = "Engineering: Aquadynamic Fish Attractor",
+    [40231] = {
+        ["name"] = "Eternal Aquadynamic Fish Attractor",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 6533,
+        ["craftItem"] = 26241,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4336,13 +4336,13 @@
             [3] = {4364},
         },
     },
-    [23067] = {
-        ["name"] = "Engineering: Blue Firework",
+    [40232] = {
+        ["name"] = "Eternal Blue Firework",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 9312,
+        ["craftItem"] = 26242,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4350,13 +4350,13 @@
             [2] = {4234},
         },
     },
-    [23068] = {
-        ["name"] = "Engineering: Green Firework",
+    [40233] = {
+        ["name"] = "Eternal Green Firework",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 9313,
+        ["craftItem"] = 26243,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4364,13 +4364,13 @@
             [2] = {4234},
         },
     },
-    [23066] = {
-        ["name"] = "Engineering: Red Firework",
+    [40234] = {
+        ["name"] = "Eternal Red Firework",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 9318,
+        ["craftItem"] = 26244,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4406,8 +4406,8 @@
             [3] = {4368},
         },
     },
-    [3955] = {
-        ["name"] = "Engineering: Explosive Sheep",
+    [40235] = {
+        ["name"] = "Eternal Explosive Sheep",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 8,
@@ -4625,8 +4625,8 @@
             [6] = {9060},
         },
     },
-    [23096] = {
-        ["name"] = "Engineering: Alarm-O-Bot",
+    [40265] = {
+        ["name"] = "Eternal Alarm-O-Bot",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 25,
@@ -4658,8 +4658,8 @@
             [3] = {10505, 3},
         },
     },
-    [12716] = {
-        ["name"] = "Engineering: Goblin Mortar",
+    [40255] = {
+        ["name"] = "Eternal Goblin Mortar",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 25,
@@ -4706,13 +4706,13 @@
             [4] = {3860, 6},
         },
     },
-    [12760] = {
-        ["name"] = "Engineering: Goblin Sapper Charge",
+    [40252] = {
+        ["name"] = "Eternal Goblin Sapper Charge",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 25,
         ["text"] = "",
-        ["craftItem"] = 10646,
+        ["craftItem"] = 26262,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4785,8 +4785,8 @@
             [5] = {4407, 2},
         },
     },
-    [12754] = {
-        ["name"] = "Engineering: The Big One",
+    [40260] = {
+        ["name"] = "Eternal The Big One",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -4868,8 +4868,8 @@
             [5] = {7910, 2},
         },
     },
-    [3957] = {
-        ["name"] = "Engineering: Ice Deflector",
+    [40236] = {
+        ["name"] = "Eternal Ice Deflector",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -4896,8 +4896,8 @@
             [1] = {3575, 2},
         },
     },
-    [3959] = {
-        ["name"] = "Engineering: Discombobulator Ray",
+    [40237] = {
+        ["name"] = "Eternal Discombobulator Ray",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -4931,8 +4931,8 @@
             [6] = {7191},
         },
     },
-    [3960] = {
-        ["name"] = "Engineering: Portable Bronze Mortar",
+    [40238] = {
+        ["name"] = "Eternal Portable Bronze Mortar",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -4975,13 +4975,13 @@
             [1] = {7912, 2},
         },
     },
-    [12586] = {
-        ["name"] = "Engineering: Solid Dynamite",
+    [40239] = {
+        ["name"] = "Eternal Solid Dynamite",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 10507,
+        ["craftItem"] = 26249,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -4989,13 +4989,13 @@
             [2] = {4306},
         },
     },
-    [26420] = {
-        ["name"] = "Engineering: Large Blue Rocket",
+    [40240] = {
+        ["name"] = "Eternal Large Blue Rocket",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21589,
+        ["craftItem"] = 26250,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5031,8 +5031,8 @@
             [2] = {4234},
         },
     },
-    [3963] = {
-        ["name"] = "Engineering: Compact Harvest Reaper Kit",
+    [40243] = {
+        ["name"] = "Eternal Compact Harvest Reaper Kit",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 25,
@@ -5060,8 +5060,8 @@
             [1] = {3859, 4},
         },
     },
-    [3962] = {
-        ["name"] = "Engineering: Iron Grenade",
+    [40244] = {
+        ["name"] = "Eternal Iron Grenade",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -5104,8 +5104,8 @@
             [3] = {3864},
         },
     },
-    [3965] = {
-        ["name"] = "Engineering: Advanced Target Dummy",
+    [40245] = {
+        ["name"] = "Eternal Advanced Target Dummy",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -5120,13 +5120,13 @@
             [4] = {4234, 4},
         },
     },
-    [8243] = {
-        ["name"] = "Engineering: Flash Bomb",
+    [40246] = {
+        ["name"] = "Eternal Flash Bomb",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 4852,
+        ["craftItem"] = 26256,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5149,8 +5149,8 @@
             [2] = {3864, 2},
         },
     },
-    [3967] = {
-        ["name"] = "Engineering: Big Iron Bomb",
+    [40247] = {
+        ["name"] = "Eternal Big Iron Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -5193,8 +5193,8 @@
             [1] = {3860, 3},
         },
     },
-    [3968] = {
-        ["name"] = "Engineering: Goblin Land Mine",
+    [40248] = {
+        ["name"] = "Eternal Goblin Land Mine",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -5208,13 +5208,13 @@
             [3] = {4389},
         },
     },
-    [23069] = {
-        ["name"] = "Engineering: EZ-Thro Dynamite II",
+    [40249] = {
+        ["name"] = "Eternal EZ-Thro Dynamite II",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 18588,
+        ["craftItem"] = 26259,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5222,13 +5222,13 @@
             [2] = {4338, 2},
         },
     },
-    [3972] = {
-        ["name"] = "Engineering: Large Seaforium Charge",
+    [40250] = {
+        ["name"] = "Eternal Large Seaforium Charge",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 12.5,
         ["text"] = "",
-        ["craftItem"] = 4398,
+        ["craftItem"] = 26260,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5237,8 +5237,8 @@
             [3] = {159},
         },
     },
-    [15255] = {
-        ["name"] = "Engineering: Mechanical Repair Kit",
+    [40251] = {
+        ["name"] = "Eternal Mechanical Repair Kit",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 8,
@@ -5376,8 +5376,8 @@
             [1] = {3860, 3},
         },
     },
-    [12603] = {
-        ["name"] = "Engineering: Mithril Frag Bomb",
+    [40254] = {
+        ["name"] = "Eternal Mithril Frag Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 8,
@@ -5423,13 +5423,13 @@
             [5] = {3864, 2},
         },
     },
-    [26423] = {
-        ["name"] = "Engineering: Blue Rocket Cluster",
+    [40256] = {
+        ["name"] = "Eternal Blue Rocket Cluster",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21571,
+        ["craftItem"] = 26266,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5437,13 +5437,13 @@
             [2] = {4304},
         },
     },
-    [26424] = {
-        ["name"] = "Engineering: Green Rocket Cluster",
+    [40257] = {
+        ["name"] = "Eternal Green Rocket Cluster",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21574,
+        ["craftItem"] = 26267,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5451,13 +5451,13 @@
             [2] = {4304},
         },
     },
-    [26425] = {
-        ["name"] = "Engineering: Red Rocket Cluster",
+    [40258] = {
+        ["name"] = "Eternal Red Rocket Cluster",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21576,
+        ["craftItem"] = 26268,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5617,13 +5617,13 @@
             [1] = {12365, 2},
         },
     },
-    [23070] = {
-        ["name"] = "Engineering: Dense Dynamite",
+    [40262] = {
+        ["name"] = "Eternal Dense Dynamite",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 18641,
+        ["craftItem"] = 26272,
         ["craftQuantityMin"] = 2,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5631,13 +5631,13 @@
             [2] = {14047, 3},
         },
     },
-    [23507] = {
-        ["name"] = "Engineering: Snake Burst Firework",
+    [40263] = {
+        ["name"] = "Eternal Snake Burst Firework",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 12.5,
         ["text"] = "",
-        ["craftItem"] = 19026,
+        ["craftItem"] = 26273,
         ["craftQuantityMin"] = 4,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5747,8 +5747,8 @@
             [5] = {10546},
         },
     },
-    [19790] = {
-        ["name"] = "Engineering: Thorium Grenade",
+    [40264] = {
+        ["name"] = "Eternal Thorium Grenade",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -5809,13 +5809,13 @@
             [4] = {14047, 8},
         },
     },
-    [26426] = {
-        ["name"] = "Engineering: Large Blue Rocket Cluster",
+    [40266] = {
+        ["name"] = "Eternal Large Blue Rocket Cluster",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21714,
+        ["craftItem"] = 26276,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5823,13 +5823,13 @@
             [2] = {8170},
         },
     },
-    [26427] = {
-        ["name"] = "Engineering: Large Green Rocket Cluster",
+    [40267] = {
+        ["name"] = "Eternal Large Green Rocket Cluster",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21716,
+        ["craftItem"] = 26277,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5837,13 +5837,13 @@
             [2] = {8170},
         },
     },
-    [26428] = {
-        ["name"] = "Engineering: Large Red Rocket Cluster",
+    [40268] = {
+        ["name"] = "Eternal Large Red Rocket Cluster",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 21718,
+        ["craftItem"] = 26278,
         ["craftQuantityMin"] = 3,
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5851,13 +5851,13 @@
             [2] = {8170},
         },
     },
-    [23080] = {
-        ["name"] = "Engineering: Powerful Seaforium Charge",
+    [40269] = {
+        ["name"] = "Eternal Powerful Seaforium Charge",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 12.5,
         ["text"] = "",
-        ["craftItem"] = 18594,
+        ["craftItem"] = 26279,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -5901,8 +5901,8 @@
             [6] = {8170, 4},
         },
     },
-    [19814] = {
-        ["name"] = "Engineering: Masterwork Target Dummy",
+    [40270] = {
+        ["name"] = "Eternal Masterwork Target Dummy",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956, 6219},
         ["castTime"] = 12.5,
@@ -5948,8 +5948,8 @@
             [1] = {12359, 6},
         },
     },
-    [19799] = {
-        ["name"] = "Engineering: Dark Iron Bomb",
+    [40271] = {
+        ["name"] = "Eternal Dark Iron Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -6127,8 +6127,8 @@
             [6] = {12799, 2},
         },
     },
-    [19831] = {
-        ["name"] = "Engineering: Arcane Bomb",
+    [40273] = {
+        ["name"] = "Eternal Arcane Bomb",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -6533,26 +6533,26 @@
             [1] = {2840, 4},
         },
     },
-    [2660] = {
-        ["name"] = "Blacksmithing: Rough Sharpening Stone",
+    [40170] = {
+        ["name"] = "Eternal Rough Sharpening Stone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 2862,
+        ["craftItem"] = 26202,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2835},
         },
     },
-    [3115] = {
-        ["name"] = "Blacksmithing: Rough Weightstone",
+    [40171] = {
+        ["name"] = "Eternal Rough Weightstone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 3239,
+        ["craftItem"] = 26203,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -6779,26 +6779,26 @@
             [3] = {774},
         },
     },
-    [2665] = {
-        ["name"] = "Blacksmithing: Coarse Sharpening Stone",
+    [40172] = {
+        ["name"] = "Eternal Coarse Sharpening Stone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 2863,
+        ["craftItem"] = 26204,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2836},
         },
     },
-    [3116] = {
-        ["name"] = "Blacksmithing: Coarse Weightstone",
+    [40173] = {
+        ["name"] = "Eternal Coarse Weightstone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 3240,
+        ["craftItem"] = 26205,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -6937,8 +6937,8 @@
             [2] = {3470, 2},
         },
     },
-    [19666] = {
-        ["name"] = "Blacksmithing: Silver Skeleton Key",
+    [40174] = {
+        ["name"] = "Eternal Silver Skeleton Key",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -7099,26 +7099,26 @@
             [2] = {3478, 2},
         },
     },
-    [2674] = {
-        ["name"] = "Blacksmithing: Heavy Sharpening Stone",
+    [40175] = {
+        ["name"] = "Eternal Heavy Sharpening Stone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 2871,
+        ["craftItem"] = 26207,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {2838},
         },
     },
-    [3117] = {
-        ["name"] = "Blacksmithing: Heavy Weightstone",
+    [40176] = {
+        ["name"] = "Eternal Heavy Weightstone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 3241,
+        ["craftItem"] = 26208,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -7362,8 +7362,8 @@
             [1] = {3575},
         },
     },
-    [19667] = {
-        ["name"] = "Blacksmithing: Golden Skeleton Key",
+    [40177] = {
+        ["name"] = "Eternal Golden Skeleton Key",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -8402,26 +8402,26 @@
             [1] = {7912, 4},
         },
     },
-    [9918] = {
-        ["name"] = "Blacksmithing: Solid Sharpening Stone",
+    [40178] = {
+        ["name"] = "Eternal Solid Sharpening Stone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 7964,
+        ["craftItem"] = 26210,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {7912},
         },
     },
-    [9921] = {
-        ["name"] = "Blacksmithing: Solid Weightstone",
+    [40179] = {
+        ["name"] = "Eternal Solid Weightstone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 5.125,
         ["text"] = "",
-        ["craftItem"] = 7964,
+        ["craftItem"] = 26211,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -8429,8 +8429,8 @@
             [2] = {4306},
         },
     },
-    [19668] = {
-        ["name"] = "Blacksmithing: Truesilver Skeleton Key",
+    [40180] = {
+        ["name"] = "Eternal Truesilver Skeleton Key",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 5.125,
@@ -8944,26 +8944,26 @@
             [1] = {12365, 4},
         },
     },
-    [16641] = {
-        ["name"] = "Blacksmithing: Dense Sharpening Stone",
+    [40181] = {
+        ["name"] = "Eternal Dense Sharpening Stone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 12404,
+        ["craftItem"] = 26213,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
             [1] = {12365},
         },
     },
-    [16640] = {
-        ["name"] = "Blacksmithing: Dense Weightstone",
+    [40182] = {
+        ["name"] = "Eternal Dense Weightstone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 12643,
+        ["craftItem"] = 26214,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
@@ -9132,8 +9132,8 @@
             [2] = {12644},
         },
     },
-    [19669] = {
-        ["name"] = "Blacksmithing: Arcanite Skeleton Key",
+    [40183] = {
+        ["name"] = "Eternal Arcanite Skeleton Key",
         ["requires"] = AL["Anvil"],
         ["tools"] = {5956},
         ["castTime"] = 8,
@@ -9557,13 +9557,13 @@
             [2] = {7910, 4},
         },
     },
-    [22757] = {
-        ["name"] = "Blacksmithing: Elemental Sharpening Stone",
+    [40184] = {
+        ["name"] = "Eternal Elemental Sharpening Stone",
         ["requires"] = "",
         ["tools"] = "",
         ["castTime"] = 8,
         ["text"] = "",
-        ["craftItem"] = 18262,
+        ["craftItem"] = 26216,
         ["craftQuantityMin"] = "",
         ["craftQuantityMax"] = "",
         ["reagents"] = {
