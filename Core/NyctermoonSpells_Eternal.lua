@@ -1,18 +1,5 @@
 
-["craftspells"] = {
-    [6510] = {
-        ["name"] = "Poisons: Blinding Powder",
-        ["requires"] = "",
-        ["tools"] = "",
-        ["castTime"] = 3,
-        ["text"] = "Create the reagent for the Blind ability.",
-        ["craftItem"] = 5530,
-        ["craftQuantityMin"] = 3,
-        ["craftQuantityMax"] = "",
-        ["reagents"] = {
-            [1] = {3818},
-        },
-    },
+["NyctermoonCraftSpells"] = {
     [40354] = {
         ["name"] = "Eternal Instant Poison",
         ["requires"] = "",
