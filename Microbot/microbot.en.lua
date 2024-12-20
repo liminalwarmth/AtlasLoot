@@ -1,6 +1,6 @@
 AtlasLoot_Data["AtlasLootMicrobot"] = {
 
-	Nycter_Custom1 = {
+	Microbot_Custom1 = {
 		{ 0, "INV_Box_01", "Special Shirts", "" },
 		{ 26004, "INV_Shirt_02", "=q3=Peasant's Garb", "=q7=Quest: Tailoring Trainer" },
 		{ 26003, "INV_Shirt_White_01", "=q4=New Beginnings", "=q7=Quest: Tailoring Trainer" },
@@ -34,7 +34,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 0, "", "", "" },
 	};
 
-	Nycter_Licenses1 = {
+	Microbot_Licenses1 = {
 		{ 26021, "INV_LICENSE_T1D", "=q1=Dungeon License : T1D", "=q1=#m4#" },
 		{ 26022, "INV_LICENSE_T2D", "=q2=Dungeon License : T2D", "=q1=#m4#" },
 		{ 26023, "INV_LICENSE_T3D", "=q3=Dungeon License : T3D", "=q1=#m4#" },
@@ -64,7 +64,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26039, "INV_Jewelry_Amulet_03", "=q3=Token of Mastery", "=q2=#m5#" },
 	};
 
-	Nycter_TokenTrading = {
+	Microbot_TokenTrading = {
 		{ 0, "spell_nature_earthquake", "Raid Tokens", "One trade per raid cleared per character" },
 		{ 26040, "", "Token of Molten Core", "10 =q7=Tokens of Mastery" },
 		{ 26041, "", "Token of Blackwing Lair", "20 =q7=Tokens of Mastery" },
@@ -92,7 +92,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 0, "", "", "" },
 	};
 
-	Nycter_Illusions = {
+	Microbot_Illusions = {
 		{ 26092, "", "Illusion: Hammerguard Shield", "1 =q7=Token of Mastery" },
 		{ 26109, "", "Illusion: Exquisite Monocle of Fiscal Precision", "2 =q7=Tokens of Mastery" },
 		{ 26090, "", "Illusion: Umbral Deceiver's Grips", "5 =q7=Tokens of Mastery" },
@@ -125,7 +125,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 0, "", "", "" },
 	};
 
-	Nycter_LootPets1 = {
+	Microbot_LootPets1 = {
 		{ 26512, "", "Trogg", "=q7=Ragefire Chasm", "10%" },
 		{ 26510, "", "Junkbot", "=q7=Deadmines", "50%" },
 		{ 26511, "", "Rainboa", "=q7=Wailing Caverns", "50%" },
@@ -159,7 +159,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26564, "", "Petopia", "=q7=All Instances", "10%" },
 	};
 
-	Nycter_FactionRewards1 = {
+	Microbot_FactionRewards1 = {
 		{ 26393, "", "Formula: Eternal Juju Power", "=ds=#p4# #m14#, =q7=Timbermaw Hold #r5#" },
 		{ 26394, "", "Formula: Eternal Juju Might", "=ds=#p4# #m14#, =q7=Timbermaw Hold #r5#" },
 		{ 26395, "", "Formula: Eternal Juju Guile", "=ds=#p4# #m14#, =q7=Timbermaw Hold #r5#" },
@@ -193,7 +193,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 0, "", "", "" },
 	};
 
-	Nycter_Miscellaneous = {
+	Microbot_Miscellaneous = {
 		{ 26085, "", "Scroll of Songflower Serenade", "=q7=Reward: Cleansed Songflower (Felwood)" },
 		{ 26086, "", "Scroll of Mol'dar's Moxie", "=q7=Reward: Guard Tribute (DM North)" },
 		{ 26087, "", "Scroll of Slip'kik's Savvy", "=q7=Reward: Guard Tribute (DM North)" },
@@ -227,7 +227,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 0, "", "", "" },
 	};
 
-	Nycter_EternalRecipes_Alchemy1 = {
+	Microbot_EternalRecipes_Alchemy1 = {
 		{ 26110, "", "Eternal Minor Healing Potion", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26111, "", "Eternal Elixir of Minor Defense", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26112, "", "Eternal Elixir of Lion's Strength", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
@@ -259,7 +259,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26137, "", "Eternal Free Action Potion", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Alchemy2 = {
+	Microbot_EternalRecipes_Alchemy2 = {
 		{ 26138, "", "Eternal Greater Healing Potion", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Lesser Mystic Essence|r" },
 		{ 26139, "", "Eternal Mana Potion", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Lesser Mystic Essence|r" },
 		{ 26140, "", "Eternal Lesser Invisibility Potion", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
@@ -276,7 +276,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26151, "", "Eternal Elixir of Greater Defense", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Greater Mystic Essence|r" },
 	};	
 
-	Nycter_EternalRecipes_Alchemy3 = {
+	Microbot_EternalRecipes_Alchemy3 = {
 		{ 26152, "", "Eternal Frost Oil", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
 		{ 26153, "", "Eternal Catseye Elixir", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
 		{ 26154, "", "Eternal Greater Mana Potion", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
@@ -299,7 +299,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26170, "", "Eternal Elixir of Giants", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Greater Nether Essence|r" },
 	};	
 
-	Nycter_EternalRecipes_Alchemy4 = {
+	Microbot_EternalRecipes_Alchemy4 = {
 		{ 26171, "", "Eternal Elixir of Shadow Power", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Lesser Eternal Essence|r" },
 		{ 26172, "", "Eternal Elixir of Demonslaying", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Lesser Eternal Essence|r" },
 		{ 26173, "", "Eternal Elixir of Detect Demon", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Lesser Eternal Essence|r" },
@@ -329,7 +329,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26196, "", "Eternal Major Rejuvenation Potion", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd3x Greater Eternal Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Alchemy5 = {
+	Microbot_EternalRecipes_Alchemy5 = {
 		{ 26197, "", "Eternal Flask of Petrification", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd5x Greater Eternal Essence|r" },
 		{ 26198, "", "Eternal Flask of the Titans", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd5x Greater Eternal Essence|r" },
 		{ 26199, "", "Eternal Flask of Distilled Wisdom", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd5x Greater Eternal Essence|r" },
@@ -349,7 +349,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26455, "", "Eternal Winterfall Firewater", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd3x Greater Eternal Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Engineering1 = {
+	Microbot_EternalRecipes_Engineering1 = {
 		{ 26224, "", "Eternal Rough Dynamite", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26225, "", "Eternal Crafted Light Shot", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26226, "", "Eternal Rough Copper Bomb", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
@@ -374,7 +374,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26245, "", "Eternal Explosive Sheep", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd2x Greater Astral Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Engineering2 = {
+	Microbot_EternalRecipes_Engineering2 = {
 		{ 26246, "", "Eternal Ice Deflector", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Lesser Mystic Essence|r" },
 		{ 26247, "", "Eternal Discombobulator Ray", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Lesser Mystic Essence|r" },
 		{ 26248, "", "Eternal Portable Bronze Mortar", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd2x Lesser Mystic Essence|r" },
@@ -402,7 +402,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26271, "", "Eternal Mithril Gyro-Shot", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd2x Greater Nether Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Engineering3 = {
+	Microbot_EternalRecipes_Engineering3 = {
 		{ 26272, "", "Eternal Dense Dynamite", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Lesser Eternal Essence|r" },
 		{ 26273, "", "Eternal Snake Burst Firework", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Lesser Eternal Essence|r" },
 		{ 26274, "", "Eternal Thorium Grenade", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd2x Lesser Eternal Essence|r" },
@@ -417,7 +417,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26283, "", "Eternal Arcane Bomb", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd5x Greater Eternal Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Enchanting1 = {
+	Microbot_EternalRecipes_Enchanting1 = {
 		{ 26217, "", "Eternal Minor Wizard Oil", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26218, "", "Eternal Minor Mana Oil", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd1x Greater Astral Essence|r" },
 		{ 26219, "", "Eternal Lesser Wizard Oil", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Greater Mystic Essence|r" },
@@ -434,7 +434,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26392, "", "Eternal Juju Escape", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd3x Greater Eternal Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Smithing1 = {
+	Microbot_EternalRecipes_Smithing1 = {
 		{ 26202, "", "Eternal Rough Sharpening Stone", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26203, "", "Eternal Rough Weightstone", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26204, "", "Eternal Coarse Sharpening Stone", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Lesser Magic Essence|r" },
@@ -452,7 +452,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26216, "", "Eternal Elemental Sharpening Stone", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd3x Greater Eternal Essence|r" },
 	};
 
-	Nycter_EternalRecipes_FirstAid1 = {
+	Microbot_EternalRecipes_FirstAid1 = {
 		{ 26284, "", "Eternal Linen Bandage", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26285, "", "Eternal Heavy Linen Bandage", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26286, "", "Eternal Anti-Venom", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Lesser Magic Essence|r" },
@@ -468,7 +468,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26296, "", "Eternal Powerful Anti-Venom", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd5x Greater Eternal Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Poisons1 = {
+	Microbot_EternalRecipes_Poisons1 = {
 		{ 26366, "", "Eternal Instant Poison", "=ds=|cff0070dd1x Greater Magic Essence|r" },
 		{ 26367, "", "Eternal Instant Poison II", "=ds=|cff0070dd1x Greater Astral Essence|r" },
 		{ 26368, "", "Eternal Instant Poison III", "=ds=|cff0070dd1x Greater Mystic Essence|r" },
@@ -491,7 +491,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26385, "", "Eternal Crippling Poison II", "=ds=|cff0070dd1x Greater Eternal Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Cooking1 = {
+	Microbot_EternalRecipes_Cooking1 = {
 		{ 26297, "", "Eternal Crispy Bat Wing", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26298, "", "Eternal Gingerbread Cookie", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
 		{ 26299, "", "Eternal Herb Baked Egg", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd1x Lesser Magic Essence|r" },
@@ -518,7 +518,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26320, "", "Eternal Seasoned Wolf Kabob", "=ds=|cff1eff00Runed Copper Rod|r |cff0070dd2x Greater Magic Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Cooking2 = {
+	Microbot_EternalRecipes_Cooking2 = {
 		{ 26321, "", "Eternal Big Bear Steak", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd1x Lesser Astral Essence|r" },
 		{ 26322, "", "Eternal Gooey Spider Cake", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd1x Lesser Astral Essence|r" },
 		{ 26323, "", "Eternal Lean Venison", "=ds=|cff1eff00Runed Silver Rod|r |cff0070dd1x Lesser Astral Essence|r" },
@@ -539,7 +539,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26338, "", "Eternal Soothing Turtle Bisque", "=ds=|cff1eff00Runed Golden Rod|r |cff0070dd1x Greater Mystic Essence|r" },
 	};
 
-	Nycter_EternalRecipes_Cooking3 = {
+	Microbot_EternalRecipes_Cooking3 = {
 		{ 26339, "", "Eternal Dragonbreath Chili", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
 		{ 26340, "", "Eternal Heavy Kodo Stew", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
 		{ 26341, "", "Eternal Spider Sausage", "=ds=|cff1eff00Runed Truesilver Rod|r |cff0070dd1x Lesser Nether Essence|r" },
@@ -561,7 +561,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 26413, "", "Eternal Sweet Surprise", "=ds=|cff1eff00Runed Arcanite Rod|r |cff0070dd1x Greater Eternal Essence|r" },
 	};
 
-	Nycter_Legendaries1 = {
+	Microbot_Legendaries1 = {
 		{ 26424, "", "Benediction, Bringer of Light", "=q7=Keeper Remulos in Moonglade" },
 		{ 26425, "", "Anathema, Harbinger of Shadows", "=q1=Transformed from Benediction" },
 		{ 26426, "", "Benediction, Bringer of Light", "=q1=Upgrade Level 2" },
@@ -599,7 +599,7 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 	--- Classes ---
 	---------------
 
-	Nycter_Classes_Priest = {
+	Microbot_Classes_Priest = {
 		{ 26425, "", "Anathema", "=q1=#m4# =ds=#w9# =q9=#c5#" },
 		{ 26427, "", "Anathema", "=q1=#m4# =ds=#w9# =q9=#c5#" },
 		{ 26429, "", "Anathema", "=q1=#m4# =ds=#w9# =q9=#c5#" },
@@ -633,23 +633,23 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 0, "", "", "" },
 	};
 
-	Nycter_Classes_Mage = {
+	Microbot_Classes_Mage = {
 
 	};
 
-	Nycter_Classes_Warlock = {
+	Microbot_Classes_Warlock = {
 
 	};
 
-	Nycter_Classes_Rogue = {
+	Microbot_Classes_Rogue = {
 
 	};
 
-	Nycter_Classes_Druid = {
+	Microbot_Classes_Druid = {
 
 	};
 
-	Nycter_Classes_Hunter = {
+	Microbot_Classes_Hunter = {
 		{ 28326, "INV_Weapon_Bow_01", "=q5=Rhok'delar, Longbow of the Ancient Keepers", "=q1=#m4# =ds=#w2# =q14=#c2#" },
 		{ 28327, "INV_Weapon_Bow_01", "=q5=Rhok'delar, Longbow of the Ancient Keepers", "=q1=#m4# =ds=#w2# =q14=#c2#" },
 		{ 28328, "INV_Weapon_Bow_01", "=q5=Rhok'delar, Longbow of the Ancient Keepers", "=q1=#m4# =ds=#w2# =q14=#c2#" },
@@ -671,15 +671,15 @@ AtlasLoot_Data["AtlasLootMicrobot"] = {
 		{ 28334, "INV_Misc_Gem_Pearl_05", "=q5=Essence of Primordial Breath", "=q1=#m4#" },
 	};
 
-	Nycter_Classes_Shaman = {
+	Microbot_Classes_Shaman = {
 
 	};
 
-	Nycter_Classes_Paladin = {
+	Microbot_Classes_Paladin = {
 
 	};
 
-	Nycter_Classes_Warrior = {
+	Microbot_Classes_Warrior = {
 
 	};
 }

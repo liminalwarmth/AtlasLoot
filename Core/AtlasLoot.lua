@@ -70,8 +70,8 @@ local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 local VERSION_MAJOR = "4";
 local VERSION_MINOR = "06";
 local VERSION_BOSSES = "06";
-local VERSION_NYCTER = "05";
-ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."."..VERSION_NYCTER.."|r";
+local VERSION_Microbot = "05";
+ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."."..VERSION_Microbot.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.12.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.12.1";
 
@@ -161,7 +161,7 @@ local DefaultAtlasLootOptions = {
 	HidePanel = false,
 	LastBoss = "RFCTaragaman",
 	LastBossText = AL["Taragaman the Hungerer"],
-	AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_NYCTER,
+	AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_Microbot,
 	AutoQuery = false,
 	PartialMatching = true,
 };
@@ -342,7 +342,7 @@ function AtlasLoot_OnVariablesLoaded()
 		if AtlasLootCharDB.FirstTime == nil and tonumber(AtlasLootCharDB.AtlasLootVersion) < 40500 then
 			AtlasLootCharDB.SafeLinks = true;
 			AtlasLootCharDB.AllLinks = false;
-			AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_NYCTER;
+			AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_Microbot;
 			StaticPopup_Show ("ATLASLOOT_SETUP");
 			AtlasLootCharDB.FirstTime = false;
 		end
@@ -382,7 +382,7 @@ function AtlasLoot_OnVariablesLoaded()
 				end
 			end
 		end
-		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_NYCTER;
+		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_Microbot;
 		AtlasLootCharDB.AutoQuery = false;
 		AtlasLootOptions_Init();
 	end
@@ -510,7 +510,7 @@ function AtlasLootOptions_Fresh()
 	AtlasLootCharDB.HidePanel = false;
 	AtlasLootCharDB.LastBoss = "RFCTaragaman";
 	AtlasLootCharDB.LastBossText = AL["Taragaman the Hungerer"];
-	AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_NYCTER;
+	AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_Microbot;
 	AtlasLootCharDB.AutoQuery = false;
 	AtlasLootCharDB.PartialMatching = true;
 end
@@ -2110,7 +2110,7 @@ function AtlasLootOptions_DefaultSettings()
 	AtlasLootCharDB.ItemSpam = true;
 	AtlasLootCharDB.MinimapButton = true;
 	AtlasLootCharDB.HidePanel = false;
-	AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_NYCTER;
+	AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES..VERSION_Microbot;
 	AtlasLootCharDB.AutoQuery = false;
 	AtlasLootCharDB.PartialMatching = true;
 	AtlasLootCharDB.LastBoss = "RFCTaragaman";
@@ -2432,15 +2432,15 @@ AtlasLoot_DewDropDown = {
 	},
 	[8] = {
 		[AL["Microbot"]] = {
-			[1] = { { ("Microbot Custom Items"), "Nycter_Custom1", "Table" }, },
-			[2] = { { ("Companion Licenses"), "Nycter_Licenses1", "Table" }, },
-			[3] = { { ("Reputation Rewards"), "Nycter_FactionRewards1", "Table" }, },
-			[4] = { { (AL["Loot Pets"]), "Nycter_LootPets1", "Table" }, },
-			[5] = { { ("Microbot Legendary Weapons"), "Nycter_Legendaries1", "Table" }, },
+			[1] = { { ("Microbot Custom Items"), "Microbot_Custom1", "Table" }, },
+			[2] = { { ("Companion Licenses"), "Microbot_Licenses1", "Table" }, },
+			[3] = { { ("Reputation Rewards"), "Microbot_FactionRewards1", "Table" }, },
+			[4] = { { (AL["Loot Pets"]), "Microbot_LootPets1", "Table" }, },
+			[5] = { { ("Microbot Legendary Weapons"), "Microbot_Legendaries1", "Table" }, },
 			[6] = { { ("Eternal Crafting"), "Microbot_ETERNALRECIPESMENU", "Submenu" }, },
-			[7] = { { ("Griznak the Collector (Booty Bay)"), "Nycter_TokenTrading", "Table" }, },
-			[8] = { { ("Griznak's Transmog Illusions"), "Nycter_Illusions", "Table" }, },
-			[9] = { { (AL["Miscellaneous"]), "Nycter_Miscellaneous", "Table" }, },
+			[7] = { { ("Griznak the Collector (Booty Bay)"), "Microbot_TokenTrading", "Table" }, },
+			[8] = { { ("Griznak's Transmog Illusions"), "Microbot_Illusions", "Table" }, },
+			[9] = { { (AL["Miscellaneous"]), "Microbot_Miscellaneous", "Table" }, },
 		},
 	},
 };
@@ -3107,21 +3107,21 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["TailoringArtisan1"][1], "TailoringArtisan1" },
 	},
 	["Microbot_ETERNALRECIPESMENU"] = {
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy1"][1], "Nycter_EternalRecipes_Alchemy1" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy2"][1], "Nycter_EternalRecipes_Alchemy2" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy3"][1], "Nycter_EternalRecipes_Alchemy3" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy4"][1], "Nycter_EternalRecipes_Alchemy4" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy5"][1], "Nycter_EternalRecipes_Alchemy5" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Engineering1"][1], "Nycter_EternalRecipes_Engineering1" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Engineering2"][1], "Nycter_EternalRecipes_Engineering2" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Engineering3"][1], "Nycter_EternalRecipes_Engineering3" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Smithing1"][1], "Nycter_EternalRecipes_Smithing1" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Enchanting1"][1], "Nycter_EternalRecipes_Enchanting1" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_FirstAid1"][1], "Nycter_EternalRecipes_FirstAid1" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Poisons1"][1], "Nycter_EternalRecipes_Poisons1" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Cooking1"][1], "Nycter_EternalRecipes_Cooking1" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Cooking2"][1], "Nycter_EternalRecipes_Cooking2" },
-		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Cooking3"][1], "Nycter_EternalRecipes_Cooking3" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Alchemy1"][1], "Microbot_EternalRecipes_Alchemy1" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Alchemy2"][1], "Microbot_EternalRecipes_Alchemy2" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Alchemy3"][1], "Microbot_EternalRecipes_Alchemy3" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Alchemy4"][1], "Microbot_EternalRecipes_Alchemy4" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Alchemy5"][1], "Microbot_EternalRecipes_Alchemy5" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Engineering1"][1], "Microbot_EternalRecipes_Engineering1" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Engineering2"][1], "Microbot_EternalRecipes_Engineering2" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Engineering3"][1], "Microbot_EternalRecipes_Engineering3" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Smithing1"][1], "Microbot_EternalRecipes_Smithing1" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Enchanting1"][1], "Microbot_EternalRecipes_Enchanting1" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_FirstAid1"][1], "Microbot_EternalRecipes_FirstAid1" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Poisons1"][1], "Microbot_EternalRecipes_Poisons1" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Cooking1"][1], "Microbot_EternalRecipes_Cooking1" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Cooking2"][1], "Microbot_EternalRecipes_Cooking2" },
+		{ AtlasLoot_TableNames["Microbot_EternalRecipes_Cooking3"][1], "Microbot_EternalRecipes_Cooking3" },
 	},
 };
 

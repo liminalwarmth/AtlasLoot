@@ -3985,7 +3985,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 
-		{ 123025, "INV_Misc_ArmorKit_06", "=q3=Sealed Lucky Charm", "=ds=#m23# =q5=#nycter2#", "100%" },
+		{ 123025, "INV_Misc_ArmorKit_06", "=q3=Sealed Lucky Charm", "=ds=#m23# =q5=#Microbot2#", "100%" },
 	};
 	DMWIllyannaRavenoak = {
 		{ 18383, "INV_Gauntlets_09", "=q3=Force Imbued Gauntlets", "=ds=#s9#, #a4#", "20.11%" },
