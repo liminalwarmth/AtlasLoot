@@ -641,7 +641,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#ccenarius#", "Interface\\Icons\\INV_Jewelry_Necklace_12");
     text = gsub(text, "#zandalar#", "Interface\\Icons\\INV_Misc_Coin_08");
     
-    --Nyctermoon
+    --Microbot
     text = gsub(text, "#nycter1#", AL["Heroic"]);
     text = gsub(text, "#nycter2#", AL["Mythic"]);
 

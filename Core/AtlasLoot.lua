@@ -70,7 +70,7 @@ local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 local VERSION_MAJOR = "4";
 local VERSION_MINOR = "06";
 local VERSION_BOSSES = "06";
-local VERSION_NYCTER = "03";
+local VERSION_NYCTER = "05";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."."..VERSION_NYCTER.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.12.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.12.1";
@@ -196,16 +196,16 @@ AtlasLoot_MenuList = {
 	"TAILORINGMENU",
 	"CRAFTSET",
 	"COOKINGMENU",
-	"NYCTERMOONMENU",
-	"NYCTERMOON_CUSTOMITEMSMENU",
-	"NYCTERMOON_LICENSESMENU",
-	"NYCTERMOON_ILLUSIONSMENU",
-	"NYCTERMOON_TOKENTRADINGMENU",
-	"NYCTERMOON_LOOTPETSMENU",
-	"NYCTERMOON_FACTIONREWARDSMENU",
-	"NYCTERMOON_MISCELLANEOUSMENU",
-	"NYCTERMOON_ETERNALRECIPESMENU",
-	"NYCTERMOON_LEGENDARIESMENU",
+	"MicrobotMENU",
+	"Microbot_CUSTOMITEMSMENU",
+	"Microbot_LICENSESMENU",
+	"Microbot_ILLUSIONSMENU",
+	"Microbot_TOKENTRADINGMENU",
+	"Microbot_LOOTPETSMENU",
+	"Microbot_FACTIONREWARDSMENU",
+	"Microbot_MISCELLANEOUSMENU",
+	"Microbot_ETERNALRECIPESMENU",
+	"Microbot_LEGENDARIESMENU",
 };
 
 --entrance maps to instance maps NOT NEEDED FOR ATLAS 1.12
@@ -429,6 +429,10 @@ function AtlasLoot_OnVariablesLoaded()
 	AtlasLootDefaultFrame_SelectedCategory:Show();
 	AtlasLootDefaultFrame_SelectedTable:Show();
 	AtlasLootDefaultFrame_SubMenu:Disable();
+	--Load the last loaded sebmenu
+	if AtlasLootCharDB["LastMenu"] then
+		AtlasLoot_HewdropClick(AtlasLootCharDB["LastMenu"][1],AtlasLootCharDB["LastMenu"][2],AtlasLootCharDB["LastMenu"][3])
+	end
 end
 
 --[[
@@ -1167,26 +1171,26 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootAbyssalCouncilMenu();
 	elseif(dataID=="CRAFTINGMENU") then
 		AtlasLoot_CraftingMenu();
-	elseif(dataID=="NYCTERMOONMENU") then
-		AtlasLoot_NyctermoonMenu();
-	elseif(dataID=="NYCTERMOON_CUSTOMITEMSMENU") then
-		AtlasLoot_Nyctermoon_CustomItemsMenu();
-	elseif(dataID=="NYCTERMOON_LICENSESMENU") then
-		AtlasLoot_Nyctermoon_RaidLicencesTokensMenu();
-	elseif(dataID=="NYCTERMOON_ILLUSIONSMENU") then
-		AtlasLoot_Nyctermoon_IllusionsMenu();
-	elseif(dataID=="NYCTERMOON_TOKENTRADINGMENU") then
-		AtlasLoot_Nyctermoon_TokenTradingMenu();
-	elseif(dataID=="NYCTERMOON_LOOTPETSMENU") then
-		AtlasLoot_Nyctermoon_LootPetsMenu();
-	elseif(dataID=="NYCTERMOON_FACTIONREWARDSMENU") then
-		AtlasLoot_Nyctermoon_FactionRewardsMenu();
-	elseif(dataID=="NYCTERMOON_MISCELLANEOUSMENU") then
-		AtlasLoot_Nyctermoon_MiscellaneousMenu();
-	elseif(dataID=="NYCTERMOON_ETERNALRECIPESMENU") then
-		AtlasLoot_Nyctermoon_EternalRecipesMenu();
-	elseif(dataID=="NYCTERMOON_LEGENDARIESMENU") then
-		AtlasLoot_Nyctermoon_LegendariesMenu();
+	elseif(dataID=="MicrobotMENU") then
+		AtlasLoot_MicrobotMenu();
+	elseif(dataID=="Microbot_CUSTOMITEMSMENU") then
+		AtlasLoot_Microbot_CustomItemsMenu();
+	elseif(dataID=="Microbot_LICENSESMENU") then
+		AtlasLoot_Microbot_RaidLicencesTokensMenu();
+	elseif(dataID=="Microbot_ILLUSIONSMENU") then
+		AtlasLoot_Microbot_IllusionsMenu();
+	elseif(dataID=="Microbot_TOKENTRADINGMENU") then
+		AtlasLoot_Microbot_TokenTradingMenu();
+	elseif(dataID=="Microbot_LOOTPETSMENU") then
+		AtlasLoot_Microbot_LootPetsMenu();
+	elseif(dataID=="Microbot_FACTIONREWARDSMENU") then
+		AtlasLoot_Microbot_FactionRewardsMenu();
+	elseif(dataID=="Microbot_MISCELLANEOUSMENU") then
+		AtlasLoot_Microbot_MiscellaneousMenu();
+	elseif(dataID=="Microbot_ETERNALRECIPESMENU") then
+		AtlasLoot_Microbot_EternalRecipesMenu();
+	elseif(dataID=="Microbot_LEGENDARIESMENU") then
+		AtlasLoot_Microbot_LegendariesMenu();
 	elseif(dataID=="CRAFTSET") then
 		AtlasLootCraftedSetMenu();
 	elseif(dataID=="ALCHEMYMENU") then
@@ -2186,94 +2190,94 @@ AtlasLoot_DewDropDown = {
 	[1] = {
 		[AL["Dungeons & Raids"]] = {
 			[1] = { 
-				{ AL["Ragefire Chasm"], "RagefireChasm", "Submenu" },
+				{ AL["RFCReq"].." "..AL["Ragefire Chasm"], "RagefireChasm", "Submenu" },
 			},
 			[2] = { 
-				{ AL["Wailing Caverns"], "WailingCaverns", "Submenu" },
+				{ AL["WCReq"].." "..AL["Wailing Caverns"], "WailingCaverns", "Submenu" },
 			},
 			[3] = { 
-				{ AL["The Deadmines"], "Deadmines", "Submenu" },
+				{ AL["VCReq"].." "..AL["The Deadmines"], "Deadmines", "Submenu" },
 			},
 			[4] = { 
-				{ AL["Shadowfang Keep"], "ShadowfangKeep", "Submenu" },
+				{ AL["SKFReq"].." "..AL["Shadowfang Keep"], "ShadowfangKeep", "Submenu" },
 			},
 			[5] = { 
-				{ AL["Blackfathom Deeps"], "BlackfathomDeeps", "Submenu" },
+				{ AL["BFDReq"].." "..AL["Blackfathom Deeps"], "BlackfathomDeeps", "Submenu" },
 			},
 			[6] = { 
-				{ AL["The Stockade"], "TheStockade", "Submenu" },
+				{ AL["StockReq"].." "..AL["The Stockade"], "TheStockade", "Submenu" },
 			},
 			[7] = { 
-				{ AL["Gnomeregan"], "Gnomeregan", "Submenu" },
+				{ AL["GnomerReq"].." "..AL["Gnomeregan"], "Gnomeregan", "Submenu" },
 			},
 			[8] = { 
-				{ AL["Razorfen Kraul"], "RazorfenKraul", "Submenu" },
+				{ AL["RFKReq"].." "..AL["Razorfen Kraul"], "RazorfenKraul", "Submenu" },
 			},
 			[9] = { 
-				[AL["Scarlet Monastery"]] = {
-					{ AL["Scarlet Monastery"].." "..AL["Graveyard"], "SMGraveyard", "Submenu" },
-					{ AL["Scarlet Monastery"].." "..AL["Library"], "SMLibrary", "Submenu" },
-					{ AL["Scarlet Monastery"].." "..AL["Armory"], "SMArmory", "Submenu" },
-					{ AL["Scarlet Monastery"].." "..AL["Cathedral"], "SMCathedral", "Submenu" },
+				[AL["SMReq"].." "..AL["Scarlet Monastery"]] = {
+					{ AL["SMGYReq"].." "..AL["Scarlet Monastery"].." "..AL["Graveyard"], "SMGraveyard", "Submenu" },
+					{ AL["SMLibReq"].." "..AL["Scarlet Monastery"].." "..AL["Library"], "SMLibrary", "Submenu" },
+					{ AL["SMArmReq"].." "..AL["Scarlet Monastery"].." "..AL["Armory"], "SMArmory", "Submenu" },
+					{ AL["SMCathReq"].." "..AL["Scarlet Monastery"].." "..AL["Cathedral"], "SMCathedral", "Submenu" },
 				},
 			},
 			[10] = { 
-				{ AL["Razorfen Downs"], "RazorfenDowns", "Submenu" },
+				{ AL["RFDReq"].." "..AL["Razorfen Downs"], "RazorfenDowns", "Submenu" },
 			},
 			[11] = { 
-				{ AL["Uldaman"], "Uldaman", "Submenu" },
+				{ AL["UldaReq"].." "..AL["Uldaman"], "Uldaman", "Submenu" },
 			},
 			[12] = { 
-				{ AL["Maraudon"], "Maraudon", "Submenu" },
+				{ AL["MaraReq"].." "..AL["Maraudon"], "Maraudon", "Submenu" },
 			},
 			[13] = { 
-				{ AL["Zul'Farrak"], "ZulFarrak", "Submenu" },
+				{ AL["ZFReq"].." "..AL["Zul'Farrak"], "ZulFarrak", "Submenu" },
 			},
 			[14] = { 
-				{ AL["The Sunken Temple"], "SunkenTemple", "Submenu" },
+				{ AL["STReq"].." "..AL["The Sunken Temple"], "SunkenTemple", "Submenu" },
 			},
 			[15] = { 
-				{ AL["Blackrock Depths"], "BlackrockDepths", "Submenu" },
+				{ AL["BRDReq"].." "..AL["Blackrock Depths"], "BlackrockDepths", "Submenu" },
 			},
 			[16] = { 
-				[AL["Dire Maul"]] = {
-					{ AL["Dire Maul"].." "..AL["East"], "DireMaulEast", "Submenu" },
-					{ AL["Dire Maul"].." "..AL["West"], "DireMaulWest", "Submenu" },
-					{ AL["Dire Maul"].." "..AL["North"], "DireMaulNorth", "Submenu" },
+				[AL["DMReq"].." "..AL["Dire Maul"]] = {
+					{ AL["DMEReq"].." "..AL["Dire Maul"].." "..AL["East"], "DireMaulEast", "Submenu" },
+					{ AL["DMWReq"].." "..AL["Dire Maul"].." "..AL["West"], "DireMaulWest", "Submenu" },
+					{ AL["DMNReq"].." "..AL["Dire Maul"].." "..AL["North"], "DireMaulNorth", "Submenu" },
 				}, 
 			},
 			[17] = { 
-				{ AL["Scholomance"], "Scholomance", "Submenu" },
+				{ AL["ScholoReq"].." "..AL["Scholomance"], "Scholomance", "Submenu" },
 			},
 			[18] = { 
-				{ AL["Stratholme"], "Stratholme", "Submenu" },
+				{ AL["StratReq"].." "..AL["Stratholme"], "Stratholme", "Submenu" },
 			},
 			[19] = { 
-				{ AL["Lower Blackrock Spire"], "LowerBlackrock", "Submenu" },
+				{ AL["LBRSReq"].." "..AL["Lower Blackrock Spire"], "LowerBlackrock", "Submenu" },
 			},
 			[20] = { 
-				{ AL["Upper Blackrock Spire"], "UpperBlackrock", "Submenu" },
+				{ AL["UBRSReq"].." "..AL["Upper Blackrock Spire"], "UpperBlackrock", "Submenu" },
 			},
 			[21] = { 
-				{ AL["Zul'Gurub"], "ZulGurub", "Submenu" },
+				{ AL["RaidText"].." "..AL["Zul'Gurub"], "ZulGurub", "Submenu" },
 			},
 			[22] = { 
-				{ AL["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
+				{ AL["RaidText"].." "..AL["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
 			},
 			[23] = { 
-				{ AL["Molten Core"], "MoltenCore", "Submenu" },
+				{ AL["RaidText"].." "..AL["Molten Core"], "MoltenCore", "Submenu" },
 			},
 			[24] = { 
-				{ AL["Onyxia's Lair"], "Onyxia", "Submenu" },
+				{ AL["RaidText"].." "..AL["Onyxia's Lair"], "Onyxia", "Submenu" },
 			},
 			[25] = { 
-				{ AL["Blackwing Lair"], "BlackwingLair", "Submenu" },
+				{ AL["RaidText"].." "..AL["Blackwing Lair"], "BlackwingLair", "Submenu" },
 			},
 			[26] = { 
-				{ AL["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
+				{ AL["RaidText"].." "..AL["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
 			},
 			[27] = { 
-				{ AL["Naxxramas"], "Naxxramas", "Submenu" },
+				{ AL["RaidText"].." "..AL["Naxxramas"], "Naxxramas", "Submenu" },
 			},
 		},
 	},
@@ -2427,13 +2431,13 @@ AtlasLoot_DewDropDown = {
 		}
 	},
 	[8] = {
-		[AL["Nyctermoon"]] = {
-			[1] = { { ("Nyctermoon Custom Items"), "Nycter_Custom1", "Table" }, },
+		[AL["Microbot"]] = {
+			[1] = { { ("Microbot Custom Items"), "Nycter_Custom1", "Table" }, },
 			[2] = { { ("Companion Licenses"), "Nycter_Licenses1", "Table" }, },
 			[3] = { { ("Reputation Rewards"), "Nycter_FactionRewards1", "Table" }, },
 			[4] = { { (AL["Loot Pets"]), "Nycter_LootPets1", "Table" }, },
-			[5] = { { ("Nyctermoon Legendary Weapons"), "Nycter_Legendaries1", "Table" }, },
-			[6] = { { ("Eternal Crafting"), "NYCTERMOON_ETERNALRECIPESMENU", "Submenu" }, },
+			[5] = { { ("Microbot Legendary Weapons"), "Nycter_Legendaries1", "Table" }, },
+			[6] = { { ("Eternal Crafting"), "Microbot_ETERNALRECIPESMENU", "Submenu" }, },
 			[7] = { { ("Griznak the Collector (Booty Bay)"), "Nycter_TokenTrading", "Table" }, },
 			[8] = { { ("Griznak's Transmog Illusions"), "Nycter_Illusions", "Table" }, },
 			[9] = { { (AL["Miscellaneous"]), "Nycter_Miscellaneous", "Table" }, },
@@ -2857,11 +2861,11 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Brood of Nozdormu"], "AQBroodRings" },
 		{ AL["Cenarion Circle"], "Cenarion1" },
 		{ AL["Darkmoon Faire"], "Darkmoon" },
-		{ AL["Frostwolf Clan"], "Frostwolf1" },
+		{ AL["HordeCol"]..AL["Frostwolf Clan"], "Frostwolf1" },
 		{ AL["Gelkis Clan Centaur"], "GelkisClan1" },
 		{ AL["Hydraxian Waterlords"], "WaterLords1" },
 		{ AL["Magram Clan Centaur"], "MagramClan1" },
-		{ AL["Stormpike Guard"], "Stormpike1" },
+		{ AL["AllianceCol"]..AL["Stormpike Guard"], "Stormpike1" },
 		{ AL["Thorium Brotherhood"], "Thorium1" },
 		{ AL["Timbermaw Hold"], "Timbermaw" },
 		{ AL["Wintersaber Trainers"], "Wintersaber1" },
@@ -3102,7 +3106,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["TailoringExpert1"][1], "TailoringExpert1" },
 		{ AtlasLoot_TableNames["TailoringArtisan1"][1], "TailoringArtisan1" },
 	},
-	["NYCTERMOON_ETERNALRECIPESMENU"] = {
+	["Microbot_ETERNALRECIPESMENU"] = {
 		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy1"][1], "Nycter_EternalRecipes_Alchemy1" },
 		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy2"][1], "Nycter_EternalRecipes_Alchemy2" },
 		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy3"][1], "Nycter_EternalRecipes_Alchemy3" },
@@ -3382,20 +3386,28 @@ function AtlasLootItem_OnClick(arg1)
 				end
 			end
 			if AtlasLootCharDB.SafeLinks then
-				if ChatFrameEditBox:IsVisible() then
+				if WIM_EditBoxInFocus then
+					WIM_EditBoxInFocus:Insert("["..name.."]");
+				elseif ChatFrameEditBox:IsVisible() then
 					ChatFrameEditBox:Insert("["..name.."]");
 				else
 					AtlasLoot_SayItemReagents(this.itemID, nil, name, true)
 				end
 			elseif AtlasLootCharDB.AllLinks then
-				if ChatFrameEditBox:IsVisible() then
+				if WIM_EditBoxInFocus then
+					WIM_EditBoxInFocus:Insert("\124"..string.sub(color, 2).."|Hitem:"..this.itemID.."\124h["..name.."]|h|r");
+				elseif ChatFrameEditBox:IsVisible() then
 					ChatFrameEditBox:Insert("\124"..string.sub(color, 2).."|Hitem:"..this.itemID.."\124h["..name.."]|h|r");
 				else
 					AtlasLoot_SayItemReagents(this.itemID, color, name)
 				end
 			end
-		elseif(ChatFrameEditBox:IsVisible() and iteminfo and IsShiftKeyDown()) and this.itemID ~= 0 then
-			ChatFrameEditBox:Insert(color.."|Hitem:"..this.itemID..":0:0:0|h["..name.."]|h|r");
+		elseif(iteminfo and IsShiftKeyDown()) and this.itemID ~= 0 then
+			if WIM_EditBoxInFocus then
+				WIM_EditBoxInFocus:Insert(color.."|Hitem:"..this.itemID..":0:0:0|h["..name.."]|h|r");
+			elseif ( ChatFrameEditBox:IsVisible() ) then
+				ChatFrameEditBox:Insert(color.."|Hitem:"..this.itemID..":0:0:0|h["..name.."]|h|r");
+			end
 		elseif IsShiftKeyDown() and iteminfo and this.itemID ~= 0 then
 			AtlasLoot_SayItemReagents(this.itemID, color, name);
 		--If control-clicked, use the dressing room
@@ -3446,7 +3458,15 @@ function AtlasLootItem_OnClick(arg1)
 				return
 			end
 			if tonumber(string.sub(this.itemID, 2)) < 100000 then
-				if ChatFrameEditBox:IsVisible() then
+				if WIM_EditBoxInFocus then
+					local craftitem = GetSpellInfoVanillaDB["craftspells"][tonumber(string.sub(this.itemID, 2))]["craftItem"]
+					if craftitem ~= nil and craftitem ~= "" then
+						local craftname = GetItemInfo(craftitem)
+						WIM_EditBoxInFocus:Insert("\124"..string.sub(color, 2).."|Hitem:"..craftitem.."\124h["..craftname.."]|h|r");
+					else
+						WIM_EditBoxInFocus:Insert(name);
+					end
+				elseif ChatFrameEditBox:IsVisible() then
 					local craftitem = GetSpellInfoVanillaDB["craftspells"][tonumber(string.sub(this.itemID, 2))]["craftItem"]
 					if craftitem ~= nil and craftitem ~= "" then
 						local craftname = GetItemInfo(craftitem)
@@ -3458,7 +3478,15 @@ function AtlasLootItem_OnClick(arg1)
 					AtlasLoot_SayItemReagents(this.itemID)
 				end
 			else
-				if ChatFrameEditBox:IsVisible() then
+				if WIM_EditBoxInFocus then
+					local craftitem = GetSpellInfoVanillaDB["craftspells"][tonumber(string.sub(this.itemID, 2))]["craftItem"]
+					if craftitem ~= nil and craftitem ~= "" then
+						local craftname = GetItemInfo(craftitem)
+						WIM_EditBoxInFocus:Insert(AtlasLoot_GetChatLink(GetSpellInfoVanillaDB["craftspells"][tonumber(string.sub(this.itemID, 2))]["craftItem"]));
+					else
+						WIM_EditBoxInFocus:Insert(name);
+					end
+				elseif ChatFrameEditBox:IsVisible() then
 					local craftitem = GetSpellInfoVanillaDB["craftspells"][tonumber(string.sub(this.itemID, 2))]["craftItem"]
 					if craftitem ~= nil and craftitem ~= "" then
 						local craftname = GetItemInfo(craftitem)
@@ -3550,13 +3578,28 @@ end
 
 function AtlasLoot_SayItemReagents(id, color, name, safe)
 	if not id then return end
-	local channel, chatnumber = ChatFrameEditBox.chatType;
 	local chatline = "";
 	local itemCount = 0;
-	if channel == "WHISPER" then
-		chatnumber = ChatFrameEditBox.tellTarget
-	elseif channel == "CHANNEL" then
-		chatnumber = ChatFrameEditBox.channelTarget
+
+	local tListActivity = {}
+	local tCount = 0
+	if (WIM_IconItems and WIM_Icon_SortByActivity) then
+		for key in WIM_IconItems do
+			table.insert(tListActivity, key)
+			tCount = tCount + 1
+		end
+		table.sort(tListActivity, WIM_Icon_SortByActivity)
+	end
+	if tListActivity[1] and WIM_Windows and WIM_Windows[tListActivity[1]].is_visible then
+		channel = "WHISPER";
+		chatnumber = tListActivity[1];
+	else
+		channel,chatnumber = ChatFrameEditBox.chatType;
+	    if channel=="WHISPER" then
+			chatnumber = ChatFrameEditBox.tellTarget
+		elseif channel=="CHANNEL" then
+			chatnumber = ChatFrameEditBox.channelTarget
+		end
 	end
 	if string.sub( id, 1, 1 ) == "s" then
 		local spellid = string.sub( id, 2 )
@@ -3631,7 +3674,13 @@ function AtlasLoot_SayItemReagents(id, color, name, safe)
 	elseif string.sub( id,1 ,1 ) == "e" then
 		local spellid = string.sub( id, 2 )
 		local name = GetSpellInfoVanillaDB["enchants"][tonumber(spellid)]["name"]
-		if ChatFrameEditBox:IsVisible() then
+		if tListActivity[1] and WIM_Windows[tListActivity[1]].is_visible then
+			if not GetSpellInfoVanillaDB["enchants"][tonumber(spellid)]["item"] then
+				SendChatMessage("|cffFFd200|Henchant:"..spellid..":0:0:0|h["..name.."]|h|r", channel, nil, chatnumber);
+			else
+				SendChatMessage(AL["To craft "]..AtlasLoot_GetChatLink(GetSpellInfoVanillaDB["enchants"][tonumber(spellid)]["item"])..AL[" you need this: "].."|cffFFd200|Henchant:"..spellid..":0:0:0|h["..name.."]|h|r",channel,nil,chatnumber);
+			end
+		elseif ChatFrameEditBox:IsVisible() then
 			if not GetSpellInfoVanillaDB["enchants"][tonumber(spellid)]["item"] then
 				ChatFrameEditBox:Insert("|cffFFd200|Henchant:"..spellid..":0:0:0|h["..name.."]|h|r", channel, nil, chatnumber);
 			else

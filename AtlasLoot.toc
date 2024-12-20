@@ -2,8 +2,8 @@
 ## Title: AtlasLoot Enhanced
 ## Notes: Shows the possible loot from the bosses
 ## Author: Daviesh
-## Version: 4.06.06.04
-## Customized for NycterMoon server 
+## Version: 4.06.06.05
+## Customized for Microbot server
 ## SavedVariablesPerCharacter: AtlasLootCharDB
 ## OptionalDeps: Alphamap, AtlasLoader, LootLink, ItemSync, DewdropLib, Ace2, EquipCompare, EQCompare
 
@@ -19,7 +19,7 @@ Locale\Locale.xml
 Bossnames\BossNames.xml
 Sets\Sets.xml
 Crafting\Crafting.xml
-Nyctermoon\Nyctermoon.xml
+Microbot\Microbot.xml
 PvP\PvP.xml
 WorldEvents\WorldEvents.xml
 Factions\Factions.xml

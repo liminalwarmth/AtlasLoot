@@ -1,4 +1,4 @@
-AtlasLoot_Data["AtlasLootNyctermoon"] = {
+AtlasLoot_Data["AtlasLootMicrobot"] = {
 
 	Nycter_Custom1 = {
 		{ 0, "INV_Box_01", "Special Shirts", "" },

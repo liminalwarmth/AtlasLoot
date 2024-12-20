@@ -13,4 +13,4 @@ v4.06.06.02 (2023-09-25)
 - added "Eternal Recipes" loot table
 
 v4.06.06.01 (2023-09-25)
-- added NycterMoon menu
+- added Microbot menu

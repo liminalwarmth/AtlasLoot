@@ -622,7 +622,7 @@ local function AcquireLevel(self, level)
 			local backdrop = CreateFrame("Frame", nil, frame)
 			backdrop:SetAllPoints(frame)
 			backdrop:SetBackdrop(tmp(
-				'bgFile', "Interface\\Tooltips\\UI-Tooltip-Background",
+				'bgFile', "Interface\\ChatFrame\\ChatFrameBackground",
 				'edgeFile', "Interface\\Tooltips\\UI-Tooltip-Border",
 				'tile', true,
 				'insets', tmp2(
@@ -635,7 +635,8 @@ local function AcquireLevel(self, level)
 				'edgeSize', 16
 			))
 			backdrop:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b)
-			backdrop:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+			--backdrop:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b)
+			backdrop:SetBackdropColor(0, 0, 0, 1)
 			frame:SetScript("OnClick", function()
 				self:Close(i)
 			end)

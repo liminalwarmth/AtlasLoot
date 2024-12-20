@@ -8,7 +8,7 @@
 	<Script file="WorldEvents.lua"/>
 	<Script file="PvP.lua"/>
 	<Script file="Crafting.lua"/>
-	<Script file="Nyctermoon.lua"/>
+	<Script file="Microbot.lua"/>
 	<Script file="AtlasLoot.lua"/>
 	<Script file="WishList.lua"/>
 	<Script file="Search.lua"/>
@@ -172,7 +172,7 @@
 								<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT"/>
 								<Anchor point="BOTTOMRIGHT" relativeTo="$parent" relativePoint="BOTTOMRIGHT"/>
 							</Anchors>
-							<Color r="0" g="0" b="1" a="0.5"/>
+							<Color r="0" g="0" b="0" a="0.5"/>
 						</Texture>
 					</Layer>
 				</Layers>
@@ -1850,7 +1850,7 @@
 					</OnShow>
 				</Scripts>
 			</Button>
-			<Button name="$parent_Nyctermoon" inherits="AtlasLootPanelButtonTemplate">
+			<Button name="$parent_Microbot" inherits="AtlasLootPanelButtonTemplate">
 				<Anchors>
 					<Anchor point="LEFT" relativeTo="$parent_Crafting" relativePoint="RIGHT">
 						<Offset>
@@ -1862,18 +1862,18 @@
 					<OnClick>
 						AtlasLoot_QuickLooks:Hide();
 						AtlasLootQuickLooksButton:Hide();
-						AtlasLoot_NyctermoonMenu();
+						AtlasLoot_MicrobotMenu();
 					</OnClick>
 					<OnShow>
 						local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
-						this:SetText(AL["Nyctermoon"]);
+						this:SetText(AL["Microbot"]);
 						this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
 					</OnShow>
 				</Scripts>
 			</Button>
 			<Button name="$parent_WishList" inherits="AtlasLootPanelButtonTemplate">
 				<Anchors>
-					<Anchor point="LEFT" relativeTo="$parent_Nyctermoon" relativePoint="RIGHT">
+					<Anchor point="LEFT" relativeTo="$parent_Microbot" relativePoint="RIGHT">
 						<Offset>
 							<AbsDimension x="0" y="0"/>
 						</Offset>
@@ -2038,7 +2038,7 @@
 			</Button>
 			<Button name="$parent_Preset3" inherits="AtlasLootPanelButtonTemplate">
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent_Nyctermoon" relativePoint="BOTTOM">
+					<Anchor point="TOP" relativeTo="$parent_Microbot" relativePoint="BOTTOM">
 						<Offset>
 							<AbsDimension x="0" y="-2"/>
 						</Offset>
