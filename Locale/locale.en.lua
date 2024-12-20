@@ -1434,7 +1434,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["The specified item does not exist or is not cached!"] = true,
 	["Master Craftsman Omarion"] = true,
 	["The Behemoth"] = true,
-	["Nyctermoon"] = true,
+	["Microbot"] = true,
 	["Shirts"] = true,
 	["Heroic Dungeon Items"] = true,
 	["Mythic Dungeon Items"] = true,

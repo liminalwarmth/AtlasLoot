@@ -196,16 +196,16 @@ AtlasLoot_MenuList = {
 	"TAILORINGMENU",
 	"CRAFTSET",
 	"COOKINGMENU",
-	"NYCTERMOONMENU",
-	"NYCTERMOON_CUSTOMITEMSMENU",
-	"NYCTERMOON_LICENSESMENU",
-	"NYCTERMOON_ILLUSIONSMENU",
-	"NYCTERMOON_TOKENTRADINGMENU",
-	"NYCTERMOON_LOOTPETSMENU",
-	"NYCTERMOON_FACTIONREWARDSMENU",
-	"NYCTERMOON_MISCELLANEOUSMENU",
-	"NYCTERMOON_ETERNALRECIPESMENU",
-	"NYCTERMOON_LEGENDARIESMENU",
+	"MicrobotMENU",
+	"Microbot_CUSTOMITEMSMENU",
+	"Microbot_LICENSESMENU",
+	"Microbot_ILLUSIONSMENU",
+	"Microbot_TOKENTRADINGMENU",
+	"Microbot_LOOTPETSMENU",
+	"Microbot_FACTIONREWARDSMENU",
+	"Microbot_MISCELLANEOUSMENU",
+	"Microbot_ETERNALRECIPESMENU",
+	"Microbot_LEGENDARIESMENU",
 };
 
 --entrance maps to instance maps NOT NEEDED FOR ATLAS 1.12
@@ -1171,26 +1171,26 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootAbyssalCouncilMenu();
 	elseif(dataID=="CRAFTINGMENU") then
 		AtlasLoot_CraftingMenu();
-	elseif(dataID=="NYCTERMOONMENU") then
-		AtlasLoot_NyctermoonMenu();
-	elseif(dataID=="NYCTERMOON_CUSTOMITEMSMENU") then
-		AtlasLoot_Nyctermoon_CustomItemsMenu();
-	elseif(dataID=="NYCTERMOON_LICENSESMENU") then
-		AtlasLoot_Nyctermoon_RaidLicencesTokensMenu();
-	elseif(dataID=="NYCTERMOON_ILLUSIONSMENU") then
-		AtlasLoot_Nyctermoon_IllusionsMenu();
-	elseif(dataID=="NYCTERMOON_TOKENTRADINGMENU") then
-		AtlasLoot_Nyctermoon_TokenTradingMenu();
-	elseif(dataID=="NYCTERMOON_LOOTPETSMENU") then
-		AtlasLoot_Nyctermoon_LootPetsMenu();
-	elseif(dataID=="NYCTERMOON_FACTIONREWARDSMENU") then
-		AtlasLoot_Nyctermoon_FactionRewardsMenu();
-	elseif(dataID=="NYCTERMOON_MISCELLANEOUSMENU") then
-		AtlasLoot_Nyctermoon_MiscellaneousMenu();
-	elseif(dataID=="NYCTERMOON_ETERNALRECIPESMENU") then
-		AtlasLoot_Nyctermoon_EternalRecipesMenu();
-	elseif(dataID=="NYCTERMOON_LEGENDARIESMENU") then
-		AtlasLoot_Nyctermoon_LegendariesMenu();
+	elseif(dataID=="MicrobotMENU") then
+		AtlasLoot_MicrobotMenu();
+	elseif(dataID=="Microbot_CUSTOMITEMSMENU") then
+		AtlasLoot_Microbot_CustomItemsMenu();
+	elseif(dataID=="Microbot_LICENSESMENU") then
+		AtlasLoot_Microbot_RaidLicencesTokensMenu();
+	elseif(dataID=="Microbot_ILLUSIONSMENU") then
+		AtlasLoot_Microbot_IllusionsMenu();
+	elseif(dataID=="Microbot_TOKENTRADINGMENU") then
+		AtlasLoot_Microbot_TokenTradingMenu();
+	elseif(dataID=="Microbot_LOOTPETSMENU") then
+		AtlasLoot_Microbot_LootPetsMenu();
+	elseif(dataID=="Microbot_FACTIONREWARDSMENU") then
+		AtlasLoot_Microbot_FactionRewardsMenu();
+	elseif(dataID=="Microbot_MISCELLANEOUSMENU") then
+		AtlasLoot_Microbot_MiscellaneousMenu();
+	elseif(dataID=="Microbot_ETERNALRECIPESMENU") then
+		AtlasLoot_Microbot_EternalRecipesMenu();
+	elseif(dataID=="Microbot_LEGENDARIESMENU") then
+		AtlasLoot_Microbot_LegendariesMenu();
 	elseif(dataID=="CRAFTSET") then
 		AtlasLootCraftedSetMenu();
 	elseif(dataID=="ALCHEMYMENU") then
@@ -2431,13 +2431,13 @@ AtlasLoot_DewDropDown = {
 		}
 	},
 	[8] = {
-		[AL["Nyctermoon"]] = {
-			[1] = { { ("Nyctermoon Custom Items"), "Nycter_Custom1", "Table" }, },
+		[AL["Microbot"]] = {
+			[1] = { { ("Microbot Custom Items"), "Nycter_Custom1", "Table" }, },
 			[2] = { { ("Companion Licenses"), "Nycter_Licenses1", "Table" }, },
 			[3] = { { ("Reputation Rewards"), "Nycter_FactionRewards1", "Table" }, },
 			[4] = { { (AL["Loot Pets"]), "Nycter_LootPets1", "Table" }, },
-			[5] = { { ("Nyctermoon Legendary Weapons"), "Nycter_Legendaries1", "Table" }, },
-			[6] = { { ("Eternal Crafting"), "NYCTERMOON_ETERNALRECIPESMENU", "Submenu" }, },
+			[5] = { { ("Microbot Legendary Weapons"), "Nycter_Legendaries1", "Table" }, },
+			[6] = { { ("Eternal Crafting"), "Microbot_ETERNALRECIPESMENU", "Submenu" }, },
 			[7] = { { ("Griznak the Collector (Booty Bay)"), "Nycter_TokenTrading", "Table" }, },
 			[8] = { { ("Griznak's Transmog Illusions"), "Nycter_Illusions", "Table" }, },
 			[9] = { { (AL["Miscellaneous"]), "Nycter_Miscellaneous", "Table" }, },
@@ -3106,7 +3106,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["TailoringExpert1"][1], "TailoringExpert1" },
 		{ AtlasLoot_TableNames["TailoringArtisan1"][1], "TailoringArtisan1" },
 	},
-	["NYCTERMOON_ETERNALRECIPESMENU"] = {
+	["Microbot_ETERNALRECIPESMENU"] = {
 		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy1"][1], "Nycter_EternalRecipes_Alchemy1" },
 		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy2"][1], "Nycter_EternalRecipes_Alchemy2" },
 		{ AtlasLoot_TableNames["Nycter_EternalRecipes_Alchemy3"][1], "Nycter_EternalRecipes_Alchemy3" },

@@ -4,7 +4,7 @@ local RED = "|cffff0000";
 local ORANGE = "|cffFF8400";
 local WHITE = "|cffFFFFFF";
 
-function AtlasLoot_NyctermoonMenu()
+function AtlasLoot_MicrobotMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -16,8 +16,8 @@ function AtlasLoot_NyctermoonMenu()
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
-	--Nyctermoon Custom Items
-	AtlasLootMenuItem_2_Name:SetText("Nyctermoon Custom Items");
+	--Microbot Custom Items
+	AtlasLootMenuItem_2_Name:SetText("Microbot Custom Items");
 	AtlasLootMenuItem_2_Extra:SetText("|cffFF8400Obtained from World Quests or Donation");
 	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\inv_misc_enggizmos_19");
 	AtlasLootMenuItem_2.lootpage="Nycter_Custom1";
@@ -41,7 +41,7 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_5.lootpage="Nycter_LootPets1";
 	AtlasLootMenuItem_5:Show();
 	-- Legendary Items
-	AtlasLootMenuItem_6_Name:SetText("Nyctermoon Legendary Weapons");
+	AtlasLootMenuItem_6_Name:SetText("Microbot Legendary Weapons");
 	AtlasLootMenuItem_6_Extra:SetText("|cffFF8400Obtained from Custom World Quests");
 	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\inv_qiraj_jewelblessed");
 	AtlasLootMenuItem_6.lootpage="Nycter_Legendaries1";
@@ -50,7 +50,7 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_7_Name:SetText("Eternal Crafting");
 	AtlasLootMenuItem_7_Extra:SetText("|cffFF8400Obtained from Crafting and Reputations");
 	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\inv_scroll_05");
-	AtlasLootMenuItem_7.lootpage="NYCTERMOON_ETERNALRECIPESMENU";
+	AtlasLootMenuItem_7.lootpage="Microbot_ETERNALRECIPESMENU";
 	AtlasLootMenuItem_7:Show();
 	--Illusions
 	AtlasLootMenuItem_8_Name:SetText("Griznak the Collector (Booty Bay)");
@@ -60,18 +60,18 @@ function AtlasLoot_NyctermoonMenu()
 	AtlasLootMenuItem_8:Show();
 	--Miscellaneous
 	AtlasLootMenuItem_9_Name:SetText(AL["Miscellaneous"]);
-	AtlasLootMenuItem_9_Extra:SetText("|cffFF8400Other Special Nyctermoon Items");
+	AtlasLootMenuItem_9_Extra:SetText("|cffFF8400Other Special Microbot Items");
 	AtlasLootMenuItem_9_Icon:SetTexture("Interface\\Icons\\INV_Misc_Ticket_Tarot_Maelstrom_01");
 	AtlasLootMenuItem_9.lootpage="Nycter_Miscellaneous";
 	AtlasLootMenuItem_9:Show();
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Nyctermoon"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Microbot"]);
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_CustomItemsMenu()
+function AtlasLoot_Microbot_CustomItemsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -86,11 +86,11 @@ function AtlasLoot_Nyctermoon_CustomItemsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF".."Nyctermoon Custom Items");
+	AtlasLoot_BossName:SetText("|cffFFFFFF".."Microbot Custom Items");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_LicensesMenu()
+function AtlasLoot_Microbot_LicensesMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -109,7 +109,7 @@ function AtlasLoot_Nyctermoon_LicensesMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_TokenTradingMenu()
+function AtlasLoot_Microbot_TokenTradingMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -118,7 +118,7 @@ function AtlasLoot_Nyctermoon_TokenTradingMenu()
 		getglobal("AtlasLootMenuItem_"..i).isheader = false;
 	end
 	getglobal("AtlasLootItemsFrame_BACK"):Show();
-	getglobal("AtlasLootItemsFrame_BACK").lootpage = "NYCTERMOONMENU";
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "MicrobotMENU";
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
@@ -129,7 +129,7 @@ function AtlasLoot_Nyctermoon_TokenTradingMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_IllusionsMenu()
+function AtlasLoot_Microbot_IllusionsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -148,7 +148,7 @@ function AtlasLoot_Nyctermoon_IllusionsMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_LootPetsMenu()
+function AtlasLoot_Microbot_LootPetsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -167,7 +167,7 @@ function AtlasLoot_Nyctermoon_LootPetsMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_FactionRewardsMenu()
+function AtlasLoot_Microbot_FactionRewardsMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -186,7 +186,7 @@ function AtlasLoot_Nyctermoon_FactionRewardsMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_MiscellaneousMenu()
+function AtlasLoot_Microbot_MiscellaneousMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -205,7 +205,7 @@ function AtlasLoot_Nyctermoon_MiscellaneousMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_LegendariesMenu()
+function AtlasLoot_Microbot_LegendariesMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -214,15 +214,15 @@ function AtlasLoot_Nyctermoon_LegendariesMenu()
 		getglobal("AtlasLootMenuItem_"..i).isheader = false;
 	end
 	getglobal("AtlasLootItemsFrame_BACK"):Show();
-	getglobal("AtlasLootItemsFrame_BACK").lootpage = "NYCTERMOONMENU";
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "MicrobotMENU";
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
-	AtlasLoot_BossName:SetText("|cffFFFFFF".."Nyctermoon Legendary Weapons");
+	AtlasLoot_BossName:SetText("|cffFFFFFF".."Microbot Legendary Weapons");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_ClassesMenu()
+function AtlasLoot_Microbot_ClassesMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -231,7 +231,7 @@ function AtlasLoot_Nyctermoon_ClassesMenu()
 		getglobal("AtlasLootMenuItem_"..i).isheader = false;
 	end
 	getglobal("AtlasLootItemsFrame_BACK"):Show();
-	getglobal("AtlasLootItemsFrame_BACK").lootpage = "NYCTERMOONMENU";
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "MicrobotMENU";
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
@@ -296,7 +296,7 @@ function AtlasLoot_Nyctermoon_ClassesMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_Nyctermoon_EternalRecipesMenu()
+function AtlasLoot_Microbot_EternalRecipesMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
 	end
@@ -305,7 +305,7 @@ function AtlasLoot_Nyctermoon_EternalRecipesMenu()
 		getglobal("AtlasLootMenuItem_"..i).isheader = false;
 	end
 	getglobal("AtlasLootItemsFrame_BACK"):Show();
-	getglobal("AtlasLootItemsFrame_BACK").lootpage = "NYCTERMOONMENU";
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "MicrobotMENU";
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();

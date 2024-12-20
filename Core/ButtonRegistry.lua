@@ -1896,58 +1896,58 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Licenses1"] = {
 		Title = "Companion Licenses";
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 	};
 	["Nycter_TokenTrading"] = {
 		Title = "Griznak Token Trading";
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 		Next_Page = "Nycter_Illusions";
 		Next_Title = "Griznak's Transmog Illusions";
 	};	
 	["Nycter_Illusions"] = {
 		Title = "Griznak's Transmog Illusions";
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 		Prev_Page = "Nycter_TokenTrading";
 		Prev_Title = "Griznak Token Trading";
 	};
 	["Nycter_Custom1"] = {
-		Title = "Nyctermoon Custom Items";
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Title = "Microbot Custom Items";
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 	};
 	["Nycter_LootPets1"] = {
 		Title = AL["Loot Pets"];
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 	};
 	["Nycter_FactionRewards1"] = {
 		Title = "Faction Rewards";
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 	};
 	["Nycter_Miscellaneous"] = {
 		Title = AL["Miscellaneous"];
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 	};
 	["Nycter_Legendaries1"] = {
-		Title = "Nyctermoon Legendary Weapons";
-		Back_Page = "NYCTERMOONMENU";
-		Back_Title = AL["Nyctermoon"];
+		Title = "Microbot Legendary Weapons";
+		Back_Page = "MicrobotMENU";
+		Back_Title = AL["Microbot"];
 	};
 	["Nycter_Classes_Priest"] = {
 		Title = AL["Priest"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Mage";
 		Next_Title = AL["Mage"];
 	};
 	["Nycter_Classes_Mage"] = {
 		Title = AL["Mage"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Warlock";
 		Next_Title = AL["Warlock"];
@@ -1956,7 +1956,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Classes_Warlock"] = {
 		Title = AL["Warlock"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Rogue";
 		Next_Title = AL["Rogue"];
@@ -1965,7 +1965,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Classes_Rogue"] = {
 		Title = AL["Rogue"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Druid";
 		Next_Title = AL["Druid"];
@@ -1974,7 +1974,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Classes_Druid"] = {
 		Title = AL["Druid"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Hunter";
 		Next_Title = AL["Hunter"];
@@ -1983,7 +1983,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Classes_Hunter"] = {
 		Title = AL["Hunter"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Shaman";
 		Next_Title = AL["Shaman"];
@@ -1992,7 +1992,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Classes_Shaman"] = {
 		Title = AL["Shaman"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Paladin";
 		Next_Title = AL["Paladin"];
@@ -2001,7 +2001,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Classes_Paladin"] = {
 		Title = AL["Paladin"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Next_Page = "Nycter_Classes_Warrior";
 		Next_Title = AL["Warrior"];
@@ -2010,21 +2010,21 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_Classes_Warrior"] = {
 		Title = AL["Warrior"];
-		Back_Page = "NYCTERMOON_CLASSESMENU";
+		Back_Page = "Microbot_CLASSESMENU";
 		Back_Title = AL["Classes"];
 		Prev_Page = "Nycter_Classes_Paladin";
 		Prev_Title = AL["Paladin"];
 	};
 	["Nycter_EternalRecipes_Alchemy1"] = {
 		Title = "Eternal Crafting: Alchemy (Copper & Silver)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Next_Page = "Nycter_EternalRecipes_Alchemy2";
 		Next_Title = "Eternal Crafting: Alchemy (Gold)";	
 	};
 	["Nycter_EternalRecipes_Alchemy2"] = {
 		Title = "Eternal Crafting: Alchemy (Gold)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy1";
 		Prev_Title = "Eternal Crafting: Alchemy (Copper & Silver)";
@@ -2033,7 +2033,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_EternalRecipes_Alchemy3"] = {
 		Title = "Eternal Crafting: Alchemy (Truesilver)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy2";
 		Prev_Title = "Eternal Crafting: Alchemy (Gold)";
@@ -2042,7 +2042,7 @@ AtlasLoot_ButtonRegistry = {
 	};	
 	["Nycter_EternalRecipes_Alchemy4"] = {
 		Title = "Eternal Crafting: Alchemy (Arcanite)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy3";
 		Prev_Title = "Eternal Crafting: Alchemy (Truesilver)";
@@ -2051,21 +2051,21 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_EternalRecipes_Alchemy5"] = {
 		Title = "Eternal Crafting: Alchemy (Arcanite)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Alchemy4";
 		Prev_Title = "Eternal Crafting: Alchemy (Arcanite)";
 	};
 	["Nycter_EternalRecipes_Engineering1"] = {
 		Title = "Eternal Crafting: Engineering (Copper & Silver)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Next_Page = "Nycter_EternalRecipes_Engineering2";
 		Next_Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
 	};
 	["Nycter_EternalRecipes_Engineering2"] = {
 		Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Engineering1";
 		Prev_Title = "Eternal Crafting: Engineering (Copper & Silver)";
@@ -2074,41 +2074,41 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_EternalRecipes_Engineering3"] = {
 		Title = "Eternal Crafting: Engineering (Arcanite)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Engineering2";
 		Prev_Title = "Eternal Crafting: Engineering (Gold & Truesilver)";
 	};
 	["Nycter_EternalRecipes_Enchanting1"] = {
 		Title = "Eternal Crafting: Enchanting";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 	};
 	["Nycter_EternalRecipes_Smithing1"] = {
 		Title = "Eternal Crafting: Smithing";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 	};
 	["Nycter_EternalRecipes_FirstAid1"] = {
 		Title = "Eternal Crafting: First Aid";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 	};
 	["Nycter_EternalRecipes_Poisons1"] = {
 		Title = "Eternal Crafting: Poisons";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 	};
 	["Nycter_EternalRecipes_Cooking1"] = {
 		Title = "Eternal Crafting: Cooking (Copper)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Next_Page = "Nycter_EternalRecipes_Cooking2";
 		Next_Title = "Eternal Crafting: Cooking (Silver & Gold)";
 	};
 	["Nycter_EternalRecipes_Cooking2"] = {
 		Title = "Eternal Crafting: Cooking (Silver & Gold)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Cooking1";
 		Prev_Title = "Eternal Crafting: Cooking (Copper)";
@@ -2117,7 +2117,7 @@ AtlasLoot_ButtonRegistry = {
 	};
 	["Nycter_EternalRecipes_Cooking3"] = {
 		Title = "Eternal Crafting: Cooking (Truesilver & Arcanite)";
-		Back_Page = "NYCTERMOON_ETERNALRECIPESMENU";
+		Back_Page = "Microbot_ETERNALRECIPESMENU";
 		Back_Title = "Eternal Crafting";
 		Prev_Page = "Nycter_EternalRecipes_Cooking2";
 		Prev_Title = "Eternal Crafting: Cooking (Silver & Gold)";
