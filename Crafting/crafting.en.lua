@@ -393,7 +393,7 @@ AtlasLoot_Data["AtlasLootCrafting"] = {
 		{ "e13693", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Striking", "=ds=#sr# =so1=195 =so2=215 =so3=235 =so4=255" },
 		{ "e40625", "Spell_Holy_GreaterHeal", "=mb=Enchant 2H Weapon - Agility", "=ds=#sr# =so1=195 =so2=195 =so3=220 =so4=245" },
 		{ "e40651", "Spell_Holy_GreaterHeal", "=mb=Enchant 2H Weapon - Intellect", "=ds=#sr# =so1=195 =so2=195 =so3=220 =so4=245" },
-		{ "e40669", "Spell_Holy_GreaterHeal", "==Enchant 2H Weapon - Spirit", "=ds=#sr# =so1=195 =so2=195 =so3=220 =so4=245" },
+		{ "e40669", "Spell_Holy_GreaterHeal", "=mb=Enchant 2H Weapon - Spirit", "=ds=#sr# =so1=195 =so2=195 =so3=220 =so4=245" },
 		{ "e25126", "INV_Potion_103", "=q1=Lesser Wizard Oil", "=ds=#sr# =so1=200 =so2=210 =so3=220 =so4=230" },
 		{ "e40674", "Spell_Holy_GreaterHeal", "=mb=Enchant Gloves - Intellect", "=ds=#sr# =so1=210 =so2=230 =so3=250 =so4=270" },
 		{ "e13702", "INV_Staff_11", "=q1=Runed Truesilver Rod", "=ds=#sr# =so1=200 =so2=220 =so3=240 =so4=260" },
