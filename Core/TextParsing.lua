@@ -547,6 +547,7 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "=q19=", "|cffe6cc80"); -- horde rank colour
     text = gsub(text, "=ec1=", "|cffFF8400");
     text = gsub(text, "=ds=", "|cffFFd200");
+    text = gsub(text, "=mb=", "|cff8c02cd");
 	
 	--Dropped by names
     text = gsub(text, "#db1#", AL["Patchwerk"]);

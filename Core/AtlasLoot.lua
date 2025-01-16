@@ -206,6 +206,7 @@ AtlasLoot_MenuList = {
 	"Microbot_MISCELLANEOUSMENU",
 	"Microbot_ETERNALRECIPESMENU",
 	"Microbot_LEGENDARIESMENU",
+	"Microbot_ENCHANTSSMENU",
 };
 
 --entrance maps to instance maps NOT NEEDED FOR ATLAS 1.12
@@ -348,7 +349,7 @@ function AtlasLoot_OnVariablesLoaded()
 		end
 		--If not the expected Atlas version
 		if( ATLAS_VERSION ~= ATLASLOOT_CURRENT_ATLAS and ATLAS_VERSION ~= ATLASLOOT_PREVIEW_ATLAS ) then
-			StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
+			--StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
 		end
 		Hooked_Atlas_Refresh();
 	else
@@ -1191,6 +1192,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLoot_Microbot_EternalRecipesMenu();
 	elseif(dataID=="Microbot_LEGENDARIESMENU") then
 		AtlasLoot_Microbot_LegendariesMenu();
+	elseif(dataID=="Microbot_ENCHANTSSMENU") then
+		AtlasLoot_Microbot_EnchantsMenu();
 	elseif(dataID=="CRAFTSET") then
 		AtlasLootCraftedSetMenu();
 	elseif(dataID=="ALCHEMYMENU") then
@@ -1606,7 +1609,7 @@ function AtlasLoot_DewDropSubMenuClick(tablename, text)
 	pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
 	--Show the select loot table
 	AtlasLoot_ShowBossLoot(tablename, text, pFrame);
-	--Save needed info for fuure re-display of the table
+	--Save needed info for future re-display of the table
 	AtlasLootCharDB.LastBoss = tablename;
 	AtlasLootCharDB.LastBossText = text;
 	--Show the table that has been selected
@@ -1865,6 +1868,8 @@ function AtlasLoot_NavButton_OnClick()
 		elseif string.sub(this.lootpage, 1, 12) == "WishListPage" then
 			AtlasLoot_ShowItemsFrame("WishList", this.lootpage, AL["WishList"], AtlasLootItemsFrame.refresh[4]);
 		else
+			AtlasLootCharDB.LastBoss = this.lootpage
+			AtlasLootCharDB.LastBossText = this.title
 			AtlasLoot_ShowItemsFrame(this.lootpage, AtlasLootItemsFrame.refresh[2], this.title, AtlasLootItemsFrame.refresh[4]);
 		end
 	elseif AtlasLootItemsFrame.refresh and AtlasLootItemsFrame.refresh[2] then
@@ -2441,6 +2446,7 @@ AtlasLoot_DewDropDown = {
 			[7] = { { ("Griznak the Collector (Booty Bay)"), "Microbot_TokenTrading", "Table" }, },
 			[8] = { { ("Griznak's Transmog Illusions"), "Microbot_Illusions", "Table" }, },
 			[9] = { { (AL["Miscellaneous"]), "Microbot_Miscellaneous", "Table" }, },
+			[10] = { { "Microbot Enchants", "Microbot_Enchants1", "Table" }, },
 		},
 	},
 };
@@ -3078,6 +3084,15 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["EnchantingJourneyman1"][1], "EnchantingJourneyman1" },
 		{ AtlasLoot_TableNames["EnchantingExpert1"][1], "EnchantingExpert1" },
 		{ AtlasLoot_TableNames["EnchantingArtisan1"][1], "EnchantingArtisan1" },
+		{ AtlasLoot_TableNames["EnchantingCloak1"][1], "EnchantingCloak1" },
+		{ AtlasLoot_TableNames["EnchantingChest1"][1], "EnchantingChest1" },
+		{ AtlasLoot_TableNames["EnchantingBracer1"][1], "EnchantingBracer1" },
+		{ AtlasLoot_TableNames["EnchantingGlove1"][1], "EnchantingGlove1" },
+		{ AtlasLoot_TableNames["EnchantingBoots1"][1], "EnchantingBoots1" },
+		{ AtlasLoot_TableNames["Enchanting2HWeapon1"][1], "Enchanting2HWeapon1" },
+		{ AtlasLoot_TableNames["EnchantingWeapon1"][1], "EnchantingWeapon1" },
+		{ AtlasLoot_TableNames["EnchantingShield1"][1], "EnchantingShield1" },
+		{ AtlasLoot_TableNames["EnchantingMisc1"][1], "EnchantingMisc1" },
 	},
 	["Engineering"] = {
 		{ AtlasLoot_TableNames["EngineeringApprentice1"][1], "EngineeringApprentice1" },

@@ -64,6 +64,12 @@ function AtlasLoot_MicrobotMenu()
 	AtlasLootMenuItem_9_Icon:SetTexture("Interface\\Icons\\INV_Misc_Ticket_Tarot_Maelstrom_01");
 	AtlasLootMenuItem_9.lootpage="Microbot_Miscellaneous";
 	AtlasLootMenuItem_9:Show();
+	--Enchants
+	AtlasLootMenuItem_9_Name:SetText("Microbot Enchants");
+	AtlasLootMenuItem_9_Extra:SetText("|cffFF8400Microbot Enchants");
+	AtlasLootMenuItem_9_Icon:SetTexture("Interface\\Icons\\Spell_Holy_GreaterHeal");
+	AtlasLootMenuItem_9.lootpage="Microbot_Enchants1";
+	AtlasLootMenuItem_9:Show();
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
@@ -219,6 +225,23 @@ function AtlasLoot_Microbot_LegendariesMenu()
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
 	AtlasLoot_BossName:SetText("|cffFFFFFF".."Microbot Legendary Weapons");
+	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
+end
+
+function AtlasLoot_Microbot_EnchantsMenu()
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootItem_"..i):Hide();
+	end
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootMenuItem_"..i):Hide();
+		getglobal("AtlasLootMenuItem_"..i).isheader = false;
+	end
+	getglobal("AtlasLootItemsFrame_BACK"):Show();
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "MicrobotMENU";
+	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
+	getglobal("AtlasLootItemsFrame_PREV"):Hide();
+	getglobal("AtlasLootServerQueryButton"):Hide();
+	AtlasLoot_BossName:SetText("|cffFFFFFF".."Microbot Enchants");
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

@@ -3,6 +3,106 @@ local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 
 GetSpellInfoVanillaDB = {
 	["enchants"] = {
+		[40608] = {
+			["name"] = "Enchant Weapon - Minor Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40638] = {
+			["name"] = "Enchant Weapon - Minor Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40656] = {
+			["name"] = "Enchant Weapon - Minor Spirit",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40623] = {
+			["name"] = "Enchant 2H Weapon - Minor Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40609] = {
+			["name"] = "Enchant Weapon - Lesser Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40639] = {
+			["name"] = "Enchant Weapon - Lesser Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40657] = {
+			["name"] = "Enchant Weapon - Lesser Spirit",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40624] = {
+			["name"] = "Enchant 2H Weapon - Lesser Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40650] = {
+			["name"] = "Enchant 2H Weapon - Lesser Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40668] = {
+			["name"] = "Enchant 2H Weapon - Lesser Spirit",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40610] = {
+			["name"] = "Enchant Weapon - Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40640] = {
+			["name"] = "Enchant Weapon - Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40658] = {
+			["name"] = "Enchant Weapon - Spirit",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40625] = {
+			["name"] = "Enchant 2H Weapon - Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40651] = {
+			["name"] = "Enchant 2H Weapon - Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40669] = {
+			["name"] = "Enchant 2H Weapon - Spirit",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40674] = {
+			["name"] = "Enchant Gloves - Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40611] = {
+			["name"] = "Enchant Weapon - Greater Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40641] = {
+			["name"] = "Enchant Weapon - Greater Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40659] = {
+			["name"] = "Enchant Weapon - Greater Spirit",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40626] = {
+			["name"] = "Enchant 2H Weapon - Greater Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40675] = {
+			["name"] = "Enchant Gloves - Greater Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40612] = {
+			["name"] = "Enchant Weapon - Major Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40627] = {
+			["name"] = "Enchant 2H Weapon - Major Agility",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[40676] = {
+			["name"] = "Enchant Gloves - Superior Intellect",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
 		[7418] = {
 			["name"] = "Enchant Bracer - Minor Health",
 			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
