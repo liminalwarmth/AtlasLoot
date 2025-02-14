@@ -3021,7 +3021,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Spider's Kiss"], "SpiderKiss" },
 		{ AL["Spirit of Eskhandar"], "SpiritofEskhandar" },
 		{ AL["The Gladiator"], "BLACKROCKD" },
-		{ AL["The Postmaster"], "SCARLET" },
+		{ AL["The Postmaster"], "STRAT" },
 		{ AL["The Twin Blades of Hakkari"], "HakkariBlades" },
 		{ AL["Zul'Gurub Rings"], "ZGRings" },
 	},
